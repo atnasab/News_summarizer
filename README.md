@@ -3,7 +3,7 @@
 This project fetches news from the NewsAPI, summarizes it using a Hugging Face model, stores it in MongoDB, and serves it through a Flask API. A frontend (React) or mobile app (Flutter) fetches the summarized data and displays it.
 
 ## Folder Structure
-- `backend/`: Python Fast API to fetch, summarize, and serve news.
+- `backend/`: Python Flask API to fetch, summarize, and serve news.
 - `frontend/`: React.js frontend to display summarized news.
 - `mobile/`: Placeholder for Flutter code.
 
