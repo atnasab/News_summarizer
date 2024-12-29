@@ -1,28 +1,55 @@
 import requests
 from pymongo import MongoClient
-from config.config import MONGO_URI, NEWS_API_KEY, DB_NAME, COLLECTION_NAME
+from bs4 import BeautifulSoup
+from config.config import MONGO_URI,DB_NAME,COLLECTION_NAME
 from summarizer import summarize_text
 
-def fetch_news(api_key, query, page_size=10):
-    url = "https://newsapi.org/v2/everything"
-    params = {"q": query, "apiKey": api_key, "pageSize": page_size}
-    response = requests.get(url, params=params)
-    return response.json().get("articles", [])
+def fetch_news(url,headline_selector,content_selector, max_articles=6):
+    response=requests.get(url)
+    if response.status_code!=200:
+        print(f"Failed to fetch news site:{response.status_code}")
+        return []
+    soup=BeautifulSoup(response.content,"html.parser")
+    headlines=soup.select(headline_selector)[:max_articles]
+
+    articles=[]
+
+    for headline in headlines:
+        title=headline.text.strip()
+        article_url=headline.get("href")
+        if articles_url and not article_url.startwith("http"):
+            article_url=url+article_url
+
+        article_soup=BeautifulSoup(article_response.content,"html.parser")
+        content= " ".join([p.text for p in article_soup.select(content_selector)])
+
+
+        articles.append({
+            "title":title,
+            "url":article_url,
+            "content":content
+        })
+        return articles
+
+
 
 def insert_to_mongo():
     client = MongoClient(MONGO_URI)
     db = client[DB_NAME]
     collection = db[COLLECTION_NAME]
 
-    articles = fetch_news(NEWS_API_KEY, "technology", page_size=5)
+    url=News_Site
+    headline_selector=".article-title"
+    content_selector=".article-content"
+
+    articles = fetch_news(url,headline_selector,content_selector,max_articles=6)
     for article in articles:
-        content = article.get("description", "") + " " + article.get("content", "")
-        summary = summarize_text(content)
-        document = {
-            "title": article.get("title"),
-            "url": article.get("url"),
-            "publishedAt": article.get("publishedAt"),
-            "summary": summary
+        summary= summarize_text(article["content"])
+        document={
+            "title":article["title"],
+            "url":article["url"],
+            "publishedAt":None,
+            "summary":summary
         }
         collection.insert_one(document)
     print("News articles summarized and stored.")
