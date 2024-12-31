@@ -2,7 +2,7 @@ import requests
 from pymongo import MongoClient
 from bs4 import BeautifulSoup
 from config.config import MONGO_URI,DB_NAME,COLLECTION_NAME
-from summarizer import summarize_text
+# from summarizer import summarize_text
 
 def fetch_news(url,headline_selector,content_selector, max_articles=6):
     response=requests.get(url)
@@ -22,6 +22,7 @@ def fetch_news(url,headline_selector,content_selector, max_articles=6):
 
         article_soup=BeautifulSoup(article_response.content,"html.parser")
         content= " ".join([p.text for p in article_soup.select(content_selector)])
+        
 
 
         articles.append({
@@ -44,12 +45,12 @@ def insert_to_mongo():
 
     articles = fetch_news(url,headline_selector,content_selector,max_articles=6)
     for article in articles:
-        summary= summarize_text(article["content"])
+        # summary= summarize_text(article["content"])
         document={
             "title":article["title"],
             "url":article["url"],
             "publishedAt":None,
-            "summary":summary
+            "summary":article["content"]
         }
         collection.insert_one(document)
     print("News articles summarized and stored.")
