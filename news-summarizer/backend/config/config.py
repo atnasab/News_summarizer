@@ -1,4 +1,4 @@
-MONGO_URI = "mongodb://localhost:27017/"
+MONGO_URI = "mongodb+srv://nepalmadhav32454:<db_password>@cluster0.jbm3k.mongodb.net/"
 # NEWS_API_KEY = "your_news_api_key_here"
 News_Site="cnn.com"
 DB_NAME = "news_db"
