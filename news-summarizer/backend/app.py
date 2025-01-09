@@ -1,8 +1,9 @@
 from fastapi import FastAPI,HTTPException
-from typing import ClassVar
-from pydantic import BaseModel
+from typing import List
+# from pydantic import BaseModel
 from pymongo import MongoClient
 from config.config import MONGO_URI, DB_NAME, COLLECTION_NAME
+from pydantic import BaseModel
 
 app = FastAPI()
 
@@ -12,21 +13,49 @@ collection = db[COLLECTION_NAME]
 
 
 class Article(BaseModel):
-    title=ClassVar[str]
-    text=ClassVar[str]
-    authors:list[str]
-    publish_date:list[str]
-    fetched_at:list[str]
+    title: str
+    text: str
+    authors: List[str]
+    publish_date: List[str]
+    fetched_at: List[str]
 
-@app.route('/articles',response_model=list[Article])
+# class Article(BaseModel):
+#     title=str
+#     text=str
+#     authors:List[str]
+#     publish_date:List[str]
+#     fetched_at:List[str]
+
+# @app.route('/articles',response_model=list[Article])
+# async def get_articles():
+#     try:
+#         articles=list(collection.find({}))
+#         for article in articles:
+#             article["_id"]=str(article["_id"])
+#         return articles
+#     except Exception as e:
+#         raise HTTPException(status_code=500,detail=str(e))
+#
+
+
+@app.get("/favicon.ico")
+async def favicon():
+    return FileResponse("R.png")
+
+@app.get("/")
+async def read_root():
+    return {"message": "Welcome to my API"}
+
+@app.get("/articles", response_model=List[Article])
 async def get_articles():
     try:
-        articles=list(collection.find({}))
+        articles = list(collection.find({}))
         for article in articles:
-            article["_id"]=str(article["_id"])
+            article["_id"] = str(article["_id"])
         return articles
     except Exception as e:
-        raise HTTPException(status_code=500,detail=str(e))
+        raise HTTPException(status_code=500, detail=str(e))
+
 
 
 if __name__ == "__main__":
