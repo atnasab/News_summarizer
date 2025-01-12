@@ -4,6 +4,8 @@ from typing import List
 from pymongo import MongoClient
 from config.config import MONGO_URI, DB_NAME, COLLECTION_NAME
 from pydantic import BaseModel
+# from datetime import datetime
+
 
 app = FastAPI()
 
@@ -17,7 +19,7 @@ class Article(BaseModel):
     text: str
     authors: List[str]
     publish_date: List[str]
-    fetched_at: List[str]
+    fetched_at:str
 
 # class Article(BaseModel):
 #     title=str
@@ -38,25 +40,41 @@ class Article(BaseModel):
 #
 
 
-@app.get("/favicon.ico")
-async def favicon():
-    return FileResponse("R.png")
+# @app.get("/favicon.ico")
+# async def favicon():
+#     return FileResponse("R.png")
 
 @app.get("/")
 async def read_root():
     return {"message": "Welcome to my API"}
+
+# @app.get("/articles", response_model=List[Article])
+# async def get_articles():
+#     try:
+#         articles = list(collection.find({}))
+#         for article in articles:
+#             article["_id"] = str(article["_id"])
+#         return articles
+#     except Exception as e:
+#         raise HTTPException(status_code=500, detail=str(e))
+
+from datetime import datetime
 
 @app.get("/articles", response_model=List[Article])
 async def get_articles():
     try:
         articles = list(collection.find({}))
         for article in articles:
+            print(article)
             article["_id"] = str(article["_id"])
+            # Convert datetime to string if necessary
+            if article.get("publish_date") is None:
+                article["publish_date"] = []
+            elif isinstance(article.get("publish_date"),datetime):
+                article["publish_date"] = [article["publish_date"].isoformat()]
         return articles
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
-
-
 
 if __name__ == "__main__":
     import uvicorn

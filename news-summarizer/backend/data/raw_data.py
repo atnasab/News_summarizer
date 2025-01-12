@@ -13,8 +13,8 @@ paper_sources = {
 user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
 url_dict = {source: [] for source in paper_sources.keys()}
 total_articles = 0
-max_articles_per_source = 3
-max_total_articles = 300
+max_articles_per_source = 200
+max_total_articles = 20
 
 def fetch_articles():
     global url_dict  
