@@ -42,20 +42,13 @@ def insert_data_to_mongodb(data):
     collection = db[COLLECTION_NAME]
 
 
-    
-    if isinstance(data,dict):
-        data['_id']=ObjectId()
-        collection.insert_one(data)
-    elif isinstance(data,list):
-        for article in data:
-            article['_id']=ObjectId()
-        collection.update_many(
-            {"publish_date":None},
-            {"$set": {"publish_date": []}}
-        )
-    else:
-        print("Data format is not supported")
-    print(f"Data inserted into mongodb collection : {COLLECTION_NAME}")
+    for source, articles in data.items():
+        for article in articles:
+            collection.insert_one(article)
+        print(f"Articles from {source} inserted into MongoDB collection: {COLLECTION_NAME}")
+
+
+ 
 
 if __name__ == "__main__":
 
