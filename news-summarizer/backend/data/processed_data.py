@@ -48,8 +48,6 @@ def insert_data_to_mongodb(data):
         print(f"Articles from {source} inserted into MongoDB collection: {COLLECTION_NAME}")
 
 
- 
-
 if __name__ == "__main__":
 
     url_dict = fetch_articles()

@@ -65,7 +65,7 @@ async def get_articles():
     try:
         articles = list(collection.find({}))
         for article in articles:
-            print(article)
+          
             article["_id"] = str(article["_id"])
             # Convert datetime to string if necessary
             if article.get("publish_date") is None:
