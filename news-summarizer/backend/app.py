@@ -96,7 +96,7 @@ def get_summarized_news():
     
     for summary in summaries:
         print(summary)
-        if'orginal_id' in summary and 'summary' in summary:
+        if 'original_id' in summary and 'summary' in summary:
             summarized_list.append({
             'original_id': str(summary['original_id']),
             'summary': summary['summary']
