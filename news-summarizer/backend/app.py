@@ -9,9 +9,16 @@ from pydantic import BaseModel
 from transformers import pipeline
 from datetime import datetime
 
-
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Replace with your frontend's URL for production
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 client = MongoClient(MONGO_URI)
 db = client[DB_NAME]
