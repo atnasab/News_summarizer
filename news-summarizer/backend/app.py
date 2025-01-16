@@ -81,7 +81,7 @@ async def get_articles():
         raise HTTPException(status_code=500, detail=str(e))
 
 class Summary(BaseModel):
-    orginal_id:str
+    original_id: str  # Ensure this is spelled correctly
     summary:str
 
 # @app.post("/summarized", response_description="summarized articles")
@@ -95,7 +95,7 @@ def get_summarized_news():
     summarized_list = []
     
     for summary in summaries:
-        print(summary)
+        
         if 'original_id' in summary and 'summary' in summary:
             summarized_list.append({
             'original_id': str(summary['original_id']),
