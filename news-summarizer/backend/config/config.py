@@ -13,5 +13,6 @@ MONGO_URI = (f"mongodb+srv://{encoded_username}:{encoded_password}@cluster0.jbm3
 # NEWS_API_KEY = "your_news_api_key_here"
 # News_Site="cnn.com"
 # 
-DB_NAME = "nepali_news"
-COLLECTION_NAME = "nepali_news_full"
+DB_NAME = "news_data"
+COLLECTION_NAME = "portal_news"
+summarized_article="summarized_news"

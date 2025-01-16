@@ -2,9 +2,13 @@ from fastapi import FastAPI,HTTPException
 from typing import List
 # from pydantic import BaseModel
 from pymongo import MongoClient
-from config.config import MONGO_URI, DB_NAME, COLLECTION_NAME
+from config.config import MONGO_URI, DB_NAME, COLLECTION_NAME,summarized_article
 from pydantic import BaseModel
 # from datetime import datetime
+
+from transformers import pipeline
+from datetime import datetime
+
 
 
 app = FastAPI()
@@ -12,6 +16,7 @@ app = FastAPI()
 client = MongoClient(MONGO_URI)
 db = client[DB_NAME]
 collection = db[COLLECTION_NAME]
+summary_news = db[summarized_article]
 
 
 class Article(BaseModel):
@@ -58,7 +63,6 @@ async def read_root():
 #     except Exception as e:
 #         raise HTTPException(status_code=500, detail=str(e))
 
-from datetime import datetime
 
 @app.get("/articles", response_model=List[Article])
 async def get_articles():
@@ -75,6 +79,33 @@ async def get_articles():
         return articles
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+class Summary(BaseModel):
+    orginal_id:str
+    summary:str
+
+# @app.post("/summarized", response_description="summarized articles")
+# def trigger_summarization():
+#     summarize_articles()
+#     return{"mesasge:articles summarized sucessfully"}
+
+@app.get("/summarized-news", response_model=List[Summary])
+def get_summarized_news():
+    summaries = summary_news.find()
+    summarized_list = []
+    
+    for summary in summaries:
+        print(summary)
+        if'orginal_id' in summary and 'summary' in summary:
+            summarized_list.append({
+            'original_id': str(summary['original_id']),
+            'summary': summary['summary']
+        })
+        else:
+            print(f"missing keys in summary: {summary}")
+    
+    return summarized_list
+    
 
 if __name__ == "__main__":
     import uvicorn
