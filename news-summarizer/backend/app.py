@@ -8,8 +8,7 @@ from pydantic import BaseModel
 
 from transformers import pipeline
 from datetime import datetime
-
-from fastapi.middleware.cors import CORSMiddleware
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 app.add_middleware(
