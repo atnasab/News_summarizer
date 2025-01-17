@@ -45,10 +45,8 @@ summary_news = db[summarized_article]
 #     summarize_articles()
 
 
-import nltk
-nltk.download('punkt')
 
-def summarize_articles():
+def summarize_articles(max_sentences=4):
 
     articles = collection.find()
     for article in articles:
@@ -58,15 +56,27 @@ def summarize_articles():
                 article_instance=Article(url)
                 article_instance.download()
                 article_instance.parse()
+
+                article_text=article_instance.text
+                word_count=len(article_text.split())
+
+                if word_count<50:
+                    print(f"Skipping article {article['_id']} due to low word count")
+                    continue
+
                 article_instance.nlp()
                 summarized_text = article_instance.summary
+                summarized_sentences=summarized_text.split('. ')
+                limited_summary='. '.join(summarized_sentences[:max_sentences]) + ('.' if summarized_sentences else '')
+
                 summary_news.insert_one({
                     "original_id": article["_id"],
-                    "summary": summarized_text
+                    
+                    "summary": limited_summary
                 })
-                print(f"Summary of article {article['_id']} is: {summarized_text}")
+                print(f"Summary of article {article['_id']} is: {limited_summary}")
             except Exception as e:
                 print(f"Error summarizing article {article['_id']}: {e}")
                 
 if __name__ == "__main__":
-    summarize_articles()
+    summarize_articles(max_sentences=4)
