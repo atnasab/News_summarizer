@@ -1,10 +1,8 @@
 from fastapi import FastAPI,HTTPException
 from typing import List
-# from pydantic import BaseModel
 from pymongo import MongoClient
 from config.config import MONGO_URI, DB_NAME, COLLECTION_NAME,summarized_article
 from pydantic import BaseModel
-# from datetime import datetime
 
 from transformers import pipeline
 from datetime import datetime
@@ -13,7 +11,7 @@ from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Replace with your frontend's URL for production
+    allow_origins=["*"],  
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
