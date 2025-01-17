@@ -1,0 +1,47 @@
+2025-01-17 14:35:52,988-INFO-Starting the articles fetcher ......
+2025-01-17 14:35:52,989-INFO-starting a new fetch job.....
+2025-01-17 14:35:52,989-INFO-fetching articles from source...........
+2025-01-17 14:36:27,925-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/rss
+2025-01-17 14:36:31,983-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feeds
+2025-01-17 14:36:32,026-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feed
+2025-01-17 14:36:40,027-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.foxnews.com/feed
+2025-01-17 14:36:40,526-CRITICAL-[REQUEST FAILED] 503 Server Error: No healthy IP available for the backend for url: https://www.foxnews.com/feeds
+2025-01-17 14:36:49,366-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://components.news.sky.com/
+2025-01-17 14:36:53,001-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feed
+2025-01-17 14:36:53,008-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/rss
+2025-01-17 14:36:53,881-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feeds
+2025-01-17 14:37:01,053-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://foreignpolicy.com/feeds
+2025-01-17 14:37:03,851-INFO-cnn: 408
+2025-01-17 14:37:03,851-INFO-fox news: 345
+2025-01-17 14:37:03,851-INFO-Sky News: 366
+2025-01-17 14:37:03,851-INFO-Foreign Policy: 309
+2025-01-17 14:37:03,906-INFO-fetching article.................
+2025-01-17 14:39:18,684-INFO-fetching articles from source...........
+2025-01-17 14:39:24,897-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feeds
+2025-01-17 14:39:24,946-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feed
+2025-01-17 14:39:25,212-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/rss
+2025-01-17 14:39:31,857-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.foxnews.com/feeds
+2025-01-17 14:39:41,637-WARNING-fromstring() returned an invalid string: ...
+2025-01-17 14:39:41,637-WARNING-Source https://news.sky.com/ parse error.
+2025-01-17 14:39:43,247-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://components.news.sky.com/
+2025-01-17 14:39:48,759-CRITICAL-[REQUEST FAILED] HTTPSConnectionPool(host='news.sky.com', port=443): Read timed out. (read timeout=7)
+2025-01-17 14:39:48,774-CRITICAL-[REQUEST FAILED] HTTPSConnectionPool(host='news.sky.com', port=443): Read timed out. (read timeout=7)
+2025-01-17 14:39:48,776-WARNING-Deleting category https://news.sky.com/ from source https://news.sky.com/ due to download error
+2025-01-17 14:39:48,776-WARNING-Deleting category https://news.sky.com from source https://news.sky.com/ due to download error
+2025-01-17 14:39:49,732-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feeds
+2025-01-17 14:39:49,789-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/rss
+2025-01-17 14:39:49,956-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feed
+2025-01-17 14:39:55,822-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://foreignpolicy.com/feeds
+2025-01-17 14:39:58,339-INFO-cnn: 408
+2025-01-17 14:39:58,339-INFO-fox news: 345
+2025-01-17 14:39:58,339-INFO-Sky News: 350
+2025-01-17 14:39:58,340-INFO-Foreign Policy: 309
+2025-01-17 14:39:58,395-INFO-fetching article.................
+2025-01-17 14:42:14,434-ERROR-Error fetching https://www.iheart.com/podcast/1293-the-fox-news-rundown-70636043/: Article `download()` failed with 404 Client Error: Not Found for url: https://www.iheart.com/podcast/1293-the-fox-news-rundown-70636043/ on URL https://www.iheart.com/podcast/1293-the-fox-news-rundown-70636043/
+2025-01-17 14:45:26,004-INFO-Finehed fetching.................
+2025-01-17 14:45:26,020-INFO-articles saved to cached file:  cached_articles.json
+2025-01-17 14:45:32,383-INFO-Articles from cnn inserted into MongoDB collection: portal_news
+2025-01-17 14:45:35,701-INFO-Articles from fox news inserted into MongoDB collection: portal_news
+2025-01-17 14:45:39,135-INFO-Articles from Sky News inserted into MongoDB collection: portal_news
+2025-01-17 14:45:40,393-INFO-Articles from Foreign Policy inserted into MongoDB collection: portal_news
+2025-01-17 14:45:40,393-INFO-Article fetching and storage is completed .............
