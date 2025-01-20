@@ -15,8 +15,8 @@ paper_sources = {
 user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
 url_dict = {source: [] for source in paper_sources.keys()}
 total_articles = 0
-max_articles_per_source = 30
-max_total_articles = 100
+max_articles_per_source = 10
+max_total_articles = 200
 
 logging.basicConfig(
     filename="article_fetcher.log",
@@ -32,7 +32,7 @@ def fetch_articles():
             paper = newspaper.build(source_url, user_agent=user_agent, memoize_articles=False)
             if not paper.articles:
                 print(f"No articles found for {source_name}.")
-            for article in paper.articles:
+            for article in paper.articles: 
                 if article.url not in url_dict[source_name]:
                     url_dict[source_name].append(article.url)
         except Exception as e:
