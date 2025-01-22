@@ -36,7 +36,8 @@ def summarize_articles(max_sentences=4):
                 word_count=len(article_text.split())
 
                 if word_count<50:
-                    print(f"Skipping article {article['_id']} due to low word count")
+                    logging.info(f" {article['_id']} ")
+                    logging.info(article_text)
                     continue
 
                 article_instance.nlp()
@@ -45,8 +46,8 @@ def summarize_articles(max_sentences=4):
                 limited_summary='. '.join(summarized_sentences[:max_sentences]) + ('.' if summarized_sentences else '')
 
 
-                if summary_news.find_one({"orginal_id":article["_id"]})is None:
-                    summary_news.insert_one({"orginal_id":article["_id"],"summary":limited_summary})
+                if summary_news.find_one({"original_id":article["_id"]})is None:
+                    summary_news.insert_one({"original_id":article["_id"],"summary":limited_summary})
                     logging.info(f"Summary of article {article['_id']} is: {limited_summary}")
                 else:
                     logging.warning(f"summary already exists: {article['_id']}")

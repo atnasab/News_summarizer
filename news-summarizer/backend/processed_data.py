@@ -47,6 +47,8 @@ def insert_data_to_mongodb(data):
             for category, articles in categories.items():
                 for article in articles:
                     if collection.find_one({"url":article['url']})is None:
+                        article['source']=source
+                        article['category']=category
                         collection.insert_one(article)
                         logging.info(f"inserted artcicle from {source} in category {category}:{article['url']}")
                     else:

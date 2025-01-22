@@ -89,6 +89,7 @@ def download_articles(url_dict):
                         article_contents[source][category].append({
                             'url': url,
                             'title': article.title,
+                            'category':category,
                             'text': article.text,
                             'authors': article.authors,
                             'publish_date': article.publish_date,
@@ -97,7 +98,7 @@ def download_articles(url_dict):
                         fetched_urls.add(url)
                         total_articles += 1
                         time_taken = time.time() - start_time
-                        print(f"Fetched {url} in {time_taken:.2f} seconds")
+                        logging.info(f"Fetched {url} in {time_taken:.2f} seconds")
 
                         time.sleep(2)
                     except Exception as e:
