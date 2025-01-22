@@ -43,10 +43,15 @@ def insert_data_to_mongodb(data):
         collection = db[COLLECTION_NAME]
 
 
-        for source, articles in data.items():
-            for article in articles:
-                collection.insert_one(article)
-            logging.info(f"Articles from {source} inserted into MongoDB collection: {COLLECTION_NAME}")
+        for source, categories in data.items():
+            for category, articles in categories.items():
+                for article in articles:
+                    if collection.find_one({"url":article['url']})is None:
+                        collection.insert_one(article)
+                        logging.info(f"inserted artcicle from {source} in category {category}:{article['url']}")
+                    else:
+                        logging.warning(f"Article already exists in databasee: {article['url']}")
+            logging.info(f"Articles from {source} inserted into database {COLLECTION_NAME}")
     except Exception as e:
         logging.error(f"Error inserting data into MongoDB: {e}")
 

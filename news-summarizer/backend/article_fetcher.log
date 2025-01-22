@@ -26,3 +26,306 @@
 2025-01-22 12:18:46,876-INFO-Articles from Sky News inserted into MongoDB collection: portal_news
 2025-01-22 12:18:50,657-INFO-Articles from Foreign Policy inserted into MongoDB collection: portal_news
 2025-01-22 12:18:50,658-INFO-Article fetching and storage is completed .............
+2025-01-22 15:26:47,988-INFO-fetching articles from source...........
+2025-01-22 15:26:47,988-ERROR-Main error: name 'details' is not defined\
+
+
+
+
+
+
+
+
+2025-01-22 15:28:08,828-INFO-fetching articles from source...........
+2025-01-22 15:28:08,828-ERROR-Main error: name 'details' is not defined
+2025-01-22 15:32:51,452-INFO-fetching articles from source...........
+2025-01-22 15:32:51,452-ERROR-Main error: name 'details' is not defined
+2025-01-22 15:35:50,663-INFO-fetching articles from source...........
+2025-01-22 15:35:50,663-ERROR-Main error: name 'details' is not defined
+2025-01-22 15:37:22,157-INFO-Fetching articles from sources...
+2025-01-22 15:37:28,881-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feeds
+2025-01-22 15:37:29,823-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/rss
+2025-01-22 15:37:29,829-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feed
+2025-01-22 15:37:38,926-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feed
+2025-01-22 15:37:38,979-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/rss
+2025-01-22 15:37:39,748-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feeds
+2025-01-22 15:37:49,025-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/rss
+2025-01-22 15:37:49,074-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feeds
+2025-01-22 15:37:49,078-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feed
+2025-01-22 15:37:58,637-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/rss
+2025-01-22 15:37:58,648-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feeds
+2025-01-22 15:37:58,665-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feed
+2025-01-22 15:38:08,207-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/rss
+2025-01-22 15:38:08,249-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feed
+2025-01-22 15:38:08,265-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feeds
+2025-01-22 15:38:13,042-WARNING-fromstring() returned an invalid string: ...
+2025-01-22 15:38:13,042-WARNING-Source https://edition.cnn.com/technology parse error.
+2025-01-22 15:38:18,077-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feeds
+2025-01-22 15:38:18,087-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/rss
+2025-01-22 15:38:18,106-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feed
+2025-01-22 15:38:25,573-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.foxnews.com/feeds
+2025-01-22 15:38:32,423-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.foxnews.com/feeds
+2025-01-22 15:38:38,545-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.foxnews.com/feeds
+2025-01-22 15:38:43,466-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.foxnews.com/feeds
+2025-01-22 15:38:47,404-WARNING-fromstring() returned an invalid string: ...
+2025-01-22 15:38:47,404-WARNING-Source https://www.foxnews.com/technology parse error.
+2025-01-22 15:38:49,152-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.foxnews.com/feeds
+2025-01-22 15:38:56,938-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://components.news.sky.com/
+2025-01-22 15:38:58,732-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feed
+2025-01-22 15:38:58,876-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/rss
+2025-01-22 15:38:59,296-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feeds
+2025-01-22 15:39:01,899-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://components.news.sky.com/
+2025-01-22 15:39:04,046-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feeds
+2025-01-22 15:39:04,046-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/rss
+2025-01-22 15:39:04,070-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feed
+2025-01-22 15:39:06,945-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://components.news.sky.com/
+2025-01-22 15:39:09,270-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feed
+2025-01-22 15:39:09,273-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feeds
+2025-01-22 15:39:09,295-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/rss
+2025-01-22 15:39:12,354-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://components.news.sky.com/
+2025-01-22 15:39:12,929-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feeds
+2025-01-22 15:39:12,942-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/rss
+2025-01-22 15:39:12,995-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feed
+2025-01-22 15:39:15,574-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://components.news.sky.com/
+2025-01-22 15:39:16,201-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/rss
+2025-01-22 15:39:16,215-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feeds
+2025-01-22 15:39:16,225-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feed
+2025-01-22 15:39:22,586-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://foreignpolicy.com/feeds
+2025-01-22 15:39:28,788-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://foreignpolicy.com/feeds
+2025-01-22 15:39:33,558-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://foreignpolicy.com/feeds
+2025-01-22 15:39:38,024-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://foreignpolicy.com/feeds
+2025-01-22 15:39:42,574-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://foreignpolicy.com/feeds
+2025-01-22 15:39:44,911-INFO-cnn - world: 529 articles found.
+2025-01-22 15:39:44,911-INFO-cnn - politics: 529 articles found.
+2025-01-22 15:39:44,911-INFO-cnn - business: 529 articles found.
+2025-01-22 15:39:44,911-INFO-cnn - health: 529 articles found.
+2025-01-22 15:39:44,911-INFO-cnn - entertainment: 529 articles found.
+2025-01-22 15:39:44,911-INFO-cnn - technology: 529 articles found.
+2025-01-22 15:39:44,911-INFO-fox news - politics: 338 articles found.
+2025-01-22 15:39:44,911-INFO-fox news - business: 338 articles found.
+2025-01-22 15:39:44,911-INFO-fox news - entertainment: 338 articles found.
+2025-01-22 15:39:44,911-INFO-fox news - health: 338 articles found.
+2025-01-22 15:39:44,911-INFO-fox news - technology: 338 articles found.
+2025-01-22 15:39:44,911-INFO-Sky News - world: 391 articles found.
+2025-01-22 15:39:44,912-INFO-Sky News - uk: 391 articles found.
+2025-01-22 15:39:44,912-INFO-Sky News - business: 391 articles found.
+2025-01-22 15:39:44,912-INFO-Sky News - technology: 391 articles found.
+2025-01-22 15:39:44,912-INFO-Sky News - entertainment: 391 articles found.
+2025-01-22 15:39:44,912-INFO-Foreign Policy - world: 311 articles found.
+2025-01-22 15:39:44,912-INFO-Foreign Policy - politics: 311 articles found.
+2025-01-22 15:39:44,912-INFO-Foreign Policy - economics: 311 articles found.
+2025-01-22 15:39:44,912-INFO-Foreign Policy - security: 311 articles found.
+2025-01-22 15:39:44,912-INFO-Foreign Policy - technology: 311 articles found.
+2025-01-22 15:39:44,937-INFO-Fetching article contents...
+2025-01-22 15:44:24,363-ERROR-Error fetching https://www.iheart.com/podcast/1293-the-fox-news-rundown-70636043/: Article `download()` failed with 404 Client Error: Not Found for url: https://www.iheart.com/podcast/1293-the-fox-news-rundown-70636043/ on URL https://www.iheart.com/podcast/1293-the-fox-news-rundown-70636043/
+2025-01-22 15:44:32,562-ERROR-Error fetching https://www.iheart.com/podcast/1293-the-fox-news-rundown-70636043/: Article `download()` failed with 404 Client Error: Not Found for url: https://www.iheart.com/podcast/1293-the-fox-news-rundown-70636043/ on URL https://www.iheart.com/podcast/1293-the-fox-news-rundown-70636043/
+2025-01-22 15:44:55,762-ERROR-Error fetching https://www.iheart.com/podcast/1293-the-fox-news-rundown-70636043/: Article `download()` failed with 404 Client Error: Not Found for url: https://www.iheart.com/podcast/1293-the-fox-news-rundown-70636043/ on URL https://www.iheart.com/podcast/1293-the-fox-news-rundown-70636043/
+2025-01-22 15:45:20,718-ERROR-Error fetching https://www.iheart.com/podcast/1293-the-fox-news-rundown-70636043/: Article `download()` failed with 404 Client Error: Not Found for url: https://www.iheart.com/podcast/1293-the-fox-news-rundown-70636043/ on URL https://www.iheart.com/podcast/1293-the-fox-news-rundown-70636043/
+2025-01-22 15:45:46,587-ERROR-Error fetching https://www.iheart.com/podcast/1293-the-fox-news-rundown-70636043/: Article `download()` failed with 404 Client Error: Not Found for url: https://www.iheart.com/podcast/1293-the-fox-news-rundown-70636043/ on URL https://www.iheart.com/podcast/1293-the-fox-news-rundown-70636043/
+2025-01-22 15:50:47,805-INFO-Finished fetching articles.
+2025-01-22 15:50:47,823-INFO-articles saved to cached file:  cached_articles.json
+2025-01-22 15:50:49,672-INFO-inserted artcicle from cnn in category world:https://edition.cnn.com/business/media
+2025-01-22 15:50:49,781-INFO-inserted artcicle from cnn in category world:https://edition.cnn.com/travel/news
+2025-01-22 15:50:49,885-INFO-inserted artcicle from cnn in category world:https://edition.cnn.com/audio/podcasts/all-there-is-with-anderson-cooper
+2025-01-22 15:50:49,992-INFO-inserted artcicle from cnn in category world:https://edition.cnn.com/2025/01/21/business/mr-beast-buy-tiktok-ceo/index.html
+2025-01-22 15:50:50,098-INFO-inserted artcicle from cnn in category world:https://edition.cnn.com/2025/01/21/economy/tariffs-china-trump-february-first/index.html
+2025-01-22 15:50:50,203-INFO-inserted artcicle from cnn in category world:https://edition.cnn.com/2025/01/21/europe/turkey-kartalkaya-hotel-fire-bolu-intl-hnk/index.html
+2025-01-22 15:50:50,308-INFO-inserted artcicle from cnn in category world:https://edition.cnn.com/2025/01/21/europe/aphrodisiac-honey-warning-scli-intl/index.html
+2025-01-22 15:50:50,413-INFO-inserted artcicle from cnn in category world:https://edition.cnn.com/2025/01/21/sport/lewis-hamilton-ferrari-first-day-spt-intl/index.html
+2025-01-22 15:50:50,521-INFO-inserted artcicle from cnn in category world:https://edition.cnn.com/science/cambodia-biodiversity-rare-species-c2e-spc/index.html
+2025-01-22 15:50:50,632-INFO-inserted artcicle from cnn in category world:https://edition.cnn.com/2025/01/21/travel/we-love-it-here-why-this-thirty-something-american-couple-swapped-new-york-for-uruguay/index.html
+2025-01-22 15:50:50,746-INFO-inserted artcicle from cnn in category politics:https://edition.cnn.com/2025/01/22/politics/trump-white-house-day-2-analysis/index.html
+2025-01-22 15:50:50,859-INFO-inserted artcicle from cnn in category politics:https://edition.cnn.com/2025/01/21/politics/republicans-reaction-trump-pardons-january-6/index.html
+2025-01-22 15:50:50,963-INFO-inserted artcicle from cnn in category politics:https://edition.cnn.com/2025/01/21/politics/video/pardoned-january-6-defendants-donie-osullivan-digvid
+2025-01-22 15:50:51,068-INFO-inserted artcicle from cnn in category politics:https://edition.cnn.com/2025/01/22/americas/juarez-migrants-mexico-us-border-cbp-app-intl-hnk/index.html
+2025-01-22 15:50:51,173-INFO-inserted artcicle from cnn in category politics:https://edition.cnn.com/2025/01/21/tech/openai-oracle-softbank-trump-ai-investment/index.html
+2025-01-22 15:50:51,279-INFO-inserted artcicle from cnn in category politics:https://edition.cnn.com/2025/01/21/politics/ice-can-arrest-people-at-churches-and-schools/index.html
+2025-01-22 15:50:51,385-INFO-inserted artcicle from cnn in category politics:https://edition.cnn.com/2025/01/21/politics/video/john-bolton-trump-pulls-secret-service-detail-tapper-digvid
+2025-01-22 15:50:51,489-INFO-inserted artcicle from cnn in category politics:https://edition.cnn.com/2025/01/21/politics/video/revered-inaugural-prayer-lgbtq-immigrants-digvid
+2025-01-22 15:50:51,593-INFO-inserted artcicle from cnn in category politics:https://edition.cnn.com/2025/01/21/politics/video/putin-russia-war-ukraine-trump-comments-sanner-digvid
+2025-01-22 15:50:51,703-INFO-inserted artcicle from cnn in category politics:https://edition.cnn.com/2025/01/20/politics/executive-power-trump-comeback-analysis/index.html
+2025-01-22 15:50:51,810-INFO-inserted artcicle from cnn in category business:https://edition.cnn.com/2025/01/22/china/xi-putin-call-trump-intl-hnk/index.html
+2025-01-22 15:50:51,914-INFO-inserted artcicle from cnn in category business:https://edition.cnn.com/2025/01/21/world/video/russian-media-trump-coverage-digvid
+2025-01-22 15:50:52,017-INFO-inserted artcicle from cnn in category business:https://edition.cnn.com/2025/01/21/europe/analysis-trump-putin-ukraine-intl-latam/index.html
+2025-01-22 15:50:52,123-INFO-inserted artcicle from cnn in category business:https://edition.cnn.com/2025/01/21/politics/presidents-reverse-course-what-matters/index.html
+2025-01-22 15:50:52,229-INFO-inserted artcicle from cnn in category business:https://edition.cnn.com/2025/01/21/tech/trump-tiktok-china-intl-hnk/index.html
+2025-01-22 15:50:52,337-INFO-inserted artcicle from cnn in category business:https://edition.cnn.com/2025/01/22/middleeast/gaza-war-ceasefire-snapshot-dg-intl/index.html
+2025-01-22 15:50:52,446-INFO-inserted artcicle from cnn in category business:https://edition.cnn.com/2025/01/21/middleeast/israel-west-bank-operation-intl/index.html
+2025-01-22 15:50:52,551-INFO-inserted artcicle from cnn in category business:https://edition.cnn.com/2025/01/21/entertainment/video/justin-baldoni-blake-lively-legal-battle-video-digvid
+2025-01-22 15:50:52,659-INFO-inserted artcicle from cnn in category business:https://edition.cnn.com/style/ilona-maher-interview-body-positive-rugby-spc/index.html
+2025-01-22 15:50:52,763-INFO-inserted artcicle from cnn in category business:https://edition.cnn.com/2025/01/22/travel/mittens-cat-australia-new-zealand-intl-hnk/index.html
+2025-01-22 15:50:52,874-INFO-inserted artcicle from cnn in category health:https://edition.cnn.com/2025/01/21/health/seltzer-soda-water-weight-loss-wellness/index.html
+2025-01-22 15:50:52,979-INFO-inserted artcicle from cnn in category health:https://edition.cnn.com/2025/01/21/media/netflix-raising-prices-subscriber-record/index.html
+2025-01-22 15:50:53,088-INFO-inserted artcicle from cnn in category health:https://edition.cnn.com/2025/01/22/asia/same-sex-couples-marriage-equality-thailand-intl-hnk/index.html
+2025-01-22 15:50:53,193-INFO-inserted artcicle from cnn in category health:https://edition.cnn.com/2025/01/21/middleeast/iraq-child-marriage-lawmakers-criticize-bill-intl-hnk/index.html
+2025-01-22 15:50:53,301-INFO-inserted artcicle from cnn in category health:https://edition.cnn.com/2025/01/21/politics/zelensky-trump-nato-spending/index.html
+2025-01-22 15:50:53,406-INFO-inserted artcicle from cnn in category health:https://edition.cnn.com/2025/01/22/asia/thailand-uyghur-deportation-china-intl-hnk/index.html
+2025-01-22 15:50:53,510-INFO-inserted artcicle from cnn in category health:https://edition.cnn.com/2025/01/21/business/video/china-factories-mexico-tariffs-trump-culver-ebof-digvid
+2025-01-22 15:50:53,618-INFO-inserted artcicle from cnn in category health:https://edition.cnn.com/2025/01/21/us/southern-california-wildfires-santa-ana-winds/index.html
+2025-01-22 15:50:53,727-INFO-inserted artcicle from cnn in category health:https://edition.cnn.com/2025/01/01/style/bianca-tse-hong-kong-images-ai-hnk-intl/index.html
+2025-01-22 15:50:53,834-INFO-inserted artcicle from cnn in category health:https://edition.cnn.com/2025/01/20/asia/japanese-aquarium-lonely-sunfish-intl-scli/index.html
+2025-01-22 15:50:53,938-INFO-inserted artcicle from cnn in category entertainment:https://edition.cnn.com/2025/01/21/entertainment/black-eyed-peas-canceling-las-vegas-residency/index.html
+2025-01-22 15:50:54,042-INFO-inserted artcicle from cnn in category entertainment:https://edition.cnn.com/2025/01/21/sport/novak-djokovic-australian-open-carlos-alcaraz-spt-intl/index.html
+2025-01-22 15:50:54,146-INFO-inserted artcicle from cnn in category entertainment:https://edition.cnn.com/2025/01/20/world/video/gazans-return-home-to-rubble-and-mixed-emotions-after-ceasefire-digvid
+2025-01-22 15:50:54,252-INFO-inserted artcicle from cnn in category entertainment:https://edition.cnn.com/2025/01/21/americas/pope-dissolves-peruvian-catholic-group-intl-latam/index.html
+2025-01-22 15:50:54,357-INFO-inserted artcicle from cnn in category entertainment:https://edition.cnn.com/2025/01/21/asia/south-korea-president-impeachment-hearing-intl-hnk/index.html
+2025-01-22 15:50:54,463-INFO-inserted artcicle from cnn in category entertainment:https://edition.cnn.com/2025/01/18/travel/video/tulum-mexico-tiktok-underwater-surprise-cprog-digvid
+2025-01-22 15:50:54,577-INFO-inserted artcicle from cnn in category entertainment:https://edition.cnn.com/2025/01/21/weather/winter-storm-south-tuesday-hnk/index.html
+2025-01-22 15:50:54,682-INFO-inserted artcicle from cnn in category entertainment:https://edition.cnn.com/2025/01/21/science/magnetic-north-pole-new-position/index.html
+2025-01-22 15:50:54,792-INFO-inserted artcicle from cnn in category entertainment:https://edition.cnn.com/2025/01/21/health/children-online-sexual-abuse-wellness/index.html
+2025-01-22 15:50:54,898-INFO-inserted artcicle from cnn in category entertainment:https://edition.cnn.com/2025/01/21/entertainment/jade-thirlwall-harry-styles-x-factor/index.html
+2025-01-22 15:50:55,005-INFO-inserted artcicle from cnn in category technology:https://edition.cnn.com/2025/01/21/entertainment/justin-baldoni-video-footage-blake-lively/index.html
+2025-01-22 15:50:55,111-INFO-inserted artcicle from cnn in category technology:https://edition.cnn.com/2025/01/09/style/dubai-skyscrapers-penthouse-pool-regent/index.html
+2025-01-22 15:50:55,215-INFO-inserted artcicle from cnn in category technology:https://edition.cnn.com/2025/01/20/world/video/japan-elderly-prison-pkg-ldn-digvid
+2025-01-22 15:50:55,323-INFO-inserted artcicle from cnn in category technology:https://edition.cnn.com/2025/01/18/science/lunar-landers-science-newsletter-wt/index.html
+2025-01-22 15:50:55,432-INFO-inserted artcicle from cnn in category technology:https://edition.cnn.com/2025/01/17/science/dark-oxygen-research/index.html
+2025-01-22 15:50:55,542-INFO-inserted artcicle from cnn in category technology:https://edition.cnn.com/science/japan-robot-farming-kisui-adam-spc/index.html
+2025-01-22 15:50:55,649-INFO-inserted artcicle from cnn in category technology:https://edition.cnn.com/2025/01/18/science/first-clinical-trial-lessons/index.html
+2025-01-22 15:50:55,778-INFO-inserted artcicle from cnn in category technology:https://edition.cnn.com/travel/strangers-struck-on-train-1990s-chance-encounters/index.html
+2025-01-22 15:50:55,885-INFO-inserted artcicle from cnn in category technology:https://edition.cnn.com/2025/01/16/travel/time-out-reveals-worlds-50-best-cities-for-2025/index.html
+2025-01-22 15:50:55,999-INFO-inserted artcicle from cnn in category technology:https://edition.cnn.com/2025/01/11/travel/travel-news-worlds-most-turbulent-flights/index.html
+2025-01-22 15:50:55,999-INFO-Articles from cnn inserted into database portal_news
+2025-01-22 15:50:56,114-INFO-inserted artcicle from fox news in category politics:https://www.foxnews.com/video/5614615980001
+2025-01-22 15:50:56,218-INFO-inserted artcicle from fox news in category politics:https://www.foxnews.com/video/6367439697112
+2025-01-22 15:50:56,323-INFO-inserted artcicle from fox news in category politics:https://www.foxnews.com/video/shows
+2025-01-22 15:50:56,428-INFO-inserted artcicle from fox news in category politics:https://www.foxnews.com/video/topics/v-most-recent-episodes
+2025-01-22 15:50:56,534-INFO-inserted artcicle from fox news in category politics:https://www.foxnews.com/video/topics/latest-news-video
+2025-01-22 15:50:56,639-INFO-inserted artcicle from fox news in category politics:https://www.foxnews.com/story/foxnews-com-rss-feeds
+2025-01-22 15:50:56,743-INFO-inserted artcicle from fox news in category politics:https://www.foxnews.com/politics/white-house-opm-orders-all-dei-offices-begin-closing-end-day-wednesday
+2025-01-22 15:50:56,849-INFO-inserted artcicle from fox news in category politics:https://www.foxnews.com/opinion/liz-peek-donald-trump-our-president-democrats-have-no-idea-what-do
+2025-01-22 15:50:56,955-INFO-inserted artcicle from fox news in category politics:https://www.foxnews.com/politics/trump-signs-dozens-executive-orders-fulfilling-many-campaign-promises
+2025-01-22 15:50:57,061-INFO-inserted artcicle from fox news in category business:https://www.foxnews.com/video/6367473864112
+2025-01-22 15:50:57,166-INFO-inserted artcicle from fox news in category business:https://www.foxnews.com/video/6367476741112
+2025-01-22 15:50:57,272-INFO-inserted artcicle from fox news in category business:https://www.foxnews.com/politics/coast-guard-surging-assets-gulf-america-other-waterways-support-trumps-executive-orders
+2025-01-22 15:50:57,385-INFO-inserted artcicle from fox news in category business:https://www.foxnews.com/world/russia-sounds-off-trumps-threat-retake-panama-canal
+2025-01-22 15:50:57,491-INFO-inserted artcicle from fox news in category business:https://www.foxnews.com/sports/democrat-voters-abandon-party-after-aoc-jeffries-say-anti-trans-athlete-bill-empowers-child-sexual-predators
+2025-01-22 15:50:57,596-INFO-inserted artcicle from fox news in category business:https://www.foxnews.com/politics/career-justice-department-officials-reassigned-different-positions-reports
+2025-01-22 15:50:57,703-INFO-inserted artcicle from fox news in category business:https://www.foxnews.com/media/kamala-harris-mocked-online-another-word-salad-community-fire-department-visit
+2025-01-22 15:50:57,810-INFO-inserted artcicle from fox news in category business:https://www.foxnews.com/media/politico-editor-in-chief-calls-trump-greatest-american-figure-his-era-due-his-influence
+2025-01-22 15:50:57,914-INFO-inserted artcicle from fox news in category business:https://www.foxnews.com/entertainment/billy-ray-cyrus-explains-trump-inaugural-ball-performance-concerned-fans
+2025-01-22 15:50:58,019-INFO-inserted artcicle from fox news in category entertainment:https://www.foxnews.com/media/ai-executives-praise-trumps-stargate-project-this-very-large-investment-affects-all-humanity
+2025-01-22 15:50:58,123-INFO-inserted artcicle from fox news in category entertainment:https://www.foxnews.com/video/6367466522112
+2025-01-22 15:50:58,227-INFO-inserted artcicle from fox news in category entertainment:https://www.foxnews.com/video/6367447848112
+2025-01-22 15:50:58,357-INFO-inserted artcicle from fox news in category entertainment:https://www.outkick.com/culture/kirk-herbstreit-reveals-why-he-cried-after-ohio-state-beat-notre-dame
+2025-01-22 15:50:58,463-INFO-inserted artcicle from fox news in category entertainment:https://www.foxnews.com/media/fox-news-host-will-cain-says-new-daytime-show-offers-him-exciting-challenges
+2025-01-22 15:50:58,567-INFO-inserted artcicle from fox news in category entertainment:https://www.foxnews.com/category/media
+2025-01-22 15:50:58,673-INFO-inserted artcicle from fox news in category entertainment:https://www.foxnews.com/politics/new-golden-age-anti-woke-beer-company-teams-up-with-maga-babe-influencers-launch-new-calendar
+2025-01-22 15:50:58,779-INFO-inserted artcicle from fox news in category entertainment:https://www.foxnews.com/media/fox-news-sean-hannity-interview-president-trump-from-oval-office
+2025-01-22 15:50:58,883-INFO-inserted artcicle from fox news in category entertainment:https://www.foxnews.com/video/6367470351112
+2025-01-22 15:50:58,987-INFO-inserted artcicle from fox news in category health:https://www.foxweather.com/weather-news/florida-louisiana-tuesday-snow-ice-southeast-forecast
+2025-01-22 15:50:59,098-INFO-inserted artcicle from fox news in category health:https://www.foxnews.com/politics/trump-revokes-john-boltons-secret-service-detail-amid-iranian-death-threats-former-national-security-advisor
+2025-01-22 15:50:59,208-INFO-inserted artcicle from fox news in category health:https://www.foxbusiness.com/media/ben-jerrys-co-founder-launches-contest-support-elon-musks-dept-government-efficiency-doge-vs-blob
+2025-01-22 15:50:59,342-INFO-inserted artcicle from fox news in category health:https://www.foxbusiness.com/category/media
+2025-01-22 15:50:59,506-INFO-inserted artcicle from fox news in category health:https://www.foxnews.com/politics/4-trump-rivals-biden-didnt-pardon
+2025-01-22 15:50:59,614-INFO-inserted artcicle from fox news in category health:https://www.foxnews.com/us/colorado-court-rules-elephants-zoo-cannot-pursue-release-because-not-human
+2025-01-22 15:50:59,721-INFO-inserted artcicle from fox news in category health:https://www.foxnews.com/entertainment/lauren-sanchez-tones-down-look-after-backlash-racy-inauguration-outfit
+2025-01-22 15:50:59,827-INFO-inserted artcicle from fox news in category health:https://www.foxnews.com/politics/trump-border-czar-tom-homan-reveals-ice-teams-already-arresting-public-safety-threats
+2025-01-22 15:50:59,932-INFO-inserted artcicle from fox news in category health:https://www.foxnews.com/sports/coveted-rookie-card-pirates-star-paul-skenes-pulled-young-collector-amid-offer-from-mlb-team
+2025-01-22 15:51:00,037-INFO-inserted artcicle from fox news in category technology:https://www.foxnews.com/media/over-10-million-viewers-watched-fox-news-inauguration-coverage-crushing-all-other-networks
+2025-01-22 15:51:00,144-INFO-inserted artcicle from fox news in category technology:https://www.foxnews.com/sports/2025-nfl-playoffs-team-merch
+2025-01-22 15:51:00,252-INFO-inserted artcicle from fox news in category technology:https://www.foxnews.com/health/bird-flu-spreads-cdc-recommends-faster-subtyping-catch-more-cases
+2025-01-22 15:51:00,361-INFO-inserted artcicle from fox news in category technology:https://www.foxnews.com/lifestyle/american-culture-quiz-test-yourself-groundbreaking-gadgets-medical-marvels-southern-staples
+2025-01-22 15:51:00,487-INFO-inserted artcicle from fox news in category technology:https://www.foxbusiness.com/retail/michael-kors-closes-its-downtown-san-francisco-store
+2025-01-22 15:51:00,593-INFO-inserted artcicle from fox news in category technology:https://www.foxnews.com/politics/reverend-asks-trump-have-mercy-immigrants-lgbtq-children-who-fear-lives
+2025-01-22 15:51:00,709-INFO-inserted artcicle from fox news in category technology:https://www.foxnews.com/media/dojs-excessive-treatment-jan-6-rioters-undermined-prosecution-jonathan-turley-says
+2025-01-22 15:51:00,815-INFO-inserted artcicle from fox news in category technology:https://www.foxnews.com/entertainment/trump-inauguration-jewel-surprises-maha-inaugural-ball-performance
+2025-01-22 15:51:00,921-INFO-inserted artcicle from fox news in category technology:https://www.foxnews.com/politics/republican-senators-issue-warning-historic-museums-ahead-pro-life-march-respect-free-speech
+2025-01-22 15:51:00,921-INFO-Articles from fox news inserted into database portal_news
+2025-01-22 15:51:01,025-INFO-inserted artcicle from Sky News in category world:https://news.sky.com/story/14-year-old-boy-arrested-after-12-year-old-dies-in-birmingham-stabbing-13294091
+2025-01-22 15:51:01,132-INFO-inserted artcicle from Sky News in category world:https://news.sky.com/story/donald-trump-inauguration-us-president-white-house-washington-return-sky-news-live-biden-blog-13209921
+2025-01-22 15:51:01,237-INFO-inserted artcicle from Sky News in category world:https://news.sky.com/story/gmb-union-facing-institutional-sexism-and-bullying-complaint-13293728
+2025-01-22 15:51:01,343-INFO-inserted artcicle from Sky News in category world:https://news.sky.com/story/at-the-us-mexico-border-migrants-experience-the-reality-of-trumps-first-few-days-in-office-13294060
+2025-01-22 15:51:01,448-INFO-inserted artcicle from Sky News in category world:https://news.sky.com/story/money-blog-personal-finance-consumer-inflation-mortgage-army-pound-blog-live-sky-news-13040934
+2025-01-22 15:51:01,562-INFO-inserted artcicle from Sky News in category world:https://news.sky.com/story/domestic-abuse-victims-failed-by-criminal-justice-system-damning-commissioners-report-says-13293740
+2025-01-22 15:51:01,667-INFO-inserted artcicle from Sky News in category world:https://news.sky.com/story/bank-account-snooping-and-driving-bans-planned-in-government-crackdown-on-benefit-fraudsters-13294057
+2025-01-22 15:51:01,773-INFO-inserted artcicle from Sky News in category world:https://news.sky.com/story/staffordshire-residents-shocked-as-village-is-blocked-in-by-80ft-long-mound-of-dumped-rubbish-13293918
+2025-01-22 15:51:01,881-INFO-inserted artcicle from Sky News in category world:https://news.sky.com/story/netflix-to-raise-prices-for-some-subscribers-as-it-reports-18-9-million-new-customers-in-three-months-13294110
+2025-01-22 15:51:01,988-INFO-inserted artcicle from Sky News in category world:https://news.sky.com/story/politics-latest-pm-insists-uk-us-special-relationship-will-continue-to-flourish-as-he-congratulates-donald-trump-12593360
+2025-01-22 15:51:02,093-INFO-inserted artcicle from Sky News in category uk:https://news.sky.com/video/everything-you-need-to-know-after-suspicions-about-southport-attack-cover-up-13293842
+2025-01-22 15:51:02,198-INFO-inserted artcicle from Sky News in category uk:https://news.sky.com/story/family-of-southport-attacker-axel-rudakubana-moved-to-secret-location-by-police-for-their-protection-13293806
+2025-01-22 15:51:02,304-INFO-inserted artcicle from Sky News in category uk:https://news.sky.com/story/after-suspicions-about-southport-attack-cover-up-no-wonder-the-public-is-confused-13293697
+2025-01-22 15:51:02,413-INFO-inserted artcicle from Sky News in category uk:https://news.sky.com/story/i-hope-we-saved-lives-but-its-the-ifs-and-buts-says-man-who-confronted-southport-killer-axel-rudakubana-13293816
+2025-01-22 15:51:02,519-INFO-inserted artcicle from Sky News in category uk:https://news.sky.com/story/online-conspiracy-theories-could-become-a-threat-to-starmers-government-13293809
+2025-01-22 15:51:02,625-INFO-inserted artcicle from Sky News in category uk:https://news.sky.com/story/terrorism-has-changed-southport-knife-attack-a-sign-the-country-faces-a-new-threat-pm-says-13293429
+2025-01-22 15:51:02,735-INFO-inserted artcicle from Sky News in category uk:https://news.sky.com/video/snow-blankets-new-orleans-during-historic-winter-storm-13294167
+2025-01-22 15:51:02,842-INFO-inserted artcicle from Sky News in category uk:https://news.sky.com/video/january-6-rioters-reunite-with-families-after-prison-release-13294101
+2025-01-22 15:51:02,946-INFO-inserted artcicle from Sky News in category uk:https://news.sky.com/video/gmb-union-has-been-accused-of-being-institutionally-sexist-13293761
+2025-01-22 15:51:03,052-INFO-inserted artcicle from Sky News in category uk:https://news.sky.com/video/gaza-ceasefire-palestinians-return-home-to-find-rubble-and-ruins-13294112
+2025-01-22 15:51:03,155-INFO-inserted artcicle from Sky News in category business:https://news.sky.com/video/trump-tiktok-is-worth-zero-or-one-trillion-13294085
+2025-01-22 15:51:03,260-INFO-inserted artcicle from Sky News in category business:https://news.sky.com/video/trump-addresses-capitol-riot-pardons-13294036
+2025-01-22 15:51:03,364-INFO-inserted artcicle from Sky News in category business:https://news.sky.com/video/what-executive-orders-did-trump-sign-on-day-one-13293716
+2025-01-22 15:51:03,469-INFO-inserted artcicle from Sky News in category business:https://news.sky.com/video/sir-peter-fahy-explains-why-prevent-needs-to-be-updated-13293826
+2025-01-22 15:51:03,574-INFO-inserted artcicle from Sky News in category business:https://news.sky.com/video/donald-trumps-executive-orders-are-already-making-impact-13293494
+2025-01-22 15:51:03,677-INFO-inserted artcicle from Sky News in category business:https://news.sky.com/video/donald-and-melania-trump-dance-at-inaugural-ball-13293423
+2025-01-22 15:51:03,788-INFO-inserted artcicle from Sky News in category business:https://news.sky.com/video/welcome-home-trump-meets-biden-at-white-house-13293093
+2025-01-22 15:51:03,892-INFO-inserted artcicle from Sky News in category business:https://news.sky.com/video/trump-inauguration-key-moments-so-far-13293087
+2025-01-22 15:51:03,998-INFO-inserted artcicle from Sky News in category business:https://news.sky.com/video/tech-billionaire-elon-musk-and-his-son-join-donald-trump-on-stage-at-rally-13292852
+2025-01-22 15:51:04,104-INFO-inserted artcicle from Sky News in category business:https://news.sky.com/video/skys-mark-stone-speaks-to-trump-supporters-on-the-eve-of-the-inauguration-13292759
+2025-01-22 15:51:04,208-INFO-inserted artcicle from Sky News in category technology:https://news.sky.com/video/what-can-we-expect-from-trumps-first-term-13293064
+2025-01-22 15:51:04,314-INFO-inserted artcicle from Sky News in category technology:https://news.sky.com/video/gaza-how-the-first-day-of-the-israel-hamas-ceasefire-unfolded-13292749
+2025-01-22 15:51:04,419-INFO-inserted artcicle from Sky News in category technology:https://news.sky.com/video/what-has-donald-trump-done-since-winning-the-us-presidential-election-13290296
+2025-01-22 15:51:04,523-INFO-inserted artcicle from Sky News in category technology:https://news.sky.com/video/welcome-to-cowtown-what-do-texans-want-from-donald-trump-13291830
+2025-01-22 15:51:04,626-INFO-inserted artcicle from Sky News in category technology:https://news.sky.com/video/ski-lift-accident-at-spanish-resort-leaves-dozens-injured-13291344
+2025-01-22 15:51:04,734-INFO-inserted artcicle from Sky News in category technology:https://news.sky.com/video/families-celebrate-after-palestinian-prisoners-released-as-part-of-gaza-ceasefire-deal-13292979
+2025-01-22 15:51:04,842-INFO-inserted artcicle from Sky News in category technology:https://news.sky.com/video/palestinian-prisoners-released-from-israeli-jails-as-part-of-gaza-ceasefire-deal-13292882
+2025-01-22 15:51:04,947-INFO-inserted artcicle from Sky News in category technology:https://news.sky.com/video/red-cross-convoy-travels-through-gaza-to-collect-israeli-hostages-13292385
+2025-01-22 15:51:05,058-INFO-inserted artcicle from Sky News in category technology:https://news.sky.com/video/families-rejoice-as-hamas-releases-first-three-hostages-under-ceasefire-deal-13292547
+2025-01-22 15:51:05,164-INFO-inserted artcicle from Sky News in category technology:https://news.sky.com/video/israel-confirms-three-hostages-are-with-red-cross-during-sky-news-interview-with-former-diplomat-13292427
+2025-01-22 15:51:05,293-INFO-inserted artcicle from Sky News in category entertainment:https://news.sky.com/video/as-gaza-ceasefire-begins-drone-footage-captures-destruction-across-khan-younis-13292398
+2025-01-22 15:51:05,398-INFO-inserted artcicle from Sky News in category entertainment:https://news.sky.com/video/gaza-how-the-first-day-of-the-israel-hamas-ceasefire-unfolded-13292293
+2025-01-22 15:51:05,501-INFO-inserted artcicle from Sky News in category entertainment:https://news.sky.com/video/gaza-skys-alistair-bunkall-explains-what-happens-on-day-one-of-the-ceasefire-13292193
+2025-01-22 15:51:05,603-INFO-inserted artcicle from Sky News in category entertainment:https://news.sky.com/video/what-you-need-to-know-about-prince-harrys-latest-court-case-13293053
+2025-01-22 15:51:05,706-INFO-inserted artcicle from Sky News in category entertainment:https://news.sky.com/video/southport-attacker-pleads-guilty-13292986
+2025-01-22 15:51:05,811-INFO-inserted artcicle from Sky News in category entertainment:https://news.sky.com/video/heres-what-to-know-about-donald-trumps-indoor-inauguration-13291752
+2025-01-22 15:51:05,921-INFO-inserted artcicle from Sky News in category entertainment:https://news.sky.com/video/nuclear-fusion-what-is-a-super-magnet-13290857
+2025-01-22 15:51:06,026-INFO-inserted artcicle from Sky News in category entertainment:https://news.sky.com/video/the-trump-dynasty-your-guide-to-americas-first-family-13290765
+2025-01-22 15:51:06,134-INFO-inserted artcicle from Sky News in category entertainment:https://news.sky.com/video/what-do-we-know-about-the-gaza-ceasefire-deal-13291393
+2025-01-22 15:51:06,239-INFO-inserted artcicle from Sky News in category entertainment:https://news.sky.com/video/tiktok-will-be-banned-in-the-us-from-sunday-heres-everything-you-need-to-know-13290848
+2025-01-22 15:51:06,239-INFO-Articles from Sky News inserted into database portal_news
+2025-01-22 15:51:06,344-INFO-inserted artcicle from Foreign Policy in category world:https://foreignpolicy.com/projects/trump-presidency-personnel-cabinet-policy-issues
+2025-01-22 15:51:06,452-INFO-inserted artcicle from Foreign Policy in category world:https://foreignpolicy.com/2025/01/21/trump-executive-orders-trade-tariffs-china-mexico/
+2025-01-22 15:51:06,559-INFO-inserted artcicle from Foreign Policy in category world:https://foreignpolicy.com/2025/01/21/tiktok-ban-china-us-trump-ccp/
+2025-01-22 15:51:06,668-INFO-inserted artcicle from Foreign Policy in category world:https://foreignpolicy.com/2025/01/21/trump-drug-cartels-foreign-terrorist-organization-mexico-immigration-executive-order/
+2025-01-22 15:51:06,773-INFO-inserted artcicle from Foreign Policy in category world:https://foreignpolicy.com/projects/trump-presidential-transition-personnel-cabinet-policy-issues/
+2025-01-22 15:51:06,878-INFO-inserted artcicle from Foreign Policy in category world:https://foreignpolicy.com/projects/biden-us-foreign-policy-goals-diplomacy-china-ukraine-russia
+2025-01-22 15:51:06,985-INFO-inserted artcicle from Foreign Policy in category world:https://foreignpolicy.com/projects/international-trade-deals-policy-economics-growth-development-debt-currency
+2025-01-22 15:51:07,088-INFO-inserted artcicle from Foreign Policy in category world:https://foreignpolicy.com/projects/us-strategy-china-competition-trade-military-deterrence
+2025-01-22 15:51:07,198-INFO-inserted artcicle from Foreign Policy in category world:https://foreignpolicy.com/live/pankaj-mishra-morality-world-after-gaza/?tpcc=recirc_expanded_nav111523
+2025-01-22 15:51:07,301-INFO-inserted artcicle from Foreign Policy in category world:https://foreignpolicy.com/events/fp-davos-2025/the-future-of-cancer-care-davos/?tpcc=recirc_expanded_nav111523
+2025-01-22 15:51:07,404-INFO-inserted artcicle from Foreign Policy in category politics:https://foreignpolicy.com/events/the-atlantic-and-pacific-forum-2025/?tpcc=recirc_expanded_nav111523
+2025-01-22 15:51:07,511-INFO-inserted artcicle from Foreign Policy in category politics:https://foreignpolicy.com/2025/01/21/trump-international-criminal-court-sanctions/
+2025-01-22 15:51:07,618-INFO-inserted artcicle from Foreign Policy in category politics:https://foreignpolicy.com/2025/01/21/donald-trump-executive-orders-day-one-us-immigration-who-tiktok/?tpcc=recirc_latest062921
+2025-01-22 15:51:07,726-INFO-inserted artcicle from Foreign Policy in category politics:https://foreignpolicy.com/2025/01/21/california-fires-pacific-palisades-putin-russia-risk-insurance-companies/?tpcc=recirc_latest062921
+2025-01-22 15:51:07,835-INFO-inserted artcicle from Foreign Policy in category politics:https://foreignpolicy.com/2025/01/21/us-india-trade-deal-trump-modi-economy-indo-pacific/?tpcc=recirc_latest062921
+2025-01-22 15:51:07,942-INFO-inserted artcicle from Foreign Policy in category politics:https://foreignpolicy.com/2025/01/21/trump-rubio-state-department-misery/?tpcc=recirc_latest062921
+2025-01-22 15:51:08,048-INFO-inserted artcicle from Foreign Policy in category politics:https://foreignpolicy.com/2025/01/20/myanmar-civil-war-kayin-karen-resistance-knla-military/
+2025-01-22 15:51:08,152-INFO-inserted artcicle from Foreign Policy in category politics:https://foreignpolicy.com/category/news/dispatch/
+2025-01-22 15:51:08,266-INFO-inserted artcicle from Foreign Policy in category politics:https://foreignpolicy.com/2025/01/17/south-korea-yoon-arrest-impeachment-constitution/
+2025-01-22 15:51:08,373-INFO-inserted artcicle from Foreign Policy in category politics:https://foreignpolicy.com/2025/01/16/united-states-china-science-diplomacy-data-sharing-agreement-research/
+2025-01-22 15:51:08,487-INFO-inserted artcicle from Foreign Policy in category economics:https://foreignpolicy.com/2025/01/15/south-asia-india-taliban-pakistan-bangladesh-unexpected-diplomacy/
+2025-01-22 15:51:08,594-INFO-inserted artcicle from Foreign Policy in category economics:https://foreignpolicy.com/2025/01/16/tiktok-ban-update-rednote-supreme-court-biden-trump/
+2025-01-22 15:51:08,700-INFO-inserted artcicle from Foreign Policy in category economics:https://foreignpolicy.com/2025/01/14/china-tiktok-ban-trump-deal-supreme-court/
+2025-01-22 15:51:08,812-INFO-inserted artcicle from Foreign Policy in category economics:https://foreignpolicy.com/2025/01/07/china-salt-typhoon-hack-threat-panic-washington/
+2025-01-22 15:51:08,930-INFO-inserted artcicle from Foreign Policy in category economics:https://foreignpolicy.com/2025/01/07/trump-isolationism-globalization-china-competition-manufacturing-tariffs-migration/
+2025-01-22 15:51:09,039-INFO-inserted artcicle from Foreign Policy in category economics:https://foreignpolicy.com/2025/01/17/lebanon-aoun-salam-hezbollah-trump-mbs-saudi-arabia-united-states/
+2025-01-22 15:51:09,148-INFO-inserted artcicle from Foreign Policy in category economics:https://foreignpolicy.com/2025/01/16/syria-hts-sharaa-iran-islamic-revolution-1979/
+2025-01-22 15:51:09,256-INFO-inserted artcicle from Foreign Policy in category economics:https://foreignpolicy.com/2025/01/16/syria-captagon-assad-hts-drug-trade/
+2025-01-22 15:51:09,362-INFO-inserted artcicle from Foreign Policy in category economics:https://foreignpolicy.com/2025/01/15/syria-refugees-return-assad-security-asylum-europe-lebanon-turkey-jordan/
+2025-01-22 15:51:09,469-INFO-inserted artcicle from Foreign Policy in category economics:https://foreignpolicy.com/2025/01/21/russia-energy-squeeze-on-moldova/
+2025-01-22 15:51:09,576-INFO-inserted artcicle from Foreign Policy in category security:https://foreignpolicy.com/2025/01/21/russia-ukraine-war-sanctions-western-companies-profits-putin/
+2025-01-22 15:51:09,682-INFO-inserted artcicle from Foreign Policy in category security:https://foreignpolicy.com/2025/01/17/nato-trump-deal-spending-defense-russia-europe-allies/
+2025-01-22 15:51:09,795-INFO-inserted artcicle from Foreign Policy in category security:https://foreignpolicy.com/2025/01/17/trump-greenland-denmark-rare-earths-china-mining-independence/
+2025-01-22 15:51:09,902-INFO-inserted artcicle from Foreign Policy in category security:https://foreignpolicy.com/2025/01/20/us-russia-china-europe-energy-uranium/
+2025-01-22 15:51:10,008-INFO-inserted artcicle from Foreign Policy in category security:https://foreignpolicy.com/2025/01/20/president-second-inaugural-trump-reagan-address/
+2025-01-22 15:51:10,116-INFO-inserted artcicle from Foreign Policy in category security:https://foreignpolicy.com/2025/01/19/biden-foreign-policy-legacy-white-house-officials-interviews/
+2025-01-22 15:51:10,221-INFO-inserted artcicle from Foreign Policy in category security:https://foreignpolicy.com/2025/01/17/los-angeles-mayor-karen-bass-ghana-fires/
+2025-01-22 15:51:10,332-INFO-inserted artcicle from Foreign Policy in category security:https://foreignpolicy.com/2025/01/07/class-demographics-trump-harris-election/
+2025-01-22 15:51:10,443-INFO-inserted artcicle from Foreign Policy in category security:https://foreignpolicy.com/2025/01/07/trump-transactional-global-system-us-allies-markets-tariffs/
+2025-01-22 15:51:10,552-INFO-inserted artcicle from Foreign Policy in category security:https://foreignpolicy.com/2025/01/07/biden-foreign-policy-record-failure-success-national-security/
+2025-01-22 15:51:10,660-INFO-inserted artcicle from Foreign Policy in category technology:https://foreignpolicy.com/2025/01/07/madman-theory-international-relations-unpredictability/
+2025-01-22 15:51:10,768-INFO-inserted artcicle from Foreign Policy in category technology:https://foreignpolicy.com/2025/01/07/bulldozer-symbol-modi-india/
+2025-01-22 15:51:10,874-INFO-inserted artcicle from Foreign Policy in category technology:https://foreignpolicy.com/live/pankaj-mishra-morality-world-after-gaza/
+2025-01-22 15:51:10,976-INFO-inserted artcicle from Foreign Policy in category technology:https://foreignpolicy.com/live/pankaj-mishra-morality-world-after-gaza/#ask-a-question
+2025-01-22 15:51:11,081-INFO-inserted artcicle from Foreign Policy in category technology:https://foreignpolicy.com/live/fareed-zakaria-looks-ahead-to-2025/
+2025-01-22 15:51:11,081-INFO-Articles from Foreign Policy inserted into database portal_news
+2025-01-22 15:51:11,082-INFO-Article fetching and storage is completed .............
