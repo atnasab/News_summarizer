@@ -3,7 +3,6 @@ from typing import List
 from pymongo import MongoClient
 from config.config import MONGO_URI, DB_NAME, COLLECTION_NAME,summarized_article
 from pydantic import BaseModel
-
 from transformers import pipeline
 from datetime import datetime
 from fastapi.middleware.cors import CORSMiddleware
@@ -55,7 +54,7 @@ class Article(BaseModel):
 
 @app.get("/")
 async def read_root():
-    return {"message": "Welcome to my API"}
+    return {"message": "Welcome to the news api "}
 
 # @app.get("/articles", response_model=List[Article])
 # async def get_articles():
@@ -87,6 +86,9 @@ async def get_articles():
 class Summary(BaseModel):
     original_id: str  # Ensure this is spelled correctly
     summary:str
+    title:str
+    url:str
+    category:str
 
 # @app.post("/summarized", response_description="summarized articles")
 # def trigger_summarization():
@@ -103,7 +105,10 @@ def get_summarized_news():
         if 'original_id' in summary and 'summary' in summary:
             summarized_list.append({
             'original_id': str(summary['original_id']),
-            'summary': summary['summary']
+            'summary': summary['summary'],
+            'title' : summary['title'],
+            'url' : summary['url'],
+            'category' : summary['category']
         })
         else:
             print(f"missing keys in summary: {summary}")
