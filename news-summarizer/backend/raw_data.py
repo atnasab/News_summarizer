@@ -8,19 +8,19 @@ import schedule
 paper_sources = {
     'cnn': {
         'url': 'https://edition.cnn.com/',
-        'categories': ['world', 'politics', 'business', 'health', 'entertainment', 'technology']
+        'categories': ['world', 'politics', 'business', 'health', 'entertainment', 'sports', 'us']
     },
     'fox news': {
         'url': 'https://www.foxnews.com/',
-        'categories': ['politics', 'business', 'entertainment', 'health', 'technology']
+        'categories': ['politics', 'sports', 'entertainment', 'lifestyle']
     },
     'Sky News': {
         'url': 'https://news.sky.com/',
-        'categories': ['world', 'uk', 'business', 'technology', 'entertainment']
+        'categories': ['uk', 'politics', 'world', 'us', 'money', 'science', 'climate and Tech', 'Programmes']
     },
-    'Foreign Policy': {
-        'url': 'https://foreignpolicy.com/',
-        'categories': ['world', 'politics', 'economics', 'security', 'technology']
+    'espn': {
+        'url': 'https://www.espn.in/',
+        'categories': ['football', 'cricket', 'chess', 'ISL', 'F1', 'Hockey', 'NBA']
     }
 }
 
@@ -35,6 +35,7 @@ logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s-%(levelname)s-%(message)s"
 )
+
 
 def fetch_articles():
     global url_dict  
@@ -85,11 +86,13 @@ def download_articles(url_dict):
                         article.download()
                         article.parse()
 
+                        
+
                         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                         article_contents[source][category].append({
                             'url': url,
                             'title': article.title,
-                            'category':category,
+                            'category': category,
                             'text': article.text,
                             'authors': article.authors,
                             'publish_date': article.publish_date,
@@ -102,7 +105,7 @@ def download_articles(url_dict):
 
                         time.sleep(2)
                     except Exception as e:
-                        logging.error(f"Error fetching {url}: {e}")
+                        logging.error(f"Error fetching {url} in category {category}: {e}")
 
     logging.info("Finished fetching articles.")
     return article_contents

@@ -26,6 +26,7 @@ def summarize_articles(max_sentences=4):
     articles = collection.find()
     for article in articles:
         url=article.get("url")
+        category=article.get("category")
         if url:
             try:
                 article_instance=Article(url)
@@ -46,8 +47,18 @@ def summarize_articles(max_sentences=4):
                 limited_summary='. '.join(summarized_sentences[:max_sentences]) + ('.' if summarized_sentences else '')
 
 
+                title=article_instance.title
+                if category is None:
+                    category = "Uncategorized"
+
+
                 if summary_news.find_one({"original_id":article["_id"]})is None:
-                    summary_news.insert_one({"original_id":article["_id"],"summary":limited_summary})
+                    summary_news.insert_one({
+                        "original_id":article["_id"],
+                        'title': title,
+                        'url':url,
+                        'category':category,
+                        "summary":limited_summary})
                     logging.info(f"Summary of article {article['_id']} is: {limited_summary}")
                 else:
                     logging.warning(f"summary already exists: {article['_id']}")
