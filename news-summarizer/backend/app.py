@@ -29,42 +29,12 @@ class Article(BaseModel):
     publish_date: List[str]
     fetched_at:str
 
-# class Article(BaseModel):
-#     title=str
-#     text=str
-#     authors:List[str]
-#     publish_date:List[str]
-#     fetched_at:List[str]
 
-# @app.route('/articles',response_model=list[Article])
-# async def get_articles():
-#     try:
-#         articles=list(collection.find({}))
-#         for article in articles:
-#             article["_id"]=str(article["_id"])
-#         return articles
-#     except Exception as e:
-#         raise HTTPException(status_code=500,detail=str(e))
-#
-
-
-# @app.get("/favicon.ico")
-# async def favicon():
-#     return FileResponse("R.png")
 
 @app.get("/")
 async def read_root():
     return {"message": "Welcome to the news api "}
 
-# @app.get("/articles", response_model=List[Article])
-# async def get_articles():
-#     try:
-#         articles = list(collection.find({}))
-#         for article in articles:
-#             article["_id"] = str(article["_id"])
-#         return articles
-#     except Exception as e:
-#         raise HTTPException(status_code=500, detail=str(e))
 
 
 @app.get("/articles", response_model=List[Article])
@@ -74,7 +44,6 @@ async def get_articles():
         for article in articles:
           
             article["_id"] = str(article["_id"])
-            # Convert datetime to string if necessary
             if article.get("publish_date") is None:
                 article["publish_date"] = []
             elif isinstance(article.get("publish_date"),datetime):
@@ -84,16 +53,12 @@ async def get_articles():
         raise HTTPException(status_code=500, detail=str(e))
 
 class Summary(BaseModel):
-    original_id: str  # Ensure this is spelled correctly
-    # summary:str
+    original_id: str  
     title:str
     url:str
     category:str
+    image:str
 
-# @app.post("/summarized", response_description="summarized articles")
-# def trigger_summarization():
-#     summarize_articles()
-#     return{"mesasge:articles summarized sucessfully"}
 
 @app.get("/summarized-news", response_model=List[Summary])
 def get_summarized_news():
@@ -105,10 +70,12 @@ def get_summarized_news():
         if 'original_id' in summary and 'summary' in summary:
             summarized_list.append({
             'original_id': str(summary['original_id']),
-            'summary': summary['summary'],
             'title' : summary['title'],
             'url' : summary['url'],
-            'category' : summary['category']
+            'category' : summary['category'],
+            'image' : summary['image'],
+            'summary': summary['summary']
+
         })
         else:
             print(f"missing keys in summary: {summary}")
