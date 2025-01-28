@@ -5,7 +5,6 @@ from config.config import MONGO_URI, DB_NAME, COLLECTION_NAME, summarized_articl
 from pydantic import BaseModel
 from datetime import datetime
 from fastapi.middleware.cors import CORSMiddleware
-import logging
 
 app = FastAPI()
 app.add_middleware(
@@ -60,12 +59,12 @@ def get_summarized_news():
     summarized_list = []
     
     for summary in summaries:
-        logging.info(f"Retrieved summary: {summary}")  # Log the retrieved summary
+        print(f"Retrieved summary: {summary}")  
         
         if 'original_id' in summary and 'summary' in summary:
             summarized_list.append({
                 'original_id': str(summary['original_id']),
-                'summary': summary.get('summary', ''),  # Corrected this line
+                'summary': summary.get('summary', ''), 
                 'title': summary.get('title', ''),
                 'url': summary.get('url', ''),
                 'category': summary.get('category', ''),
