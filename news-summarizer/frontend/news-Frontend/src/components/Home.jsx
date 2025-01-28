@@ -1,7 +1,6 @@
-import React from "react";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom"; // Import Link for routing
 import axios from "axios";
-
 
 const Home = ({ isDarkMode }) => {
   const [articles, setArticles] = useState([]);
@@ -10,7 +9,9 @@ const Home = ({ isDarkMode }) => {
   useEffect(() => {
     const fetchArticles = async () => {
       try {
-        const response = await axios.get("http://127.0.0.1:8000/summarized-news");
+        const response = await axios.get(
+          "http://127.0.0.1:8000/summarized-news"
+        );
         setArticles(response.data);
         setLoading(false);
       } catch (error) {
@@ -24,20 +25,25 @@ const Home = ({ isDarkMode }) => {
   if (loading) {
     return <p>Loading articles...</p>;
   }
+
   return (
     <div className="min-h-screen bg-white-50 font-sans">
-      
-
       {/* Main Content */}
       <main className="px-5 py-10 lg:px-10">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
           {/* Left Section */}
           <section className="lg:col-span-2">
             <h1 className="text-3xl font-bold lg:text-4xl">
-              Most <span className="text-yellow-500">Sensational</span> News of The Week
+              Most <span className="text-yellow-500">Sensational</span> News of
+              The Week
             </h1>
-            <p className={`mt-2 ${isDarkMode ? "text-gray-300" : "text-gray-600"}`}>
-              Various events that became the main news headlines during the week and became the subject of discussion throughout the week.
+            <p
+              className={`mt-2 ${
+                isDarkMode ? "text-gray-300" : "text-gray-600"
+              }`}
+            >
+              Various events that became the main news headlines during the week
+              and became the subject of discussion throughout the week.
             </p>
             <div className="mt-5 relative">
               <img
@@ -50,13 +56,16 @@ const Home = ({ isDarkMode }) => {
               </div>
               <div className="absolute bottom-4 left-4 text-white">
                 <h3 className="text-lg font-bold lg:text-2xl">
-                  Earthquake in nepal 2026 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, dolorem.
+                  Earthquake in Nepal 2026 Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Ad, dolorem.
                 </h3>
                 <p className="text-sm mt-1 hidden md:block">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
                 <p className="mt-2 text-sm">
-                  By <span className="font-medium">Samantha</span> and <span className="font-medium">William</span> - 23 minutes ago
+                  By <span className="font-medium">Samantha</span> and{" "}
+                  <span className="font-medium">William</span> - 23 minutes ago
                 </p>
               </div>
             </div>
@@ -66,7 +75,7 @@ const Home = ({ isDarkMode }) => {
           <aside className="mt-10">
             <h2 className="text-2xl font-bold mb-5">Latest News</h2>
             <div className="space-y-5">
-              {articles.map((news, index) => (
+              {articles.slice(0, 5).map((news, index) => (
                 <div key={index} className="flex space-x-4">
                   <img
                     src={news.image}
@@ -75,11 +84,23 @@ const Home = ({ isDarkMode }) => {
                   />
                   <div>
                     <p className="text-sm text-gray-500">{news.date}</p>
-                    <h3 className="text-sm font-medium sm:text-lg">{news.title}</h3>
+                    <h3 className="text-sm font-medium sm:text-lg">
+                      {news.title}
+                    </h3>
                     <p className="text-xs text-gray-500 mt-1 sm:text-sm">
                       By <span className="font-medium">Samantha</span> and{" "}
-                      <span className="font-medium">William</span> - 23 minutes ago
+                      <span className="font-medium">William</span> - 23 minutes
+                      ago
                     </p>
+
+                    {/* Link to Title.jsx with passed article data */}
+                    <Link
+
+                      to={`/news/${news.original_id}`} // Dynamic route
+                      state={{ news }} // Pass the state directly here
+                    >
+                      <p className="text-blue-500">Read More</p>
+                    </Link>
                   </div>
                 </div>
               ))}
@@ -92,4 +113,3 @@ const Home = ({ isDarkMode }) => {
 };
 
 export default Home;
- 
