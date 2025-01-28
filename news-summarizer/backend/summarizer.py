@@ -52,12 +52,17 @@ def summarize_articles(max_sentences=4):
                     category = "Uncategorized"
 
 
+                top_image=article_instance.top_image if article_instance.top_image else None
+
+
+
                 if summary_news.find_one({"original_id":article["_id"]})is None:
                     summary_news.insert_one({
                         "original_id":article["_id"],
                         'title': title,
                         'url':url,
                         'category':category,
+                        'image':top_image,
                         "summary":limited_summary})
                     logging.info(f"Summary of article {article['_id']} is: {limited_summary}")
                 else:

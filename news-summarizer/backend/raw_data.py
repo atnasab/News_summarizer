@@ -86,13 +86,15 @@ def download_articles(url_dict):
                         article.download()
                         article.parse()
 
-                        
+                        top_image=article.top_image if article.top_image else None
+
 
                         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                         article_contents[source][category].append({
                             'url': url,
                             'title': article.title,
                             'category': category,
+                            'image':top_image,
                             'text': article.text,
                             'authors': article.authors,
                             'publish_date': article.publish_date,

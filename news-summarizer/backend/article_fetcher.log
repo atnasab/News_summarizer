@@ -1,516 +1,516 @@
-2025-01-23 14:33:20,472-INFO-Fetching articles from sources...
-2025-01-23 14:33:26,843-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feed
-2025-01-23 14:33:26,905-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/rss
-2025-01-23 14:33:26,914-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feeds
-2025-01-23 14:33:37,005-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feed
-2025-01-23 14:33:37,006-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feeds
-2025-01-23 14:33:37,006-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/rss
-2025-01-23 14:33:46,176-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/rss
-2025-01-23 14:33:46,188-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feed
-2025-01-23 14:33:46,209-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feeds
-2025-01-23 14:33:54,497-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/rss
-2025-01-23 14:33:54,502-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feed
-2025-01-23 14:33:54,556-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feeds
-2025-01-23 14:34:03,072-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/rss
-2025-01-23 14:34:03,092-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feeds
-2025-01-23 14:34:03,093-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feed
-2025-01-23 14:34:12,505-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feeds
-2025-01-23 14:34:12,512-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feed
-2025-01-23 14:34:12,556-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/rss
-2025-01-23 14:34:20,781-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feeds
-2025-01-23 14:34:20,822-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/rss
-2025-01-23 14:34:20,829-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feed
-2025-01-23 14:34:27,757-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.foxnews.com/feeds
-2025-01-23 14:34:37,306-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.foxnews.com/feeds
-2025-01-23 14:34:43,706-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.foxnews.com/feeds
-2025-01-23 14:34:48,234-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.foxnews.com/feeds
-2025-01-23 14:34:53,460-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://components.news.sky.com/
-2025-01-23 14:34:54,302-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feed
-2025-01-23 14:34:54,456-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/rss
-2025-01-23 14:34:54,488-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feeds
-2025-01-23 14:34:57,103-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://components.news.sky.com/
-2025-01-23 14:34:58,060-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/rss
-2025-01-23 14:34:58,079-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feed
-2025-01-23 14:34:58,111-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feeds
-2025-01-23 14:35:01,029-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://components.news.sky.com/
-2025-01-23 14:35:02,120-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/rss
-2025-01-23 14:35:02,156-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feed
-2025-01-23 14:35:02,157-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feeds
-2025-01-23 14:35:04,829-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://components.news.sky.com/
-2025-01-23 14:35:06,209-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feeds
-2025-01-23 14:35:06,216-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feed
-2025-01-23 14:35:06,238-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/rss
-2025-01-23 14:35:08,927-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://components.news.sky.com/
-2025-01-23 14:35:09,805-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/rss
-2025-01-23 14:35:09,855-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feeds
-2025-01-23 14:35:09,871-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feed
-2025-01-23 14:35:12,544-WARNING-fromstring() returned an invalid string: ...
-2025-01-23 14:35:12,544-WARNING-Source https://news.sky.com/science parse error.
-2025-01-23 14:35:12,725-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://components.news.sky.com/
-2025-01-23 14:35:13,658-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feed
-2025-01-23 14:35:13,680-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feeds
-2025-01-23 14:35:13,692-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/rss
-2025-01-23 14:35:17,136-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://components.news.sky.com/
-2025-01-23 14:35:18,099-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feeds
-2025-01-23 14:35:18,101-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feed
-2025-01-23 14:35:18,202-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/rss
-2025-01-23 14:35:21,017-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://components.news.sky.com/
-2025-01-23 14:35:22,174-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feed
-2025-01-23 14:35:22,208-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/rss
-2025-01-23 14:35:22,245-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feeds
-2025-01-23 14:35:32,248-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.espn.in/feeds/
-2025-01-23 14:35:32,294-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.espn.in/feed/
-2025-01-23 14:35:41,539-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.espn.in/feeds/
-2025-01-23 14:35:41,996-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.espn.in/feed/
-2025-01-23 14:35:51,538-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.espn.in/feeds/
-2025-01-23 14:35:51,960-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.espn.in/feed/
-2025-01-23 14:35:55,691-WARNING-fromstring() returned an invalid string: ...
-2025-01-23 14:35:55,692-WARNING-Source https://www.espn.in/ISL parse error.
-2025-01-23 14:36:01,168-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.espn.in/feed/
-2025-01-23 14:36:01,575-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.espn.in/feeds/
-2025-01-23 14:36:11,814-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.espn.in/feed/
-2025-01-23 14:36:11,820-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.espn.in/feeds/
-2025-01-23 14:36:15,559-WARNING-fromstring() returned an invalid string: ...
-2025-01-23 14:36:15,559-WARNING-Source https://www.espn.in/Hockey parse error.
-2025-01-23 14:36:21,267-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.espn.in/feeds/
-2025-01-23 14:36:21,275-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.espn.in/feed/
-2025-01-23 14:36:31,019-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.espn.in/feed/
-2025-01-23 14:36:31,376-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.espn.in/feeds/
-2025-01-23 14:36:33,613-INFO-cnn - world: 498 articles found.
-2025-01-23 14:36:33,613-INFO-cnn - politics: 498 articles found.
-2025-01-23 14:36:33,613-INFO-cnn - business: 498 articles found.
-2025-01-23 14:36:33,613-INFO-cnn - health: 498 articles found.
-2025-01-23 14:36:33,613-INFO-cnn - entertainment: 498 articles found.
-2025-01-23 14:36:33,614-INFO-cnn - sports: 498 articles found.
-2025-01-23 14:36:33,614-INFO-cnn - us: 498 articles found.
-2025-01-23 14:36:33,614-INFO-fox news - politics: 840 articles found.
-2025-01-23 14:36:33,614-INFO-fox news - sports: 841 articles found.
-2025-01-23 14:36:33,614-INFO-fox news - entertainment: 841 articles found.
-2025-01-23 14:36:33,614-INFO-fox news - lifestyle: 841 articles found.
-2025-01-23 14:36:33,614-INFO-Sky News - uk: 367 articles found.
-2025-01-23 14:36:33,614-INFO-Sky News - politics: 367 articles found.
-2025-01-23 14:36:33,614-INFO-Sky News - world: 367 articles found.
-2025-01-23 14:36:33,614-INFO-Sky News - us: 367 articles found.
-2025-01-23 14:36:33,614-INFO-Sky News - money: 367 articles found.
-2025-01-23 14:36:33,614-INFO-Sky News - science: 367 articles found.
-2025-01-23 14:36:33,614-INFO-Sky News - climate and Tech: 367 articles found.
-2025-01-23 14:36:33,614-INFO-Sky News - Programmes: 367 articles found.
-2025-01-23 14:36:33,614-INFO-espn - football: 704 articles found.
-2025-01-23 14:36:33,614-INFO-espn - cricket: 704 articles found.
-2025-01-23 14:36:33,614-INFO-espn - chess: 704 articles found.
-2025-01-23 14:36:33,614-INFO-espn - ISL: 704 articles found.
-2025-01-23 14:36:33,614-INFO-espn - F1: 704 articles found.
-2025-01-23 14:36:33,614-INFO-espn - Hockey: 704 articles found.
-2025-01-23 14:36:33,614-INFO-espn - NBA: 704 articles found.
-2025-01-23 14:36:33,639-INFO-Fetching article contents...
-2025-01-23 14:36:37,435-INFO-Fetched https://edition.cnn.com/business/media in 3.80 seconds
-2025-01-23 14:36:41,802-INFO-Fetched https://edition.cnn.com/travel/news in 2.37 seconds
-2025-01-23 14:36:44,836-INFO-Fetched https://edition.cnn.com/audio/podcasts/all-there-is-with-anderson-cooper in 1.03 seconds
-2025-01-23 14:36:49,152-INFO-Fetched https://edition.cnn.com/2025/01/22/asia/same-sex-couples-marriage-equality-thailand-intl-hnk/index.html in 2.31 seconds
-2025-01-23 14:36:52,281-ERROR-Error fetching https://edition.cnn.com/2025/01/22/asia/thailand-uyghur-deportation-china-intl-hnk/index.html in category world: Article `download()` failed with ('Connection broken: IncompleteRead(32768 bytes read, 487926 more expected)', IncompleteRead(32768 bytes read, 487926 more expected)) on URL https://edition.cnn.com/2025/01/22/asia/thailand-uyghur-deportation-china-intl-hnk/index.html
-2025-01-23 14:36:53,243-INFO-Fetched https://edition.cnn.com/2025/01/23/australia/great-barrier-reef-coral-bleaching-catastrophe-climate-intl-hnk/index.html in 0.96 seconds
-2025-01-23 14:36:56,298-INFO-Fetched https://edition.cnn.com/2025/01/22/asia/jalgaon-india-train-accident-deaths-intl-hnk/index.html in 1.05 seconds
-2025-01-23 14:36:59,312-INFO-Fetched https://edition.cnn.com/2025/01/22/china/china-navy-new-generation-frigate-intl-hnk/index.html in 1.01 seconds
-2025-01-23 14:37:04,805-INFO-Fetched https://edition.cnn.com/2025/01/22/china/xi-putin-call-trump-intl-hnk/index.html in 3.49 seconds
-2025-01-23 14:37:09,482-INFO-Fetched https://edition.cnn.com/2025/01/22/europe/knife-attack-german-park-intl/index.html in 2.68 seconds
-2025-01-23 14:37:13,239-INFO-Fetched https://edition.cnn.com/2025/01/22/asia/thailand-uyghur-deportation-china-intl-hnk/index.html in 1.76 seconds
-2025-01-23 14:37:16,897-INFO-Fetched https://edition.cnn.com/2025/01/22/americas/juarez-migrants-mexico-us-border-cbp-app-intl-hnk/index.html in 1.66 seconds
-2025-01-23 14:37:21,421-INFO-Fetched https://edition.cnn.com/2025/01/21/europe/analysis-trump-putin-ukraine-intl-latam/index.html in 2.52 seconds
-2025-01-23 14:37:25,834-INFO-Fetched https://edition.cnn.com/2025/01/21/asia/south-korea-president-impeachment-hearing-intl-hnk/index.html in 2.41 seconds
-2025-01-23 14:37:30,189-INFO-Fetched https://edition.cnn.com/2025/01/21/india/india-bollywood-saif-ali-khan-leaves-hospital-intl-hnk/index.html in 2.35 seconds
-2025-01-23 14:37:34,459-INFO-Fetched https://edition.cnn.com/2025/01/21/middleeast/iraq-child-marriage-lawmakers-criticize-bill-intl-hnk/index.html in 2.27 seconds
-2025-01-23 14:37:38,717-INFO-Fetched https://edition.cnn.com/2025/01/21/middleeast/israel-west-bank-operation-intl/index.html in 2.26 seconds
-2025-01-23 14:37:42,370-INFO-Fetched https://www.cnn.com/interactive/2024/01/middleeast/gaza-hospitals-destruction-investigation-intl-cmd/ in 1.65 seconds
-2025-01-23 14:37:45,575-INFO-Fetched https://www.cnn.com/interactive/2023/11/world/climate-gender-inequality-cnnphotos-as-equals-intl-cmd/ in 1.20 seconds
-2025-01-23 14:37:49,823-INFO-Fetched https://edition.cnn.com/2025/01/22/world/video/us-mexico-border-floating-barrier-texas-digvid in 2.25 seconds
-2025-01-23 14:37:54,151-INFO-Fetched https://edition.cnn.com/2025/01/22/world/video/danish-official-responds-donald-trump-greenland-purchase-digvid in 2.33 seconds
-2025-01-23 14:37:58,650-INFO-Fetched https://edition.cnn.com/2025/01/22/world/video/elephant-beehive-fences-tanzania-inside-africa-digvid-spc in 2.50 seconds
-2025-01-23 14:38:02,819-INFO-Fetched https://edition.cnn.com/2025/01/21/world/video/the-lead-ruby-hagit-chen-hostage-deal-israel-hamas-president-trump-jake-tapper in 2.17 seconds
-2025-01-23 14:38:07,572-INFO-Fetched https://edition.cnn.com/2025/01/21/europe/turkey-kartalkaya-hotel-fire-bolu-intl-hnk/index.html in 2.75 seconds
-2025-01-23 14:38:11,933-INFO-Fetched https://edition.cnn.com/2025/01/22/europe/greece-statue-find-scli-intl/index.html in 2.36 seconds
-2025-01-23 14:38:16,157-INFO-Fetched https://edition.cnn.com/2025/01/21/europe/aphrodisiac-honey-warning-scli-intl/index.html in 2.22 seconds
-2025-01-23 14:38:20,464-INFO-Fetched https://edition.cnn.com/2025/01/20/uk/southport-knife-attack-guilty-plea-intl/index.html in 2.31 seconds
-2025-01-23 14:38:24,778-INFO-Fetched https://edition.cnn.com/2025/01/20/europe/serbia-retirement-home-fire-intl/index.html in 2.31 seconds
-2025-01-23 14:59:40,951-ERROR-Error fetching https://edition.cnn.com/2025/01/19/europe/ukraine-russia-president-elect-trump-flattery-intl/index.html in category business: Article `download()` failed with ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)) on URL https://edition.cnn.com/2025/01/19/europe/ukraine-russia-president-elect-trump-flattery-intl/index.html
-2025-01-23 14:59:41,044-ERROR-Error fetching https://edition.cnn.com/2025/01/22/middleeast/yemen-houthi-galaxy-leader-crew-free-intl-latam/index.html in category business: Article `download()` failed with HTTPSConnectionPool(host='edition.cnn.com', port=443): Max retries exceeded with url: /2025/01/22/middleeast/yemen-houthi-galaxy-leader-crew-free-intl-latam/index.html (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001E19F4199A0>: Failed to resolve 'edition.cnn.com' ([Errno 11001] getaddrinfo failed)")) on URL https://edition.cnn.com/2025/01/22/middleeast/yemen-houthi-galaxy-leader-crew-free-intl-latam/index.html
-2025-01-23 14:59:44,200-INFO-Fetched https://edition.cnn.com/2025/01/19/europe/ukraine-russia-president-elect-trump-flattery-intl/index.html in 3.16 seconds
-2025-01-23 14:59:48,719-INFO-Fetched https://edition.cnn.com/2025/01/22/middleeast/yemen-houthi-galaxy-leader-crew-free-intl-latam/index.html in 2.52 seconds
-2025-01-23 14:59:53,854-INFO-Fetched https://edition.cnn.com/2025/01/22/middleeast/israel-west-bank-gaza-war-katz-intl/index.html in 3.13 seconds
-2025-01-23 14:59:59,462-INFO-Fetched https://edition.cnn.com/2025/01/22/middleeast/gaza-war-ceasefire-snapshot-dg-intl/index.html in 3.61 seconds
-2025-01-23 15:00:03,889-INFO-Fetched https://edition.cnn.com/2025/01/19/middleeast/analysis-hamas-hostage-release-israel-intl-latam/index.html in 2.43 seconds
-2025-01-23 15:00:08,375-INFO-Fetched https://edition.cnn.com/2025/01/21/middleeast/israeli-military-chief-of-staff-resigns-intl/index.html in 2.49 seconds
-2025-01-23 15:00:12,989-INFO-Fetched https://edition.cnn.com/2025/01/20/middleeast/hamas-video-hostages-gift-bags-intl/index.html in 2.61 seconds
-2025-01-23 15:00:17,425-INFO-Fetched https://edition.cnn.com/2025/01/13/world/gallery/people-we-lost-2025/index.html in 2.43 seconds
-2025-01-23 15:00:21,789-INFO-Fetched https://edition.cnn.com/2025/01/16/world/gallery/photos-this-week-january-9-january-16/index.html in 2.36 seconds
-2025-01-23 15:00:27,025-INFO-Fetched https://edition.cnn.com/2025/01/09/world/gallery/photos-this-week-january-2-january-9/index.html in 3.24 seconds
-2025-01-23 15:00:31,542-INFO-Fetched https://edition.cnn.com/2025/01/02/world/gallery/photos-this-week-december-26-january-2/index.html in 2.52 seconds
-2025-01-23 15:00:36,089-INFO-Fetched https://edition.cnn.com/world/africa/tanzania-soma-bags-reading-light-spc/index.html in 2.55 seconds
-2025-01-23 15:00:42,105-INFO-Fetched https://edition.cnn.com/2025/01/19/africa/gasoline-tanker-truck-blast-hnk-intl/index.html in 4.01 seconds
-2025-01-23 15:00:47,110-INFO-Fetched https://edition.cnn.com/2025/01/18/africa/russia-expanding-influence-in-africa-intl-cmd/index.html in 3.00 seconds
-2025-01-23 15:00:52,249-INFO-Fetched https://edition.cnn.com/2025/01/15/africa/south-africa-horrific-clampdown-of-miners-intl/index.html in 3.14 seconds
-2025-01-23 15:00:57,306-INFO-Fetched https://edition.cnn.com/2025/01/22/americas/colombia-displaced-deadly-rebel-clashes-intl-latam/index.html in 3.05 seconds
-2025-01-23 15:01:01,944-INFO-Fetched https://edition.cnn.com/2025/01/21/americas/pope-dissolves-peruvian-catholic-group-intl-latam/index.html in 2.64 seconds
-2025-01-23 15:01:06,352-INFO-Fetched https://edition.cnn.com/2025/01/21/americas/canada-trudeau-trump-tariffs-latam-intl/index.html in 2.41 seconds
-2025-01-23 15:01:10,901-INFO-Fetched https://edition.cnn.com/2025/01/20/americas/panama-canal-trump-threat-intervention-intl-latam/index.html in 2.55 seconds
-2025-01-23 15:01:15,296-INFO-Fetched https://edition.cnn.com/2025/01/20/asia/taiwan-earthquake-injuries-intl-hnk/index.html in 2.40 seconds
-2025-01-23 15:01:19,769-INFO-Fetched https://edition.cnn.com/2025/01/20/asia/japanese-aquarium-lonely-sunfish-intl-scli/index.html in 2.47 seconds
-2025-01-23 15:01:24,212-INFO-Fetched https://edition.cnn.com/2025/01/19/asia/afghanistan-taliban-deputy-education-ban-intl-hnk/index.html in 2.44 seconds
-2025-01-23 15:01:30,339-INFO-Fetched https://edition.cnn.com/2025/01/18/asia/south-korea-court-extends-yoon-detention-intl-latam/index.html in 4.13 seconds
-2025-01-23 15:01:35,360-INFO-Fetched https://edition.cnn.com/travel/nepal-increases-mount-everest-climbing-fee-2025-intl-hnk/index.html in 3.02 seconds
-2025-01-23 15:01:40,661-INFO-Fetched https://edition.cnn.com/2025/01/22/travel/the-city-where-modern-america-was-born/index.html in 3.30 seconds
-2025-01-23 15:01:45,350-INFO-Fetched https://edition.cnn.com/travel/united-nations-tourism-data-2024-intl-hnk/index.html in 2.69 seconds
-2025-01-23 15:01:49,750-INFO-Fetched https://edition.cnn.com/2025/01/22/travel/mittens-cat-australia-new-zealand-intl-hnk/index.html in 2.40 seconds
-2025-01-23 15:01:54,123-INFO-Fetched https://edition.cnn.com/2025/01/22/style/milan-mens-fashion-week-looks-aw2025/index.html in 2.37 seconds
-2025-01-23 15:01:58,562-INFO-Fetched https://edition.cnn.com/2025/01/22/style/italy-thinking-like-an-island-alicudi/index.html in 2.44 seconds
-2025-01-23 15:02:03,168-INFO-Fetched https://edition.cnn.com/style/ilona-maher-interview-body-positive-rugby-spc/index.html in 2.60 seconds
-2025-01-23 15:02:07,674-INFO-Fetched https://edition.cnn.com/2025/01/20/style/inauguration-fashion-looks-melania-trump/index.html in 2.50 seconds
-2025-01-23 15:02:12,091-INFO-Fetched https://edition.cnn.com/2025/01/19/style/hidden-symbolism-first-ladies-inaugural-fashion/index.html in 2.42 seconds
-2025-01-23 15:02:16,917-INFO-Fetched https://edition.cnn.com/2025/01/22/weather/winter-storm-south-wednesday-hnk/index.html in 2.83 seconds
-2025-01-23 15:02:21,558-INFO-Fetched https://edition.cnn.com/2025/01/21/weather/winter-storm-south-tuesday-hnk/index.html in 2.64 seconds
-2025-01-23 15:02:25,967-INFO-Fetched https://edition.cnn.com/2025/01/20/weather/wind-chills-threaten-us-record-snowfall-hnk/index.html in 2.41 seconds
-2025-01-23 15:02:30,435-INFO-Fetched https://edition.cnn.com/2025/01/19/weather/weather-cold-winter-temperature-freezing/index.html in 2.47 seconds
-2025-01-23 15:02:34,805-INFO-Fetched https://edition.cnn.com/2025/01/21/world/video/us-mexico-border-migrant-voices-cbp-app-shutdown-digvid in 2.37 seconds
-2025-01-23 15:02:39,282-INFO-Fetched https://edition.cnn.com/2025/01/21/world/video/marketplace-africa-wakanow-profit-point-spc in 2.48 seconds
-2025-01-23 15:02:43,731-INFO-Fetched https://edition.cnn.com/2025/01/21/world/video/marketplace-africa-nigeria-leather-industry-luxury-goods-spc in 2.45 seconds
-2025-01-23 15:02:48,255-INFO-Fetched https://edition.cnn.com/2025/01/21/world/world-health-organization-trump-withdraw-explainer-intl/index.html in 2.52 seconds
-2025-01-23 15:02:50,522-INFO-Fetched https://www.foxnews.com/video/5614615980001 in 0.27 seconds
-2025-01-23 15:02:52,931-INFO-Fetched https://www.foxnews.com/media/trump-envoy-says-gaza-ceasefire-could-pave-way-mideast-normalization-deal-inflection-point in 0.41 seconds
-2025-01-23 15:02:55,244-INFO-Fetched https://www.foxnews.com/video/shows in 0.31 seconds
-2025-01-23 15:02:57,587-INFO-Fetched https://www.foxnews.com/video/topics/v-most-recent-episodes in 0.34 seconds
-2025-01-23 15:03:00,075-INFO-Fetched https://www.foxnews.com/video/topics/latest-news-video in 0.49 seconds
-2025-01-23 15:03:02,452-INFO-Fetched https://www.foxnews.com/story/foxnews-com-rss-feeds in 0.38 seconds
-2025-01-23 15:03:04,910-INFO-Fetched https://www.foxnews.com/politics/tip-of-spear-trump-ramps-up-unscripted-media-blitz-after-years-reclusive-biden-ducking-questions in 0.46 seconds
-2025-01-23 15:03:07,447-INFO-Fetched https://www.foxnews.com/politics/state-department-blocks-pride-blm-flags-from-embassies-outposts-one-flag-policy in 0.54 seconds
-2025-01-23 15:03:10,054-INFO-Fetched https://www.foxnews.com/politics/house-gop-gives-roadmap-make-america-healthy-again-cites-healthcare-system-impact-national-defense in 0.61 seconds
-2025-01-23 15:03:12,696-INFO-Fetched https://www.foxnews.com/category/media/fox-news-flash in 0.64 seconds
-2025-01-23 15:03:15,196-INFO-Fetched https://www.foxnews.com/politics/trumps-day-one-actions-reversed-biden-era-health-policies-including-efforts-expand-obamacare in 0.50 seconds
-2025-01-23 15:03:17,483-INFO-Fetched https://www.foxnews.com/video/6367537856112 in 0.29 seconds
-2025-01-23 15:03:20,178-INFO-Fetched https://www.foxnews.com/media/trump-reflects-return-white-house-after-4-years-bidens-agenda-got-just-nick-time in 0.69 seconds
-2025-01-23 15:03:22,981-INFO-Fetched https://www.foxnews.com/category/media in 0.80 seconds
-2025-01-23 15:03:25,258-INFO-Fetched https://www.foxnews.com/video/6367534685112 in 0.28 seconds
-2025-01-23 15:03:27,534-INFO-Fetched https://www.foxnews.com/video/6367534677112 in 0.28 seconds
-2025-01-23 15:03:30,072-INFO-Fetched https://www.foxnews.com/politics/hitchhikers-guide-probable-weekend-session-confirm-trump-nominees in 0.54 seconds
-2025-01-23 15:03:32,547-INFO-Fetched https://www.foxnews.com/politics/congress-sends-laken-riley-act-trumps-desk-first-bill-gops-washington-takeover in 0.47 seconds
-2025-01-23 15:03:35,017-INFO-Fetched https://www.foxnews.com/politics/danish-lawmaker-addressing-eu-tells-trump-f-off-over-greenland-bid in 0.47 seconds
-2025-01-23 15:03:37,525-INFO-Fetched https://www.foxnews.com/politics/dem-who-called-trump-existential-threat-democracy-now-blocking-his-nominees in 0.51 seconds
-2025-01-23 15:03:40,001-INFO-Fetched https://www.foxnews.com/politics/marco-rubio-panama-first-trip-secretary-state-we-wont-continue-ignore-region in 0.48 seconds
-2025-01-23 15:03:42,503-INFO-Fetched https://www.foxnews.com/politics/hannity-reveals-what-he-told-trump-after-2020-election-loss-winston-churchill-return in 0.50 seconds
-2025-01-23 15:03:45,008-INFO-Fetched https://www.foxnews.com/politics/department-justice-puts-freeze-all-civil-rights-division-cases-report in 0.50 seconds
-2025-01-23 15:03:47,594-INFO-Fetched https://www.foxnews.com/politics/trump-nominates-head-personal-security-detail-sean-curran-lead-secret-service-great-patriot in 0.59 seconds
-2025-01-23 15:03:50,145-INFO-Fetched https://www.foxnews.com/media/cnns-jim-acosta-getting-hosed-network-mulls-moving-anti-trump-anchor-midnights-sources-say in 0.55 seconds
-2025-01-23 15:03:52,696-INFO-Fetched https://www.foxnews.com/entertainment/trump-inauguration-performer-gavin-degraw-salutes-businessman-running-largest-economy-world in 0.55 seconds
-2025-01-23 15:03:55,183-INFO-Fetched https://www.foxnews.com/politics/trump-re-designates-iranian-backed-houthis-as-terrorists-threatens-security-american-civilians in 0.49 seconds
-2025-01-23 15:03:57,735-INFO-Fetched https://www.foxnews.com/politics/bill-exclusive-banning-chinese-citizens-from-buying-u-s-land in 0.55 seconds
-2025-01-23 15:04:00,231-INFO-Fetched https://www.foxnews.com/opinion/david-marcus-trump-takes-office-forgotten-american-demands-heard in 0.50 seconds
-2025-01-23 15:04:02,739-INFO-Fetched https://www.foxnews.com/politics/fox-news-politics-newsletter-one-people-one-flag in 0.51 seconds
-2025-01-23 15:04:05,305-INFO-Fetched https://www.foxnews.com/politics/fox-news-politics-newsletter-trump-confidential in 0.56 seconds
-2025-01-23 15:04:07,829-INFO-Fetched https://www.foxnews.com/politics/fox-news-politics-newsletter-dawn-new-era in 0.52 seconds
-2025-01-23 15:04:10,130-INFO-Fetched https://www.foxnews.com/video/6367532224112 in 0.30 seconds
-2025-01-23 15:04:12,449-INFO-Fetched https://www.foxnews.com/video/6367530535112 in 0.32 seconds
-2025-01-23 15:04:14,843-INFO-Fetched https://www.foxnews.com/video/6367530025112 in 0.39 seconds
-2025-01-23 15:04:17,194-INFO-Fetched https://www.foxnews.com/video/6367530409112 in 0.35 seconds
-2025-01-23 15:04:19,766-INFO-Fetched https://www.foxnews.com/politics/why-zuckerberg-killed-fact-checking-he-keeps-cozying-up-trump in 0.57 seconds
-2025-01-23 15:04:22,314-INFO-Fetched https://www.foxnews.com/politics/messy-backstage-jockeying-trump-transition-could-shape-hill-strategy-four-years-jan-6 in 0.55 seconds
-2025-01-23 15:04:25,249-INFO-Fetched https://www.foxnews.com/story/where-in-the-world-is-fox in 0.93 seconds
-2025-01-23 15:04:29,155-ERROR-Error fetching https://www.iheart.com/podcast/256-the-fox-news-rundown-31090295/ in category lifestyle: Article `download()` failed with 404 Client Error: Not Found for url: https://www.iheart.com/podcast/1293-the-fox-news-rundown-70636043/ on URL https://www.iheart.com/podcast/256-the-fox-news-rundown-31090295/
-2025-01-23 15:04:30,587-INFO-Fetched https://news.sky.com/story/danger-to-life-amber-weather-warning-issued-for-parts-of-uk-as-storm-eowyn-approaches-13294196 in 1.43 seconds
-2025-01-23 15:04:33,435-INFO-Fetched https://news.sky.com/story/vladimir-putin-warned-after-royal-navy-tracks-spy-ship-that-entered-uk-waters-for-second-time-in-months-13294447 in 0.85 seconds
-2025-01-23 15:04:36,123-INFO-Fetched https://news.sky.com/story/money-blog-mortgage-personal-finance-consumer-inflation-andi-oliver-pound-blog-live-sky-news-13040934 in 0.69 seconds
-2025-01-23 15:04:39,101-INFO-Fetched https://news.sky.com/story/politics-latest-starmer-labour-reeves-heathrow-badenoch-12593360 in 0.98 seconds
-2025-01-23 15:04:41,741-INFO-Fetched https://news.sky.com/story/14-year-old-boy-arrested-after-12-year-old-dies-in-birmingham-stabbing-13294091 in 0.64 seconds
-2025-01-23 15:04:44,471-INFO-Fetched https://news.sky.com/story/manhunt-launched-in-plymouth-after-serious-assault-13294728 in 0.73 seconds
-2025-01-23 15:04:47,318-INFO-Fetched https://news.sky.com/story/watch-live-southport-attacker-pleads-guilty-to-murdering-three-children-at-taylor-swift-dance-class-13288242 in 0.85 seconds
-2025-01-23 15:04:50,670-INFO-Fetched https://news.sky.com/story/duke-of-sussex-settles-court-case-with-the-suns-publisher-13294182 in 1.35 seconds
-2025-01-23 15:04:53,569-INFO-Fetched https://news.sky.com/story/prince-harry-will-celebrate-his-settlement-but-its-unlikely-to-be-the-end-of-his-personal-crusade-13294499 in 0.90 seconds
-2025-01-23 15:04:56,404-INFO-Fetched https://news.sky.com/story/mondays-national-newspaper-front-pages-12427754 in 0.83 seconds
-2025-01-23 15:04:59,184-INFO-Fetched https://news.sky.com/video/everything-you-need-to-know-after-suspicions-about-southport-attack-cover-up-13293842 in 0.78 seconds
-2025-01-23 15:05:01,908-INFO-Fetched https://news.sky.com/story/family-of-southport-attacker-axel-rudakubana-moved-to-secret-location-by-police-for-their-protection-13293806 in 0.72 seconds
-2025-01-23 15:05:04,912-INFO-Fetched https://news.sky.com/story/after-suspicions-about-southport-attack-cover-up-no-wonder-the-public-is-confused-13293697 in 1.00 seconds
-2025-01-23 15:05:07,664-INFO-Fetched https://news.sky.com/story/i-hope-we-saved-lives-but-its-the-ifs-and-buts-says-man-who-confronted-southport-killer-axel-rudakubana-13293816 in 0.75 seconds
-2025-01-23 15:05:10,650-INFO-Fetched https://news.sky.com/story/online-conspiracy-theories-could-become-a-threat-to-starmers-government-13293809 in 0.98 seconds
-2025-01-23 15:05:13,730-INFO-Fetched https://news.sky.com/video/royal-navy-submarine-warns-russian-vessel-in-uk-waters-13294659 in 1.08 seconds
-2025-01-23 15:05:17,090-INFO-Fetched https://news.sky.com/video/prince-harrys-big-settlement-what-you-need-to-know-13294515 in 1.36 seconds
-2025-01-23 15:05:19,876-INFO-Fetched https://news.sky.com/video/knife-crime-can-age-verification-checks-really-make-a-difference-13294488 in 0.78 seconds
-2025-01-23 15:05:22,843-INFO-Fetched https://news.sky.com/video/rachel-reeves-risks-economic-doom-loop-ex-bank-of-england-chief-economist-warns-13294418 in 0.97 seconds
-2025-01-23 15:05:25,485-INFO-Fetched https://news.sky.com/video/murderer-of-john-hunt-family-kyle-clifford-guilty-after-changing-plea-13294255 in 0.64 seconds
-2025-01-23 15:05:28,547-INFO-Fetched https://news.sky.com/video/prince-harrys-monumental-victory-against-the-suns-publisher-13294327 in 1.06 seconds
-2025-01-23 15:05:31,743-INFO-Fetched https://news.sky.com/video/suns-apology-to-prince-harry-explained-13294246 in 1.19 seconds
-2025-01-23 15:05:34,857-INFO-Fetched https://news.sky.com/video/gmb-union-has-been-accused-of-being-institutionally-sexist-13293761 in 1.11 seconds
-2025-01-23 15:05:37,729-INFO-Fetched https://news.sky.com/video/corporate-war-of-sun-owners-says-lord-watson-13294278 in 0.87 seconds
-2025-01-23 15:05:40,903-INFO-Fetched https://news.sky.com/video/southport-inquiry-starmer-says-uk-faces-new-terrorism-threat-13293447 in 1.17 seconds
-2025-01-23 15:05:43,715-INFO-Fetched https://news.sky.com/story/what-have-prince-harry-and-ngn-said-about-their-settlement-and-what-happens-next-13294405 in 0.81 seconds
-2025-01-23 15:05:46,544-INFO-Fetched https://news.sky.com/story/what-are-the-uks-knife-crime-laws-and-how-could-they-be-tightened-13294201 in 0.83 seconds
-2025-01-23 15:05:49,597-INFO-Fetched https://news.sky.com/story/a-not-so-special-relationship-the-seven-key-challenges-faced-by-starmer-in-dealing-with-donald-trump-13292390 in 1.05 seconds
-2025-01-23 15:05:52,641-INFO-Fetched https://news.sky.com/story/ill-never-forget-the-screaming-how-the-people-of-southport-are-trying-to-make-sense-of-horror-13292954 in 1.04 seconds
-2025-01-23 15:05:55,620-INFO-Fetched https://news.sky.com/story/ricky-gervais-pays-tribute-to-after-life-dog-after-canine-co-stars-death-13294586 in 0.98 seconds
-2025-01-23 15:05:58,771-INFO-Fetched https://news.sky.com/story/kyle-clifford-pleads-guilty-to-murders-of-racing-commentators-wife-and-daughters-13294153 in 1.15 seconds
-2025-01-23 15:06:01,564-INFO-Fetched https://news.sky.com/story/sir-keir-starmer-vows-to-take-on-nimbys-and-halt-delays-for-major-building-projects-13294464 in 0.79 seconds
-2025-01-23 15:06:04,303-INFO-Fetched https://news.sky.com/story/significant-rise-in-children-being-admitted-to-acute-hospital-wards-for-mental-health-issues-says-study-13294410 in 0.74 seconds
-2025-01-23 15:06:08,349-INFO-Fetched https://news.sky.com/story/not-ill-at-all-young-people-getting-diagnosed-with-fashionable-adhd-peer-claims-13294551 in 2.04 seconds
-2025-01-23 15:06:11,096-INFO-Fetched https://news.sky.com/story/senedd-members-could-lose-their-seats-under-new-plans-13294365 in 0.75 seconds
-2025-01-23 15:06:13,964-INFO-Fetched https://news.sky.com/story/uk-not-to-be-a-target-of-donald-trumps-tariffs-chancellor-rachel-reeves-says-13294394 in 0.87 seconds
-2025-01-23 15:06:16,837-INFO-Fetched https://news.sky.com/story/judi-dench-says-she-can-no-longer-leave-home-alone-due-to-deteriorating-eyesight-13294518 in 0.87 seconds
-2025-01-23 15:06:20,274-INFO-Fetched https://news.sky.com/story/police-had-previous-contact-with-family-of-dad-and-daughter-found-dead-inside-west-calder-house-13294158 in 1.44 seconds
-2025-01-23 15:06:23,361-INFO-Fetched https://news.sky.com/story/man-jailed-after-downloading-3d-printing-gun-instructions-13294354 in 1.09 seconds
-2025-01-23 15:06:26,119-INFO-Fetched https://news.sky.com/story/klarna-gives-investors-sale-deadline-ahead-of-20bn-float-13294474 in 0.76 seconds
-2025-01-23 15:06:28,878-INFO-Fetched https://news.sky.com/story/pop-hit-makers-stock-aitken-and-waterman-get-blue-plaque-13294478 in 0.76 seconds
-2025-01-23 15:06:31,647-INFO-Fetched https://news.sky.com/story/staffordshire-residents-shocked-as-village-is-blocked-in-by-80ft-long-mound-of-dumped-rubbish-13293918 in 0.77 seconds
-2025-01-23 15:06:34,961-INFO-Fetched https://news.sky.com/story/two-14-year-old-boys-charged-with-raping-girl-in-new-forest-park-13294072 in 1.31 seconds
-2025-01-23 15:06:38,003-INFO-Fetched https://news.sky.com/story/emily-damari-what-we-know-british-israeli-hostage-set-to-be-released-today-13292158 in 1.04 seconds
-2025-01-23 15:06:40,933-INFO-Fetched https://news.sky.com/story/jeremy-corbyn-interviewed-by-police-after-pro-palestine-rally-sky-news-understands-13292434 in 0.93 seconds
-2025-01-23 15:06:43,675-INFO-Fetched https://news.sky.com/story/new-photo-of-sophie-duchess-of-edinburgh-shared-ahead-of-her-60th-birthday-13292164 in 0.74 seconds
-2025-01-23 15:06:47,428-INFO-Fetched https://news.sky.com/story/trump-has-everyone-at-the-world-economic-forum-in-davos-guessing-13293703 in 1.75 seconds
-2025-01-23 15:06:50,258-INFO-Fetched https://news.sky.com/story/politics-may-stand-in-the-way-of-economics-when-it-comes-to-airport-expansion-13293708 in 0.83 seconds
-2025-01-23 15:06:52,938-INFO-Fetched https://news.sky.com/story/elgin-bus-driver-killer-loses-appeal-against-four-year-sentence-13294197 in 0.68 seconds
-2025-01-23 15:06:55,698-INFO-Fetched https://news.sky.com/story/james-maris-perthshire-teenager-who-used-3d-printer-in-bid-to-build-gun-spared-jail-13293748 in 0.76 seconds
-2025-01-23 15:06:59,273-INFO-Fetched https://news.sky.com/story/six-year-old-girl-and-man-found-dead-inside-west-calder-house-as-police-scotland-launch-probe-13293583 in 1.57 seconds
-2025-01-23 15:07:01,970-INFO-Fetched https://news.sky.com/story/eryri-national-park-insists-second-homes-policy-not-discriminatory-to-english-people-13294185 in 0.70 seconds
-2025-01-23 15:07:04,801-INFO-Fetched https://news.sky.com/story/corridor-care-normalised-at-princess-of-wales-hospital-coroner-says-13293487 in 0.83 seconds
-2025-01-23 15:07:07,595-INFO-Fetched https://news.sky.com/story/queen-victoria-bust-disappears-from-llandudno-after-over-130-years-13293566 in 0.79 seconds
-2025-01-23 15:07:10,441-INFO-Fetched https://news.sky.com/story/plans-for-two-types-of-id-to-buy-knives-online-after-southport-attacker-bought-weapon-from-amazon-13294150 in 0.85 seconds
-2025-01-23 15:07:13,187-INFO-Fetched https://news.sky.com/story/storm-eowyn-strong-winds-threaten-uk-ahead-of-danger-to-life-alert-and-up-to-90mph-gusts-13294196 in 0.74 seconds
-2025-01-23 15:07:16,786-INFO-Fetched https://news.sky.com/story/money-blog-theres-a-reason-there-are-so-many-pizza-restaurants-tv-chef-andi-oliver-points-finger-on-hospitality-woes-13040934 in 1.60 seconds
-2025-01-23 15:07:19,643-INFO-Fetched https://news.sky.com/story/donald-trump-says-attacks-on-police-officers-in-january-6-riots-were-minor-incidents-13294683 in 0.86 seconds
-2025-01-23 15:07:22,345-INFO-Fetched https://news.sky.com/story/thursdays-national-newspaper-front-pages-12427754 in 0.70 seconds
-2025-01-23 15:07:25,848-INFO-Fetched https://news.sky.com/story/trump-latest-i-dont-care-president-dismisses-question-on-economy-as-he-says-tiktok-will-stay-around-13209921 in 1.50 seconds
-2025-01-23 15:07:28,775-INFO-Fetched https://news.sky.com/story/politics-latest-growth-a-priority-over-net-zero-minister-suggests-12593360 in 0.93 seconds
-2025-01-23 15:07:31,601-INFO-Fetched https://news.sky.com/story/royal-navy-attack-submarine-warned-off-russian-spy-ship-from-uk-waters-13294447 in 0.83 seconds
-2025-01-23 15:07:34,552-INFO-Fetched https://news.sky.com/story/observations-from-the-first-days-of-trump-2-0-accessible-a-slippery-relationship-with-the-truth-and-shades-of-a-president-13294067 in 0.95 seconds
-2025-01-23 15:07:37,210-INFO-Fetched https://news.sky.com/story/mariann-edgar-budde-who-is-the-bishop-donald-trump-called-nasty-13294222 in 0.66 seconds
-2025-01-23 15:07:39,952-INFO-Fetched https://news.sky.com/story/real-madrid-become-first-club-to-earn-one-billion-euros-after-new-sponsor-and-winning-champions-league-13294694 in 0.74 seconds
-2025-01-23 15:07:42,853-INFO-Fetched https://news.sky.com/story/tariffs-have-a-long-history-in-the-us-two-charts-tell-that-story-13294364 in 0.90 seconds
-2025-01-23 15:07:45,509-INFO-Fetched https://news.sky.com/story/rachel-reeves-risks-economic-doom-loop-if-spending-cuts-continue-ex-bank-of-england-chief-economist-warns-13294316 in 0.66 seconds
-2025-01-23 15:07:48,175-INFO-Fetched https://news.sky.com/story/borrowing-hits-a-four-year-high-for-december-13294096 in 0.66 seconds
-2025-01-23 15:07:51,040-INFO-Fetched https://news.sky.com/story/ftse-100-software-group-sage-braced-for-row-over-recruitment-awards-13294288 in 0.86 seconds
-2025-01-23 15:07:53,749-INFO-Fetched https://news.sky.com/story/donald-trump-tries-to-negotiate-tiktok-sale-on-live-tv-as-he-defends-capitol-riot-pardons-13294050 in 0.71 seconds
-2025-01-23 15:07:57,229-INFO-Fetched https://news.sky.com/story/money-problem-tui-sorry-and-refunds-reader-196-over-baggage-fee-heres-what-to-do-if-it-happens-to-you-13288694 in 1.48 seconds
-2025-01-23 15:07:59,834-INFO-Fetched https://news.sky.com/story/money-problem-im-being-harassed-about-a-private-parking-fine-from-five-years-ago-do-i-need-to-pay-13284895 in 0.60 seconds
-2025-01-23 15:08:02,593-INFO-Fetched https://news.sky.com/story/money-problem-i-was-overpaid-560-can-i-keep-the-money-13274910 in 0.76 seconds
-2025-01-23 15:08:05,488-INFO-Fetched https://news.sky.com/story/i-owe-5k-on-my-student-loan-should-i-pay-it-back-early-13270585 in 0.89 seconds
-2025-01-23 15:08:08,443-INFO-Fetched https://news.sky.com/story/my-flight-was-cancelled-and-we-lost-our-hire-car-now-they-wont-refund-me-13256688 in 0.95 seconds
-2025-01-23 15:08:11,364-INFO-Fetched https://news.sky.com/story/money-problem-a-dry-cleaners-ruined-my-sofa-and-wont-replace-it-what-are-my-rights-13252832 in 0.92 seconds
-2025-01-23 15:08:14,259-INFO-Fetched https://news.sky.com/story/cost-of-living-crisis-set-to-intensify-again-as-bills-mount-13288814 in 0.89 seconds
-2025-01-23 15:08:17,698-INFO-Fetched https://news.sky.com/story/blue-origin-launch-is-jeff-bezos-chasing-down-elon-musk-in-the-billionaire-space-race-13287869 in 1.44 seconds
-2025-01-23 15:08:20,682-INFO-Fetched https://news.sky.com/story/whats-going-on-in-the-markets-and-should-we-be-worried-13286094 in 0.98 seconds
-2025-01-23 15:08:23,292-INFO-Fetched https://news.sky.com/story/i-only-have-two-bills-and-get-a-pension-after-12-years-soldier-reveals-financial-benefits-of-army-13292968 in 0.61 seconds
-2025-01-23 15:08:26,757-INFO-Fetched https://www.espn.in/football/story/_/id/43528566/uefa-champions-league-stats-robert-lewandowski-ties-cristiano-ronaldo-record-19-vinicius-jr-100-mohamed-salah-50 in 1.46 seconds
-2025-01-23 15:08:30,023-INFO-Fetched https://www.espn.in/football/story/_/id/43524453/pep-guardiola-man-city-one-last-chance-avoid-ucl-exit in 1.27 seconds
-2025-01-23 15:08:33,525-INFO-Fetched https://www.espn.in/football/story/_/id/43524634/vinicius-eyes-ronaldo-brazilan-record-madrid-100th-goal in 1.50 seconds
-2025-01-23 15:08:36,149-INFO-Fetched https://www.espn.in/football/story/_/id/43525322/arsenal-declan-rice-thumbs-new-champions-league in 0.62 seconds
-2025-01-23 15:08:39,404-INFO-Fetched https://www.espn.in/football/story/_/id/43519295/amorim-regrets-saying-team-was-worst-man-united-history in 1.25 seconds
-2025-01-23 15:08:42,677-INFO-Fetched https://www.espn.in/football/story/_/id/43521629/norway-top-flight-clubs-vote-scrap-var-amid-fan-outrage in 1.27 seconds
-2025-01-23 15:08:45,917-INFO-Fetched https://www.espn.in/football/story/_/id/43518134/barcelona-talks-marcus-rashford-reps-move-sources in 1.24 seconds
-2025-01-23 15:08:49,151-INFO-Fetched https://www.espn.in/football/story/_/id/43516587/real-madrid-post-record-revenue-1-billion-deloitte in 1.23 seconds
-2025-01-23 15:08:52,415-INFO-Fetched https://www.espn.in/football/story/_/id/43524477/psg-second-half-surge-shows-man-city-need-haaland in 1.26 seconds
-2025-01-23 15:08:55,892-INFO-Fetched https://www.espn.in/football/story/_/id/43479880/manchester-city-super-club-decline-liverpool-kenny-dalglish-man-united-sir-alex-ferguson in 1.48 seconds
-2025-01-23 15:08:59,311-INFO-Fetched https://www.espn.in/football/story/_/id/43439604/how-teams-qualify-champions-league-knockout-rounds in 1.42 seconds
-2025-01-23 15:09:02,482-INFO-Fetched https://www.espn.in/football/story/_/id/43524522/is-rodrygo-most-underrated-player-champions-league in 1.17 seconds
-2025-01-23 15:09:05,682-INFO-Fetched https://www.espn.in/football/story/_/id/43506035/isl-score-2024-25-indian-super-league-football-report-results-summary-schedule-matchweek-18 in 1.20 seconds
-2025-01-23 15:09:08,909-INFO-Fetched https://www.espn.in/football/story/_/id/43489509/isl-musings-2024-25-indian-super-league-jamshedpur-kerala-blasters-bengaluru-fc in 1.23 seconds
-2025-01-23 15:09:10,910-INFO-Finished fetching articles.
-2025-01-23 15:09:10,944-INFO-articles saved to cached file:  cached_articles.json
-2025-01-23 15:09:13,680-INFO-inserted artcicle from cnn in category world:https://edition.cnn.com/business/media
-2025-01-23 15:09:13,797-INFO-inserted artcicle from cnn in category world:https://edition.cnn.com/travel/news
-2025-01-23 15:09:13,934-INFO-inserted artcicle from cnn in category world:https://edition.cnn.com/audio/podcasts/all-there-is-with-anderson-cooper
-2025-01-23 15:09:14,082-INFO-inserted artcicle from cnn in category world:https://edition.cnn.com/2025/01/22/asia/same-sex-couples-marriage-equality-thailand-intl-hnk/index.html
-2025-01-23 15:09:14,204-INFO-inserted artcicle from cnn in category world:https://edition.cnn.com/2025/01/23/australia/great-barrier-reef-coral-bleaching-catastrophe-climate-intl-hnk/index.html
-2025-01-23 15:09:14,333-INFO-inserted artcicle from cnn in category world:https://edition.cnn.com/2025/01/22/asia/jalgaon-india-train-accident-deaths-intl-hnk/index.html
-2025-01-23 15:09:14,453-INFO-inserted artcicle from cnn in category world:https://edition.cnn.com/2025/01/22/china/china-navy-new-generation-frigate-intl-hnk/index.html
-2025-01-23 15:09:14,586-INFO-inserted artcicle from cnn in category world:https://edition.cnn.com/2025/01/22/china/xi-putin-call-trump-intl-hnk/index.html
-2025-01-23 15:09:14,721-INFO-inserted artcicle from cnn in category world:https://edition.cnn.com/2025/01/22/europe/knife-attack-german-park-intl/index.html
-2025-01-23 15:09:14,849-INFO-inserted artcicle from cnn in category politics:https://edition.cnn.com/2025/01/22/asia/thailand-uyghur-deportation-china-intl-hnk/index.html
-2025-01-23 15:09:14,979-INFO-inserted artcicle from cnn in category politics:https://edition.cnn.com/2025/01/22/americas/juarez-migrants-mexico-us-border-cbp-app-intl-hnk/index.html
-2025-01-23 15:09:15,103-INFO-inserted artcicle from cnn in category politics:https://edition.cnn.com/2025/01/21/europe/analysis-trump-putin-ukraine-intl-latam/index.html
-2025-01-23 15:09:15,228-INFO-inserted artcicle from cnn in category politics:https://edition.cnn.com/2025/01/21/asia/south-korea-president-impeachment-hearing-intl-hnk/index.html
-2025-01-23 15:09:15,347-INFO-inserted artcicle from cnn in category politics:https://edition.cnn.com/2025/01/21/india/india-bollywood-saif-ali-khan-leaves-hospital-intl-hnk/index.html
-2025-01-23 15:09:15,468-INFO-inserted artcicle from cnn in category politics:https://edition.cnn.com/2025/01/21/middleeast/iraq-child-marriage-lawmakers-criticize-bill-intl-hnk/index.html
-2025-01-23 15:09:15,596-INFO-inserted artcicle from cnn in category politics:https://edition.cnn.com/2025/01/21/middleeast/israel-west-bank-operation-intl/index.html
-2025-01-23 15:09:15,742-INFO-inserted artcicle from cnn in category politics:https://www.cnn.com/interactive/2024/01/middleeast/gaza-hospitals-destruction-investigation-intl-cmd/
-2025-01-23 15:09:15,857-INFO-inserted artcicle from cnn in category politics:https://www.cnn.com/interactive/2023/11/world/climate-gender-inequality-cnnphotos-as-equals-intl-cmd/
-2025-01-23 15:09:15,981-INFO-inserted artcicle from cnn in category politics:https://edition.cnn.com/2025/01/22/world/video/us-mexico-border-floating-barrier-texas-digvid
-2025-01-23 15:09:16,098-INFO-inserted artcicle from cnn in category business:https://edition.cnn.com/2025/01/22/world/video/danish-official-responds-donald-trump-greenland-purchase-digvid
-2025-01-23 15:09:16,215-INFO-inserted artcicle from cnn in category business:https://edition.cnn.com/2025/01/22/world/video/elephant-beehive-fences-tanzania-inside-africa-digvid-spc
-2025-01-23 15:09:16,331-INFO-inserted artcicle from cnn in category business:https://edition.cnn.com/2025/01/21/world/video/the-lead-ruby-hagit-chen-hostage-deal-israel-hamas-president-trump-jake-tapper
-2025-01-23 15:09:16,460-INFO-inserted artcicle from cnn in category business:https://edition.cnn.com/2025/01/21/europe/turkey-kartalkaya-hotel-fire-bolu-intl-hnk/index.html
-2025-01-23 15:09:16,579-INFO-inserted artcicle from cnn in category business:https://edition.cnn.com/2025/01/22/europe/greece-statue-find-scli-intl/index.html
-2025-01-23 15:09:16,698-INFO-inserted artcicle from cnn in category business:https://edition.cnn.com/2025/01/21/europe/aphrodisiac-honey-warning-scli-intl/index.html
-2025-01-23 15:09:16,820-INFO-inserted artcicle from cnn in category business:https://edition.cnn.com/2025/01/20/uk/southport-knife-attack-guilty-plea-intl/index.html
-2025-01-23 15:09:16,942-INFO-inserted artcicle from cnn in category business:https://edition.cnn.com/2025/01/20/europe/serbia-retirement-home-fire-intl/index.html
-2025-01-23 15:09:17,068-INFO-inserted artcicle from cnn in category health:https://edition.cnn.com/2025/01/19/europe/ukraine-russia-president-elect-trump-flattery-intl/index.html
-2025-01-23 15:09:17,188-INFO-inserted artcicle from cnn in category health:https://edition.cnn.com/2025/01/22/middleeast/yemen-houthi-galaxy-leader-crew-free-intl-latam/index.html
-2025-01-23 15:09:17,319-INFO-inserted artcicle from cnn in category health:https://edition.cnn.com/2025/01/22/middleeast/israel-west-bank-gaza-war-katz-intl/index.html
-2025-01-23 15:09:17,445-INFO-inserted artcicle from cnn in category health:https://edition.cnn.com/2025/01/22/middleeast/gaza-war-ceasefire-snapshot-dg-intl/index.html
-2025-01-23 15:09:17,602-INFO-inserted artcicle from cnn in category health:https://edition.cnn.com/2025/01/19/middleeast/analysis-hamas-hostage-release-israel-intl-latam/index.html
-2025-01-23 15:09:17,741-INFO-inserted artcicle from cnn in category health:https://edition.cnn.com/2025/01/21/middleeast/israeli-military-chief-of-staff-resigns-intl/index.html
-2025-01-23 15:09:17,876-INFO-inserted artcicle from cnn in category health:https://edition.cnn.com/2025/01/20/middleeast/hamas-video-hostages-gift-bags-intl/index.html
-2025-01-23 15:09:17,991-INFO-inserted artcicle from cnn in category health:https://edition.cnn.com/2025/01/13/world/gallery/people-we-lost-2025/index.html
-2025-01-23 15:09:18,116-INFO-inserted artcicle from cnn in category health:https://edition.cnn.com/2025/01/16/world/gallery/photos-this-week-january-9-january-16/index.html
-2025-01-23 15:09:18,244-INFO-inserted artcicle from cnn in category health:https://edition.cnn.com/2025/01/09/world/gallery/photos-this-week-january-2-january-9/index.html
-2025-01-23 15:09:18,365-INFO-inserted artcicle from cnn in category entertainment:https://edition.cnn.com/2025/01/02/world/gallery/photos-this-week-december-26-january-2/index.html
-2025-01-23 15:09:18,501-INFO-inserted artcicle from cnn in category entertainment:https://edition.cnn.com/world/africa/tanzania-soma-bags-reading-light-spc/index.html
-2025-01-23 15:09:18,632-INFO-inserted artcicle from cnn in category entertainment:https://edition.cnn.com/2025/01/19/africa/gasoline-tanker-truck-blast-hnk-intl/index.html
-2025-01-23 15:09:18,791-INFO-inserted artcicle from cnn in category entertainment:https://edition.cnn.com/2025/01/18/africa/russia-expanding-influence-in-africa-intl-cmd/index.html
-2025-01-23 15:09:18,918-INFO-inserted artcicle from cnn in category entertainment:https://edition.cnn.com/2025/01/15/africa/south-africa-horrific-clampdown-of-miners-intl/index.html
-2025-01-23 15:09:19,087-INFO-inserted artcicle from cnn in category entertainment:https://edition.cnn.com/2025/01/22/americas/colombia-displaced-deadly-rebel-clashes-intl-latam/index.html
-2025-01-23 15:09:19,245-INFO-inserted artcicle from cnn in category entertainment:https://edition.cnn.com/2025/01/21/americas/pope-dissolves-peruvian-catholic-group-intl-latam/index.html
-2025-01-23 15:09:19,380-INFO-inserted artcicle from cnn in category entertainment:https://edition.cnn.com/2025/01/21/americas/canada-trudeau-trump-tariffs-latam-intl/index.html
-2025-01-23 15:09:19,517-INFO-inserted artcicle from cnn in category entertainment:https://edition.cnn.com/2025/01/20/americas/panama-canal-trump-threat-intervention-intl-latam/index.html
-2025-01-23 15:09:19,635-INFO-inserted artcicle from cnn in category entertainment:https://edition.cnn.com/2025/01/20/asia/taiwan-earthquake-injuries-intl-hnk/index.html
-2025-01-23 15:09:19,765-INFO-inserted artcicle from cnn in category sports:https://edition.cnn.com/2025/01/20/asia/japanese-aquarium-lonely-sunfish-intl-scli/index.html
-2025-01-23 15:09:19,890-INFO-inserted artcicle from cnn in category sports:https://edition.cnn.com/2025/01/19/asia/afghanistan-taliban-deputy-education-ban-intl-hnk/index.html
-2025-01-23 15:09:20,014-INFO-inserted artcicle from cnn in category sports:https://edition.cnn.com/2025/01/18/asia/south-korea-court-extends-yoon-detention-intl-latam/index.html
-2025-01-23 15:09:20,136-INFO-inserted artcicle from cnn in category sports:https://edition.cnn.com/travel/nepal-increases-mount-everest-climbing-fee-2025-intl-hnk/index.html
-2025-01-23 15:09:20,286-INFO-inserted artcicle from cnn in category sports:https://edition.cnn.com/2025/01/22/travel/the-city-where-modern-america-was-born/index.html
-2025-01-23 15:09:20,413-INFO-inserted artcicle from cnn in category sports:https://edition.cnn.com/travel/united-nations-tourism-data-2024-intl-hnk/index.html
-2025-01-23 15:09:20,534-INFO-inserted artcicle from cnn in category sports:https://edition.cnn.com/2025/01/22/travel/mittens-cat-australia-new-zealand-intl-hnk/index.html
-2025-01-23 15:09:20,674-INFO-inserted artcicle from cnn in category sports:https://edition.cnn.com/2025/01/22/style/milan-mens-fashion-week-looks-aw2025/index.html
-2025-01-23 15:09:20,808-INFO-inserted artcicle from cnn in category sports:https://edition.cnn.com/2025/01/22/style/italy-thinking-like-an-island-alicudi/index.html
-2025-01-23 15:09:20,939-INFO-inserted artcicle from cnn in category sports:https://edition.cnn.com/style/ilona-maher-interview-body-positive-rugby-spc/index.html
-2025-01-23 15:09:21,076-INFO-inserted artcicle from cnn in category us:https://edition.cnn.com/2025/01/20/style/inauguration-fashion-looks-melania-trump/index.html
-2025-01-23 15:09:21,209-INFO-inserted artcicle from cnn in category us:https://edition.cnn.com/2025/01/19/style/hidden-symbolism-first-ladies-inaugural-fashion/index.html
-2025-01-23 15:09:21,341-INFO-inserted artcicle from cnn in category us:https://edition.cnn.com/2025/01/22/weather/winter-storm-south-wednesday-hnk/index.html
-2025-01-23 15:09:21,483-INFO-inserted artcicle from cnn in category us:https://edition.cnn.com/2025/01/21/weather/winter-storm-south-tuesday-hnk/index.html
-2025-01-23 15:09:21,621-INFO-inserted artcicle from cnn in category us:https://edition.cnn.com/2025/01/20/weather/wind-chills-threaten-us-record-snowfall-hnk/index.html
-2025-01-23 15:09:21,757-INFO-inserted artcicle from cnn in category us:https://edition.cnn.com/2025/01/19/weather/weather-cold-winter-temperature-freezing/index.html
-2025-01-23 15:09:21,874-INFO-inserted artcicle from cnn in category us:https://edition.cnn.com/2025/01/21/world/video/us-mexico-border-migrant-voices-cbp-app-shutdown-digvid
-2025-01-23 15:09:21,992-INFO-inserted artcicle from cnn in category us:https://edition.cnn.com/2025/01/21/world/video/marketplace-africa-wakanow-profit-point-spc
-2025-01-23 15:09:22,111-INFO-inserted artcicle from cnn in category us:https://edition.cnn.com/2025/01/21/world/video/marketplace-africa-nigeria-leather-industry-luxury-goods-spc
-2025-01-23 15:09:22,242-INFO-inserted artcicle from cnn in category us:https://edition.cnn.com/2025/01/21/world/world-health-organization-trump-withdraw-explainer-intl/index.html
-2025-01-23 15:09:22,242-INFO-Articles from cnn inserted into database portal_news
-2025-01-23 15:09:22,364-INFO-inserted artcicle from fox news in category politics:https://www.foxnews.com/video/5614615980001
-2025-01-23 15:09:22,487-INFO-inserted artcicle from fox news in category politics:https://www.foxnews.com/media/trump-envoy-says-gaza-ceasefire-could-pave-way-mideast-normalization-deal-inflection-point
-2025-01-23 15:09:22,611-INFO-inserted artcicle from fox news in category politics:https://www.foxnews.com/video/shows
-2025-01-23 15:09:22,732-INFO-inserted artcicle from fox news in category politics:https://www.foxnews.com/video/topics/v-most-recent-episodes
-2025-01-23 15:09:22,849-INFO-inserted artcicle from fox news in category politics:https://www.foxnews.com/video/topics/latest-news-video
-2025-01-23 15:09:22,977-INFO-inserted artcicle from fox news in category politics:https://www.foxnews.com/story/foxnews-com-rss-feeds
-2025-01-23 15:09:23,112-INFO-inserted artcicle from fox news in category politics:https://www.foxnews.com/politics/tip-of-spear-trump-ramps-up-unscripted-media-blitz-after-years-reclusive-biden-ducking-questions
-2025-01-23 15:09:23,246-INFO-inserted artcicle from fox news in category politics:https://www.foxnews.com/politics/state-department-blocks-pride-blm-flags-from-embassies-outposts-one-flag-policy
-2025-01-23 15:09:23,390-INFO-inserted artcicle from fox news in category politics:https://www.foxnews.com/politics/house-gop-gives-roadmap-make-america-healthy-again-cites-healthcare-system-impact-national-defense
-2025-01-23 15:09:23,517-INFO-inserted artcicle from fox news in category politics:https://www.foxnews.com/category/media/fox-news-flash
-2025-01-23 15:09:23,671-INFO-inserted artcicle from fox news in category sports:https://www.foxnews.com/politics/trumps-day-one-actions-reversed-biden-era-health-policies-including-efforts-expand-obamacare
-2025-01-23 15:09:24,039-INFO-inserted artcicle from fox news in category sports:https://www.foxnews.com/video/6367537856112
-2025-01-23 15:09:24,300-INFO-inserted artcicle from fox news in category sports:https://www.foxnews.com/media/trump-reflects-return-white-house-after-4-years-bidens-agenda-got-just-nick-time
-2025-01-23 15:09:24,462-INFO-inserted artcicle from fox news in category sports:https://www.foxnews.com/category/media
-2025-01-23 15:09:24,586-INFO-inserted artcicle from fox news in category sports:https://www.foxnews.com/video/6367534685112
-2025-01-23 15:09:24,745-INFO-inserted artcicle from fox news in category sports:https://www.foxnews.com/video/6367534677112
-2025-01-23 15:09:24,913-INFO-inserted artcicle from fox news in category sports:https://www.foxnews.com/politics/hitchhikers-guide-probable-weekend-session-confirm-trump-nominees
-2025-01-23 15:09:25,036-INFO-inserted artcicle from fox news in category sports:https://www.foxnews.com/politics/congress-sends-laken-riley-act-trumps-desk-first-bill-gops-washington-takeover
-2025-01-23 15:09:25,179-INFO-inserted artcicle from fox news in category sports:https://www.foxnews.com/politics/danish-lawmaker-addressing-eu-tells-trump-f-off-over-greenland-bid
-2025-01-23 15:09:25,340-INFO-inserted artcicle from fox news in category sports:https://www.foxnews.com/politics/dem-who-called-trump-existential-threat-democracy-now-blocking-his-nominees
-2025-01-23 15:09:25,492-INFO-inserted artcicle from fox news in category entertainment:https://www.foxnews.com/politics/marco-rubio-panama-first-trip-secretary-state-we-wont-continue-ignore-region
-2025-01-23 15:09:25,667-INFO-inserted artcicle from fox news in category entertainment:https://www.foxnews.com/politics/hannity-reveals-what-he-told-trump-after-2020-election-loss-winston-churchill-return
-2025-01-23 15:09:25,801-INFO-inserted artcicle from fox news in category entertainment:https://www.foxnews.com/politics/department-justice-puts-freeze-all-civil-rights-division-cases-report
-2025-01-23 15:09:25,929-INFO-inserted artcicle from fox news in category entertainment:https://www.foxnews.com/politics/trump-nominates-head-personal-security-detail-sean-curran-lead-secret-service-great-patriot
-2025-01-23 15:09:26,061-INFO-inserted artcicle from fox news in category entertainment:https://www.foxnews.com/media/cnns-jim-acosta-getting-hosed-network-mulls-moving-anti-trump-anchor-midnights-sources-say
-2025-01-23 15:09:26,182-INFO-inserted artcicle from fox news in category entertainment:https://www.foxnews.com/entertainment/trump-inauguration-performer-gavin-degraw-salutes-businessman-running-largest-economy-world
-2025-01-23 15:09:26,306-INFO-inserted artcicle from fox news in category entertainment:https://www.foxnews.com/politics/trump-re-designates-iranian-backed-houthis-as-terrorists-threatens-security-american-civilians
-2025-01-23 15:09:26,430-INFO-inserted artcicle from fox news in category entertainment:https://www.foxnews.com/politics/bill-exclusive-banning-chinese-citizens-from-buying-u-s-land
-2025-01-23 15:09:26,558-INFO-inserted artcicle from fox news in category entertainment:https://www.foxnews.com/opinion/david-marcus-trump-takes-office-forgotten-american-demands-heard
-2025-01-23 15:09:26,687-INFO-inserted artcicle from fox news in category entertainment:https://www.foxnews.com/politics/fox-news-politics-newsletter-one-people-one-flag
-2025-01-23 15:09:26,818-INFO-inserted artcicle from fox news in category lifestyle:https://www.foxnews.com/politics/fox-news-politics-newsletter-trump-confidential
-2025-01-23 15:09:26,948-INFO-inserted artcicle from fox news in category lifestyle:https://www.foxnews.com/politics/fox-news-politics-newsletter-dawn-new-era
-2025-01-23 15:09:27,066-INFO-inserted artcicle from fox news in category lifestyle:https://www.foxnews.com/video/6367532224112
-2025-01-23 15:09:27,183-INFO-inserted artcicle from fox news in category lifestyle:https://www.foxnews.com/video/6367530535112
-2025-01-23 15:09:27,301-INFO-inserted artcicle from fox news in category lifestyle:https://www.foxnews.com/video/6367530025112
-2025-01-23 15:09:27,419-INFO-inserted artcicle from fox news in category lifestyle:https://www.foxnews.com/video/6367530409112
-2025-01-23 15:09:27,551-INFO-inserted artcicle from fox news in category lifestyle:https://www.foxnews.com/politics/why-zuckerberg-killed-fact-checking-he-keeps-cozying-up-trump
-2025-01-23 15:09:27,696-INFO-inserted artcicle from fox news in category lifestyle:https://www.foxnews.com/politics/messy-backstage-jockeying-trump-transition-could-shape-hill-strategy-four-years-jan-6
-2025-01-23 15:09:27,829-INFO-inserted artcicle from fox news in category lifestyle:https://www.foxnews.com/story/where-in-the-world-is-fox
-2025-01-23 15:09:27,831-INFO-Articles from fox news inserted into database portal_news
-2025-01-23 15:09:27,954-INFO-inserted artcicle from Sky News in category uk:https://news.sky.com/story/danger-to-life-amber-weather-warning-issued-for-parts-of-uk-as-storm-eowyn-approaches-13294196
-2025-01-23 15:09:28,086-INFO-inserted artcicle from Sky News in category uk:https://news.sky.com/story/vladimir-putin-warned-after-royal-navy-tracks-spy-ship-that-entered-uk-waters-for-second-time-in-months-13294447
-2025-01-23 15:09:28,215-INFO-inserted artcicle from Sky News in category uk:https://news.sky.com/story/money-blog-mortgage-personal-finance-consumer-inflation-andi-oliver-pound-blog-live-sky-news-13040934
-2025-01-23 15:09:28,335-INFO-inserted artcicle from Sky News in category uk:https://news.sky.com/story/politics-latest-starmer-labour-reeves-heathrow-badenoch-12593360
-2025-01-23 15:09:28,458-INFO-inserted artcicle from Sky News in category uk:https://news.sky.com/story/14-year-old-boy-arrested-after-12-year-old-dies-in-birmingham-stabbing-13294091
-2025-01-23 15:09:28,577-INFO-inserted artcicle from Sky News in category uk:https://news.sky.com/story/manhunt-launched-in-plymouth-after-serious-assault-13294728
-2025-01-23 15:09:28,702-INFO-inserted artcicle from Sky News in category uk:https://news.sky.com/story/watch-live-southport-attacker-pleads-guilty-to-murdering-three-children-at-taylor-swift-dance-class-13288242
-2025-01-23 15:09:28,832-INFO-inserted artcicle from Sky News in category uk:https://news.sky.com/story/duke-of-sussex-settles-court-case-with-the-suns-publisher-13294182
-2025-01-23 15:09:28,968-INFO-inserted artcicle from Sky News in category uk:https://news.sky.com/story/prince-harry-will-celebrate-his-settlement-but-its-unlikely-to-be-the-end-of-his-personal-crusade-13294499
-2025-01-23 15:09:29,087-INFO-inserted artcicle from Sky News in category uk:https://news.sky.com/story/mondays-national-newspaper-front-pages-12427754
-2025-01-23 15:09:29,204-INFO-inserted artcicle from Sky News in category politics:https://news.sky.com/video/everything-you-need-to-know-after-suspicions-about-southport-attack-cover-up-13293842
-2025-01-23 15:09:29,341-INFO-inserted artcicle from Sky News in category politics:https://news.sky.com/story/family-of-southport-attacker-axel-rudakubana-moved-to-secret-location-by-police-for-their-protection-13293806
-2025-01-23 15:09:29,470-INFO-inserted artcicle from Sky News in category politics:https://news.sky.com/story/after-suspicions-about-southport-attack-cover-up-no-wonder-the-public-is-confused-13293697
-2025-01-23 15:09:29,625-INFO-inserted artcicle from Sky News in category politics:https://news.sky.com/story/i-hope-we-saved-lives-but-its-the-ifs-and-buts-says-man-who-confronted-southport-killer-axel-rudakubana-13293816
-2025-01-23 15:09:29,750-INFO-inserted artcicle from Sky News in category politics:https://news.sky.com/story/online-conspiracy-theories-could-become-a-threat-to-starmers-government-13293809
-2025-01-23 15:09:29,869-INFO-inserted artcicle from Sky News in category politics:https://news.sky.com/video/royal-navy-submarine-warns-russian-vessel-in-uk-waters-13294659
-2025-01-23 15:09:29,986-INFO-inserted artcicle from Sky News in category politics:https://news.sky.com/video/prince-harrys-big-settlement-what-you-need-to-know-13294515
-2025-01-23 15:09:30,107-INFO-inserted artcicle from Sky News in category politics:https://news.sky.com/video/knife-crime-can-age-verification-checks-really-make-a-difference-13294488
-2025-01-23 15:09:30,230-INFO-inserted artcicle from Sky News in category politics:https://news.sky.com/video/rachel-reeves-risks-economic-doom-loop-ex-bank-of-england-chief-economist-warns-13294418
-2025-01-23 15:09:30,377-INFO-inserted artcicle from Sky News in category politics:https://news.sky.com/video/murderer-of-john-hunt-family-kyle-clifford-guilty-after-changing-plea-13294255
-2025-01-23 15:09:30,514-INFO-inserted artcicle from Sky News in category world:https://news.sky.com/video/prince-harrys-monumental-victory-against-the-suns-publisher-13294327
-2025-01-23 15:09:30,645-INFO-inserted artcicle from Sky News in category world:https://news.sky.com/video/suns-apology-to-prince-harry-explained-13294246
-2025-01-23 15:09:30,762-INFO-inserted artcicle from Sky News in category world:https://news.sky.com/video/gmb-union-has-been-accused-of-being-institutionally-sexist-13293761
-2025-01-23 15:09:30,878-INFO-inserted artcicle from Sky News in category world:https://news.sky.com/video/corporate-war-of-sun-owners-says-lord-watson-13294278
-2025-01-23 15:09:30,996-INFO-inserted artcicle from Sky News in category world:https://news.sky.com/video/southport-inquiry-starmer-says-uk-faces-new-terrorism-threat-13293447
-2025-01-23 15:09:31,125-INFO-inserted artcicle from Sky News in category world:https://news.sky.com/story/what-have-prince-harry-and-ngn-said-about-their-settlement-and-what-happens-next-13294405
-2025-01-23 15:09:31,247-INFO-inserted artcicle from Sky News in category world:https://news.sky.com/story/what-are-the-uks-knife-crime-laws-and-how-could-they-be-tightened-13294201
-2025-01-23 15:09:31,389-INFO-inserted artcicle from Sky News in category world:https://news.sky.com/story/a-not-so-special-relationship-the-seven-key-challenges-faced-by-starmer-in-dealing-with-donald-trump-13292390
-2025-01-23 15:09:31,518-INFO-inserted artcicle from Sky News in category world:https://news.sky.com/story/ill-never-forget-the-screaming-how-the-people-of-southport-are-trying-to-make-sense-of-horror-13292954
-2025-01-23 15:09:31,651-INFO-inserted artcicle from Sky News in category world:https://news.sky.com/story/ricky-gervais-pays-tribute-to-after-life-dog-after-canine-co-stars-death-13294586
-2025-01-23 15:09:31,773-INFO-inserted artcicle from Sky News in category us:https://news.sky.com/story/kyle-clifford-pleads-guilty-to-murders-of-racing-commentators-wife-and-daughters-13294153
-2025-01-23 15:09:31,914-INFO-inserted artcicle from Sky News in category us:https://news.sky.com/story/sir-keir-starmer-vows-to-take-on-nimbys-and-halt-delays-for-major-building-projects-13294464
-2025-01-23 15:09:32,034-INFO-inserted artcicle from Sky News in category us:https://news.sky.com/story/significant-rise-in-children-being-admitted-to-acute-hospital-wards-for-mental-health-issues-says-study-13294410
-2025-01-23 15:09:32,154-INFO-inserted artcicle from Sky News in category us:https://news.sky.com/story/not-ill-at-all-young-people-getting-diagnosed-with-fashionable-adhd-peer-claims-13294551
-2025-01-23 15:09:32,272-INFO-inserted artcicle from Sky News in category us:https://news.sky.com/story/senedd-members-could-lose-their-seats-under-new-plans-13294365
-2025-01-23 15:09:32,404-INFO-inserted artcicle from Sky News in category us:https://news.sky.com/story/uk-not-to-be-a-target-of-donald-trumps-tariffs-chancellor-rachel-reeves-says-13294394
-2025-01-23 15:09:32,526-INFO-inserted artcicle from Sky News in category us:https://news.sky.com/story/judi-dench-says-she-can-no-longer-leave-home-alone-due-to-deteriorating-eyesight-13294518
-2025-01-23 15:09:32,676-INFO-inserted artcicle from Sky News in category us:https://news.sky.com/story/police-had-previous-contact-with-family-of-dad-and-daughter-found-dead-inside-west-calder-house-13294158
-2025-01-23 15:09:32,810-INFO-inserted artcicle from Sky News in category us:https://news.sky.com/story/man-jailed-after-downloading-3d-printing-gun-instructions-13294354
-2025-01-23 15:09:32,948-INFO-inserted artcicle from Sky News in category us:https://news.sky.com/story/klarna-gives-investors-sale-deadline-ahead-of-20bn-float-13294474
-2025-01-23 15:09:33,070-INFO-inserted artcicle from Sky News in category money:https://news.sky.com/story/pop-hit-makers-stock-aitken-and-waterman-get-blue-plaque-13294478
-2025-01-23 15:09:33,190-INFO-inserted artcicle from Sky News in category money:https://news.sky.com/story/staffordshire-residents-shocked-as-village-is-blocked-in-by-80ft-long-mound-of-dumped-rubbish-13293918
-2025-01-23 15:09:33,320-INFO-inserted artcicle from Sky News in category money:https://news.sky.com/story/two-14-year-old-boys-charged-with-raping-girl-in-new-forest-park-13294072
-2025-01-23 15:09:33,461-INFO-inserted artcicle from Sky News in category money:https://news.sky.com/story/emily-damari-what-we-know-british-israeli-hostage-set-to-be-released-today-13292158
-2025-01-23 15:09:33,656-INFO-inserted artcicle from Sky News in category money:https://news.sky.com/story/jeremy-corbyn-interviewed-by-police-after-pro-palestine-rally-sky-news-understands-13292434
-2025-01-23 15:09:33,792-INFO-inserted artcicle from Sky News in category money:https://news.sky.com/story/new-photo-of-sophie-duchess-of-edinburgh-shared-ahead-of-her-60th-birthday-13292164
-2025-01-23 15:09:33,919-INFO-inserted artcicle from Sky News in category money:https://news.sky.com/story/trump-has-everyone-at-the-world-economic-forum-in-davos-guessing-13293703
-2025-01-23 15:09:34,053-INFO-inserted artcicle from Sky News in category money:https://news.sky.com/story/politics-may-stand-in-the-way-of-economics-when-it-comes-to-airport-expansion-13293708
-2025-01-23 15:09:34,174-INFO-inserted artcicle from Sky News in category money:https://news.sky.com/story/elgin-bus-driver-killer-loses-appeal-against-four-year-sentence-13294197
-2025-01-23 15:09:34,314-INFO-inserted artcicle from Sky News in category money:https://news.sky.com/story/james-maris-perthshire-teenager-who-used-3d-printer-in-bid-to-build-gun-spared-jail-13293748
-2025-01-23 15:09:34,434-INFO-inserted artcicle from Sky News in category science:https://news.sky.com/story/six-year-old-girl-and-man-found-dead-inside-west-calder-house-as-police-scotland-launch-probe-13293583
-2025-01-23 15:09:34,582-INFO-inserted artcicle from Sky News in category science:https://news.sky.com/story/eryri-national-park-insists-second-homes-policy-not-discriminatory-to-english-people-13294185
-2025-01-23 15:09:34,705-INFO-inserted artcicle from Sky News in category science:https://news.sky.com/story/corridor-care-normalised-at-princess-of-wales-hospital-coroner-says-13293487
-2025-01-23 15:09:34,825-INFO-inserted artcicle from Sky News in category science:https://news.sky.com/story/queen-victoria-bust-disappears-from-llandudno-after-over-130-years-13293566
-2025-01-23 15:09:34,953-INFO-inserted artcicle from Sky News in category science:https://news.sky.com/story/plans-for-two-types-of-id-to-buy-knives-online-after-southport-attacker-bought-weapon-from-amazon-13294150
-2025-01-23 15:09:35,074-INFO-inserted artcicle from Sky News in category science:https://news.sky.com/story/storm-eowyn-strong-winds-threaten-uk-ahead-of-danger-to-life-alert-and-up-to-90mph-gusts-13294196
-2025-01-23 15:09:35,198-INFO-inserted artcicle from Sky News in category science:https://news.sky.com/story/money-blog-theres-a-reason-there-are-so-many-pizza-restaurants-tv-chef-andi-oliver-points-finger-on-hospitality-woes-13040934
-2025-01-23 15:09:35,323-INFO-inserted artcicle from Sky News in category science:https://news.sky.com/story/donald-trump-says-attacks-on-police-officers-in-january-6-riots-were-minor-incidents-13294683
-2025-01-23 15:09:35,449-INFO-inserted artcicle from Sky News in category science:https://news.sky.com/story/thursdays-national-newspaper-front-pages-12427754
-2025-01-23 15:09:35,573-INFO-inserted artcicle from Sky News in category science:https://news.sky.com/story/trump-latest-i-dont-care-president-dismisses-question-on-economy-as-he-says-tiktok-will-stay-around-13209921
-2025-01-23 15:09:35,700-INFO-inserted artcicle from Sky News in category climate and Tech:https://news.sky.com/story/politics-latest-growth-a-priority-over-net-zero-minister-suggests-12593360
-2025-01-23 15:09:35,828-INFO-inserted artcicle from Sky News in category climate and Tech:https://news.sky.com/story/royal-navy-attack-submarine-warned-off-russian-spy-ship-from-uk-waters-13294447
-2025-01-23 15:09:35,985-INFO-inserted artcicle from Sky News in category climate and Tech:https://news.sky.com/story/observations-from-the-first-days-of-trump-2-0-accessible-a-slippery-relationship-with-the-truth-and-shades-of-a-president-13294067
-2025-01-23 15:09:36,159-INFO-inserted artcicle from Sky News in category climate and Tech:https://news.sky.com/story/mariann-edgar-budde-who-is-the-bishop-donald-trump-called-nasty-13294222
-2025-01-23 15:09:36,307-INFO-inserted artcicle from Sky News in category climate and Tech:https://news.sky.com/story/real-madrid-become-first-club-to-earn-one-billion-euros-after-new-sponsor-and-winning-champions-league-13294694
-2025-01-23 15:09:36,428-INFO-inserted artcicle from Sky News in category climate and Tech:https://news.sky.com/story/tariffs-have-a-long-history-in-the-us-two-charts-tell-that-story-13294364
-2025-01-23 15:09:36,552-INFO-inserted artcicle from Sky News in category climate and Tech:https://news.sky.com/story/rachel-reeves-risks-economic-doom-loop-if-spending-cuts-continue-ex-bank-of-england-chief-economist-warns-13294316
-2025-01-23 15:09:36,670-INFO-inserted artcicle from Sky News in category climate and Tech:https://news.sky.com/story/borrowing-hits-a-four-year-high-for-december-13294096
-2025-01-23 15:09:36,802-INFO-inserted artcicle from Sky News in category climate and Tech:https://news.sky.com/story/ftse-100-software-group-sage-braced-for-row-over-recruitment-awards-13294288
-2025-01-23 15:09:36,925-INFO-inserted artcicle from Sky News in category climate and Tech:https://news.sky.com/story/donald-trump-tries-to-negotiate-tiktok-sale-on-live-tv-as-he-defends-capitol-riot-pardons-13294050
-2025-01-23 15:09:37,049-INFO-inserted artcicle from Sky News in category Programmes:https://news.sky.com/story/money-problem-tui-sorry-and-refunds-reader-196-over-baggage-fee-heres-what-to-do-if-it-happens-to-you-13288694
-2025-01-23 15:09:37,176-INFO-inserted artcicle from Sky News in category Programmes:https://news.sky.com/story/money-problem-im-being-harassed-about-a-private-parking-fine-from-five-years-ago-do-i-need-to-pay-13284895
-2025-01-23 15:09:37,303-INFO-inserted artcicle from Sky News in category Programmes:https://news.sky.com/story/money-problem-i-was-overpaid-560-can-i-keep-the-money-13274910
-2025-01-23 15:09:37,424-INFO-inserted artcicle from Sky News in category Programmes:https://news.sky.com/story/i-owe-5k-on-my-student-loan-should-i-pay-it-back-early-13270585
-2025-01-23 15:09:37,555-INFO-inserted artcicle from Sky News in category Programmes:https://news.sky.com/story/my-flight-was-cancelled-and-we-lost-our-hire-car-now-they-wont-refund-me-13256688
-2025-01-23 15:09:37,683-INFO-inserted artcicle from Sky News in category Programmes:https://news.sky.com/story/money-problem-a-dry-cleaners-ruined-my-sofa-and-wont-replace-it-what-are-my-rights-13252832
-2025-01-23 15:09:37,811-INFO-inserted artcicle from Sky News in category Programmes:https://news.sky.com/story/cost-of-living-crisis-set-to-intensify-again-as-bills-mount-13288814
-2025-01-23 15:09:37,931-INFO-inserted artcicle from Sky News in category Programmes:https://news.sky.com/story/blue-origin-launch-is-jeff-bezos-chasing-down-elon-musk-in-the-billionaire-space-race-13287869
-2025-01-23 15:09:38,067-INFO-inserted artcicle from Sky News in category Programmes:https://news.sky.com/story/whats-going-on-in-the-markets-and-should-we-be-worried-13286094
-2025-01-23 15:09:38,198-INFO-inserted artcicle from Sky News in category Programmes:https://news.sky.com/story/i-only-have-two-bills-and-get-a-pension-after-12-years-soldier-reveals-financial-benefits-of-army-13292968
-2025-01-23 15:09:38,198-INFO-Articles from Sky News inserted into database portal_news
-2025-01-23 15:09:38,331-INFO-inserted artcicle from espn in category football:https://www.espn.in/football/story/_/id/43528566/uefa-champions-league-stats-robert-lewandowski-ties-cristiano-ronaldo-record-19-vinicius-jr-100-mohamed-salah-50
-2025-01-23 15:09:38,459-INFO-inserted artcicle from espn in category football:https://www.espn.in/football/story/_/id/43524453/pep-guardiola-man-city-one-last-chance-avoid-ucl-exit
-2025-01-23 15:09:38,586-INFO-inserted artcicle from espn in category football:https://www.espn.in/football/story/_/id/43524634/vinicius-eyes-ronaldo-brazilan-record-madrid-100th-goal
-2025-01-23 15:09:38,733-INFO-inserted artcicle from espn in category football:https://www.espn.in/football/story/_/id/43525322/arsenal-declan-rice-thumbs-new-champions-league
-2025-01-23 15:09:38,867-INFO-inserted artcicle from espn in category football:https://www.espn.in/football/story/_/id/43519295/amorim-regrets-saying-team-was-worst-man-united-history
-2025-01-23 15:09:38,994-INFO-inserted artcicle from espn in category football:https://www.espn.in/football/story/_/id/43521629/norway-top-flight-clubs-vote-scrap-var-amid-fan-outrage
-2025-01-23 15:09:39,132-INFO-inserted artcicle from espn in category football:https://www.espn.in/football/story/_/id/43518134/barcelona-talks-marcus-rashford-reps-move-sources
-2025-01-23 15:09:39,267-INFO-inserted artcicle from espn in category football:https://www.espn.in/football/story/_/id/43516587/real-madrid-post-record-revenue-1-billion-deloitte
-2025-01-23 15:09:39,411-INFO-inserted artcicle from espn in category football:https://www.espn.in/football/story/_/id/43524477/psg-second-half-surge-shows-man-city-need-haaland
-2025-01-23 15:09:39,586-INFO-inserted artcicle from espn in category football:https://www.espn.in/football/story/_/id/43479880/manchester-city-super-club-decline-liverpool-kenny-dalglish-man-united-sir-alex-ferguson
-2025-01-23 15:09:39,739-INFO-inserted artcicle from espn in category cricket:https://www.espn.in/football/story/_/id/43439604/how-teams-qualify-champions-league-knockout-rounds
-2025-01-23 15:09:39,892-INFO-inserted artcicle from espn in category cricket:https://www.espn.in/football/story/_/id/43524522/is-rodrygo-most-underrated-player-champions-league
-2025-01-23 15:09:40,035-INFO-inserted artcicle from espn in category cricket:https://www.espn.in/football/story/_/id/43506035/isl-score-2024-25-indian-super-league-football-report-results-summary-schedule-matchweek-18
-2025-01-23 15:09:40,211-INFO-inserted artcicle from espn in category cricket:https://www.espn.in/football/story/_/id/43489509/isl-musings-2024-25-indian-super-league-jamshedpur-kerala-blasters-bengaluru-fc
-2025-01-23 15:09:40,211-INFO-Articles from espn inserted into database portal_news
-2025-01-23 15:09:40,213-INFO-Article fetching and storage is completed .............
+2025-01-28 10:47:50,013-INFO-Fetching articles from sources...
+2025-01-28 10:47:55,095-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feed
+2025-01-28 10:47:55,103-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feeds
+2025-01-28 10:47:55,303-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/rss
+2025-01-28 10:48:02,045-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feed
+2025-01-28 10:48:02,046-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/rss
+2025-01-28 10:48:02,091-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feeds
+2025-01-28 10:48:08,513-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feeds
+2025-01-28 10:48:08,516-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feed
+2025-01-28 10:48:08,564-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/rss
+2025-01-28 10:48:14,905-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/rss
+2025-01-28 10:48:14,967-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feed
+2025-01-28 10:48:14,981-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feeds
+2025-01-28 10:48:21,072-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feed
+2025-01-28 10:48:21,094-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feeds
+2025-01-28 10:48:21,124-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/rss
+2025-01-28 10:48:28,811-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/rss
+2025-01-28 10:48:28,864-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feed
+2025-01-28 10:48:28,869-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feeds
+2025-01-28 10:48:35,085-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feeds
+2025-01-28 10:48:35,106-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/rss
+2025-01-28 10:48:35,106-CRITICAL-[REQUEST FAILED] 404 Client Error: OK for url: https://edition.cnn.com/feed
+2025-01-28 10:48:41,183-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.foxnews.com/feeds
+2025-01-28 10:48:45,687-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.foxnews.com/feeds
+2025-01-28 10:48:50,651-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.foxnews.com/feeds
+2025-01-28 10:48:55,733-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.foxnews.com/feeds
+2025-01-28 10:49:02,690-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://components.news.sky.com/
+2025-01-28 10:49:04,100-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feeds
+2025-01-28 10:49:04,209-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/rss
+2025-01-28 10:49:04,522-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feed
+2025-01-28 10:49:07,020-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://components.news.sky.com/
+2025-01-28 10:49:09,200-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/rss
+2025-01-28 10:49:09,200-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feeds
+2025-01-28 10:49:09,215-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feed
+2025-01-28 10:49:11,779-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://components.news.sky.com/
+2025-01-28 10:49:12,449-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/rss
+2025-01-28 10:49:12,466-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feeds
+2025-01-28 10:49:12,467-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feed
+2025-01-28 10:49:15,019-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://components.news.sky.com/
+2025-01-28 10:49:15,953-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/rss
+2025-01-28 10:49:15,982-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feeds
+2025-01-28 10:49:15,983-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feed
+2025-01-28 10:49:18,493-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://components.news.sky.com/
+2025-01-28 10:49:19,939-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/rss
+2025-01-28 10:49:19,960-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feed
+2025-01-28 10:49:19,983-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feeds
+2025-01-28 10:49:23,303-WARNING-fromstring() returned an invalid string: ...
+2025-01-28 10:49:23,303-WARNING-Source https://news.sky.com/science parse error.
+2025-01-28 10:49:23,546-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://components.news.sky.com/
+2025-01-28 10:49:24,145-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feed
+2025-01-28 10:49:24,153-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feeds
+2025-01-28 10:49:24,176-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/rss
+2025-01-28 10:49:28,469-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://components.news.sky.com/
+2025-01-28 10:49:29,442-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/rss
+2025-01-28 10:49:29,463-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feed
+2025-01-28 10:49:29,474-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feeds
+2025-01-28 10:49:33,851-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://components.news.sky.com/
+2025-01-28 10:49:35,161-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feeds
+2025-01-28 10:49:35,163-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/feed
+2025-01-28 10:49:35,182-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://news.sky.com/rss
+2025-01-28 10:49:45,007-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.espn.in/feed/
+2025-01-28 10:49:45,388-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.espn.in/feeds/
+2025-01-28 10:49:54,139-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.espn.in/feed/
+2025-01-28 10:49:54,515-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.espn.in/feeds/
+2025-01-28 10:50:02,710-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.espn.in/feed/
+2025-01-28 10:50:02,717-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.espn.in/feeds/
+2025-01-28 10:50:06,466-WARNING-fromstring() returned an invalid string: ...
+2025-01-28 10:50:06,467-WARNING-Source https://www.espn.in/ISL parse error.
+2025-01-28 10:50:11,701-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.espn.in/feed/
+2025-01-28 10:50:12,417-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.espn.in/feeds/
+2025-01-28 10:50:21,283-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.espn.in/feed/
+2025-01-28 10:50:21,616-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.espn.in/feeds/
+2025-01-28 10:50:24,499-WARNING-fromstring() returned an invalid string: ...
+2025-01-28 10:50:24,500-WARNING-Source https://www.espn.in/Hockey parse error.
+2025-01-28 10:50:29,923-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.espn.in/feed/
+2025-01-28 10:50:30,666-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.espn.in/feeds/
+2025-01-28 10:50:38,728-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.espn.in/feed/
+2025-01-28 10:50:39,093-CRITICAL-[REQUEST FAILED] 404 Client Error: Not Found for url: https://www.espn.in/feeds/
+2025-01-28 10:50:41,318-INFO-cnn - world: 494 articles found.
+2025-01-28 10:50:41,318-INFO-cnn - politics: 494 articles found.
+2025-01-28 10:50:41,318-INFO-cnn - business: 494 articles found.
+2025-01-28 10:50:41,318-INFO-cnn - health: 494 articles found.
+2025-01-28 10:50:41,319-INFO-cnn - entertainment: 494 articles found.
+2025-01-28 10:50:41,319-INFO-cnn - sports: 494 articles found.
+2025-01-28 10:50:41,319-INFO-cnn - us: 494 articles found.
+2025-01-28 10:50:41,319-INFO-fox news - politics: 842 articles found.
+2025-01-28 10:50:41,319-INFO-fox news - sports: 842 articles found.
+2025-01-28 10:50:41,319-INFO-fox news - entertainment: 841 articles found.
+2025-01-28 10:50:41,319-INFO-fox news - lifestyle: 841 articles found.
+2025-01-28 10:50:41,319-INFO-Sky News - uk: 351 articles found.
+2025-01-28 10:50:41,319-INFO-Sky News - politics: 351 articles found.
+2025-01-28 10:50:41,319-INFO-Sky News - world: 351 articles found.
+2025-01-28 10:50:41,319-INFO-Sky News - us: 351 articles found.
+2025-01-28 10:50:41,319-INFO-Sky News - money: 351 articles found.
+2025-01-28 10:50:41,319-INFO-Sky News - science: 351 articles found.
+2025-01-28 10:50:41,319-INFO-Sky News - climate and Tech: 351 articles found.
+2025-01-28 10:50:41,319-INFO-Sky News - Programmes: 351 articles found.
+2025-01-28 10:50:41,319-INFO-espn - football: 672 articles found.
+2025-01-28 10:50:41,319-INFO-espn - cricket: 672 articles found.
+2025-01-28 10:50:41,319-INFO-espn - chess: 672 articles found.
+2025-01-28 10:50:41,319-INFO-espn - ISL: 672 articles found.
+2025-01-28 10:50:41,319-INFO-espn - F1: 672 articles found.
+2025-01-28 10:50:41,319-INFO-espn - Hockey: 672 articles found.
+2025-01-28 10:50:41,319-INFO-espn - NBA: 672 articles found.
+2025-01-28 10:50:41,343-INFO-Fetching article contents...
+2025-01-28 10:50:42,280-INFO-Fetched https://edition.cnn.com/business/media in 0.94 seconds
+2025-01-28 10:50:45,349-INFO-Fetched https://edition.cnn.com/travel/news in 1.07 seconds
+2025-01-28 10:50:47,863-INFO-Fetched https://edition.cnn.com/audio/podcasts/all-there-is-with-anderson-cooper in 0.51 seconds
+2025-01-28 10:50:50,491-INFO-Fetched https://edition.cnn.com/2025/01/27/asia/wfp-aid-cuts-afghanistan-intl-hnk/index.html in 0.63 seconds
+2025-01-28 10:50:53,165-INFO-Fetched https://edition.cnn.com/2025/01/27/americas/guatemalans-deported-trump-intl-latam/index.html in 0.67 seconds
+2025-01-28 10:50:55,837-INFO-Fetched https://edition.cnn.com/2025/01/27/middleeast/israel-hamas-eight-hostages-dead-intl/index.html in 0.67 seconds
+2025-01-28 10:50:58,574-INFO-Fetched https://edition.cnn.com/2025/01/27/europe/denmark-greenland-trump-defense-latam-intl/index.html in 0.74 seconds
+2025-01-28 10:51:01,188-INFO-Fetched https://edition.cnn.com/2025/01/27/europe/world-leaders-auschwitz-commemorations-holocaust-intl/index.html in 0.61 seconds
+2025-01-28 10:51:03,807-INFO-Fetched https://edition.cnn.com/2025/01/27/middleeast/palestinians-return-north-gaza-intl-hnk/index.html in 0.62 seconds
+2025-01-28 10:51:06,416-INFO-Fetched https://edition.cnn.com/2025/01/25/europe/elon-musk-germany-afd-protests-intl-latam/index.html in 0.61 seconds
+2025-01-28 10:51:09,108-INFO-Fetched https://edition.cnn.com/2025/01/26/china/china-panda-diplomacy-intl-hnk/index.html in 0.69 seconds
+2025-01-28 10:51:11,880-INFO-Fetched https://edition.cnn.com/2025/01/26/europe/latvia-baltic-undersea-cable-intl-latam/index.html in 0.77 seconds
+2025-01-28 10:51:14,477-INFO-Fetched https://edition.cnn.com/2025/01/26/europe/belarus-lukashenko-presidential-election-intl/index.html in 0.60 seconds
+2025-01-28 10:51:17,340-INFO-Fetched https://edition.cnn.com/2025/01/26/middleeast/lebanese-citizens-killed-lebanon-israel-intl/index.html in 0.86 seconds
+2025-01-28 10:51:19,914-INFO-Fetched https://edition.cnn.com/2025/01/26/asia/south-koreas-president-charged-insurrection-intl/index.html in 0.57 seconds
+2025-01-28 10:51:22,514-INFO-Fetched https://edition.cnn.com/2025/01/26/africa/sudan-hospital-north-darfur-airstrike-70-killed-intl/index.html in 0.60 seconds
+2025-01-28 10:51:25,436-INFO-Fetched https://www.cnn.com/interactive/2024/01/middleeast/gaza-hospitals-destruction-investigation-intl-cmd/ in 0.92 seconds
+2025-01-28 10:51:28,039-INFO-Fetched https://www.cnn.com/interactive/2023/11/world/climate-gender-inequality-cnnphotos-as-equals-intl-cmd/ in 0.60 seconds
+2025-01-28 10:51:30,747-INFO-Fetched https://edition.cnn.com/2025/01/27/world/video/guatemala-deportations-land-david-culver-digvid-ebof in 0.71 seconds
+2025-01-28 10:51:34,267-INFO-Fetched https://edition.cnn.com/2025/01/24/world/video/japan-aquarium-lonely-sunfish-digvid in 1.52 seconds
+2025-01-28 10:51:37,229-INFO-Fetched https://edition.cnn.com/2025/01/27/world/video/the-lead-holocaust-auschwitz-jewish-history-80-years-germany-poland-jake-tapper in 0.96 seconds
+2025-01-28 10:51:40,131-INFO-Fetched https://edition.cnn.com/2025/01/27/world/video/guatemala-migrant-deported-david-culver-digvid in 0.90 seconds
+2025-01-28 10:51:42,894-INFO-Fetched https://edition.cnn.com/2025/01/27/europe/israel-holocaust-memorial-chair-musk-criticism-intl/index.html in 0.76 seconds
+2025-01-28 10:51:45,521-INFO-Fetched https://edition.cnn.com/2025/01/27/europe/nato-defense-baltic-undersea-cables-intl-cmd/index.html in 0.63 seconds
+2025-01-28 10:51:48,886-INFO-Fetched https://edition.cnn.com/2025/01/27/europe/belarus-election-lukashenko-win-sham-intl/index.html in 1.36 seconds
+2025-01-28 10:51:52,255-INFO-Fetched https://edition.cnn.com/2025/01/26/europe/oswiecim-auschwitz-neighbor-antisemitism-intl/index.html in 1.37 seconds
+2025-01-28 10:51:55,564-INFO-Fetched https://edition.cnn.com/2025/01/26/europe/putin-russia-economy-trump-analysis-intl/index.html in 1.31 seconds
+2025-01-28 10:51:58,924-INFO-Fetched https://edition.cnn.com/2025/01/24/europe/trumps-policy-ukrainian-war-unexpected-priority-intl/index.html in 1.36 seconds
+2025-01-28 10:52:02,394-INFO-Fetched https://edition.cnn.com/2025/01/27/middleeast/trump-clean-out-gaza-middle-east-intl/index.html in 1.47 seconds
+2025-01-28 10:52:05,779-INFO-Fetched https://edition.cnn.com/2025/01/25/middleeast/israel-hamas-ceasefire-deal-fragile-hostage-release-gaza-intl-latam/index.html in 1.38 seconds
+2025-01-28 10:52:09,151-INFO-Fetched https://edition.cnn.com/2025/01/25/middleeast/four-female-hostages-released-gaza-intl/index.html in 1.37 seconds
+2025-01-28 10:52:12,563-INFO-Fetched https://edition.cnn.com/2025/01/24/middleeast/israel-lebanon-hezbollah-withdrawal-intl/index.html in 1.41 seconds
+2025-01-28 10:52:16,001-INFO-Fetched https://edition.cnn.com/2025/01/24/middleeast/jenin-israeli-military-operation-west-bank-intl-latam/index.html in 1.44 seconds
+2025-01-28 10:52:18,580-ERROR-Error fetching https://edition.cnn.com/2025/01/23/middleeast/israel-turning-focus-on-west-bank-intl/index.html in category health: Article `download()` failed with ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')) on URL https://edition.cnn.com/2025/01/23/middleeast/israel-turning-focus-on-west-bank-intl/index.html
+2025-01-28 10:52:20,644-INFO-Fetched https://edition.cnn.com/2025/01/27/world/gallery/auschwitz-liberation-anniversary/index.html in 2.06 seconds
+2025-01-28 10:52:24,785-INFO-Fetched https://edition.cnn.com/2025/01/23/world/gallery/photos-this-week-january-16-january-23/index.html in 2.14 seconds
+2025-01-28 10:52:28,747-INFO-Fetched https://edition.cnn.com/2025/01/13/world/gallery/people-we-lost-2025/index.html in 1.96 seconds
+2025-01-28 10:52:32,849-INFO-Fetched https://edition.cnn.com/2025/01/16/world/gallery/photos-this-week-january-9-january-16/index.html in 2.10 seconds
+2025-01-28 10:52:37,189-INFO-Fetched https://edition.cnn.com/2025/01/26/africa/congo-severs-ties-rwanda-rebels-goma-intl/index.html in 2.34 seconds
+2025-01-28 10:52:41,329-INFO-Fetched https://edition.cnn.com/2025/01/25/africa/un-peacekeepers-drc-congo-m23-afr-intl-latam/index.html in 2.10 seconds
+2025-01-28 10:52:45,624-INFO-Fetched https://edition.cnn.com/2025/01/23/middleeast/israel-turning-focus-on-west-bank-intl/index.html in 2.29 seconds
+2025-01-28 10:52:48,650-ERROR-Error fetching https://edition.cnn.com/2025/01/25/africa/sudan-civil-war-oil-refinery-fire-intl/index.html in category entertainment: Article `download()` failed with ('Connection broken: IncompleteRead(37206 bytes read, 481685 more expected)', IncompleteRead(37206 bytes read, 481685 more expected)) on URL https://edition.cnn.com/2025/01/25/africa/sudan-civil-war-oil-refinery-fire-intl/index.html
+2025-01-28 10:52:49,435-INFO-Fetched https://edition.cnn.com/2025/01/23/africa/south-sudan-suspends-social-media-platforms-intl/index.html in 0.79 seconds
+2025-01-28 10:52:52,064-INFO-Fetched https://edition.cnn.com/2025/01/27/americas/climate-change-latin-america-un-report-int-latam/index.html in 0.63 seconds
+2025-01-28 10:52:54,920-INFO-Fetched https://edition.cnn.com/2025/01/21/americas/pope-dissolves-peruvian-catholic-group-intl-latam/index.html in 0.85 seconds
+2025-01-28 10:53:21,796-INFO-Fetched https://edition.cnn.com/2025/01/22/americas/colombia-displaced-deadly-rebel-clashes-intl-latam/index.html in 24.87 seconds
+2025-01-28 10:53:25,441-INFO-Fetched https://edition.cnn.com/2025/01/22/americas/juarez-migrants-mexico-us-border-cbp-app-intl-hnk/index.html in 1.64 seconds
+2025-01-28 10:53:28,901-INFO-Fetched https://edition.cnn.com/2025/01/26/asia/south-korea-initial-findings-jeju-air-crash-intl-hnk/index.html in 1.46 seconds
+2025-01-28 10:53:32,309-INFO-Fetched https://edition.cnn.com/2025/01/24/asia/taiwans-budget-freeze-defense-trump-intl-hnk/index.html in 1.41 seconds
+2025-01-28 10:53:35,804-INFO-Fetched https://edition.cnn.com/2025/01/24/asia/china-death-sentence-stabbing-japanese-mother-child-intl-hnk/index.html in 1.49 seconds
+2025-01-28 10:53:39,188-INFO-Fetched https://edition.cnn.com/2025/01/25/africa/sudan-civil-war-oil-refinery-fire-intl/index.html in 1.38 seconds
+2025-01-28 10:53:42,641-INFO-Fetched https://edition.cnn.com/2025/01/23/asia/taiwan-cull-iguanas-agriculture-intl/index.html in 1.45 seconds
+2025-01-28 10:53:46,050-INFO-Fetched https://edition.cnn.com/2025/01/27/travel/anne-frank-house-secret-annex-new-york/index.html in 1.41 seconds
+2025-01-28 10:53:49,492-INFO-Fetched https://edition.cnn.com/travel/prosperity-toss-lunar-new-year-culinary-traditions/index.html in 1.44 seconds
+2025-01-28 10:53:53,642-INFO-Fetched https://edition.cnn.com/2025/01/27/travel/japan-france-pastry-world-cup-intl-hnk/index.html in 2.15 seconds
+2025-01-28 10:53:57,805-INFO-Fetched https://edition.cnn.com/travel/chinese-lunar-new-year-2025-guide-intl-hnk/index.html in 2.16 seconds
+2025-01-28 10:54:00,709-ERROR-Error fetching https://edition.cnn.com/cnn-underscored/travel/how-to-pass-time-at-airport in category sports: Article `download()` failed with 403 Client Error: Forbidden for url: https://edition.cnn.com/cnn-underscored/travel/how-to-pass-time-at-airport on URL https://edition.cnn.com/cnn-underscored/travel/how-to-pass-time-at-airport
+2025-01-28 10:54:02,852-INFO-Fetched https://edition.cnn.com/2025/01/27/style/netherlands-drents-museum-heist-helmet/index.html in 2.14 seconds
+2025-01-28 10:54:07,068-INFO-Fetched https://edition.cnn.com/2025/01/26/style/louvre-museum-couture-exhibition/index.html in 2.21 seconds
+2025-01-28 10:54:11,207-INFO-Fetched https://edition.cnn.com/2025/01/24/style/fka-twigs-rick-owens-pfw-lotw/index.html in 2.14 seconds
+2025-01-28 10:54:14,209-ERROR-Error fetching https://edition.cnn.com/cnn-underscored/travel/how-to-pass-time-at-airport in category us: Article `download()` failed with 403 Client Error: Forbidden for url: https://edition.cnn.com/cnn-underscored/travel/how-to-pass-time-at-airport on URL https://edition.cnn.com/cnn-underscored/travel/how-to-pass-time-at-airport
+2025-01-28 10:54:16,336-INFO-Fetched https://edition.cnn.com/2025/01/24/style/louvre-museum-dire-state-paris-intl-scli/index.html in 2.13 seconds
+2025-01-28 10:54:20,550-INFO-Fetched https://edition.cnn.com/2025/01/23/style/martha-stewart-rose/index.html in 2.21 seconds
+2025-01-28 10:54:24,921-INFO-Fetched https://edition.cnn.com/2025/01/22/weather/winter-storm-south-wednesday-hnk/index.html in 2.37 seconds
+2025-01-28 10:54:29,275-INFO-Fetched https://edition.cnn.com/2025/01/21/weather/winter-storm-south-tuesday-hnk/index.html in 2.35 seconds
+2025-01-28 10:54:34,125-INFO-Fetched https://edition.cnn.com/2025/01/20/weather/wind-chills-threaten-us-record-snowfall-hnk/index.html in 2.85 seconds
+2025-01-28 10:54:38,433-INFO-Fetched https://edition.cnn.com/2025/01/19/weather/weather-cold-winter-temperature-freezing/index.html in 2.31 seconds
+2025-01-28 10:54:42,824-INFO-Fetched https://edition.cnn.com/2025/01/27/world/video/afghanistan-taliban-womens-rights-zahra-joya-paula-newton in 2.39 seconds
+2025-01-28 10:54:46,966-INFO-Fetched https://edition.cnn.com/2025/01/27/world/video/deported-migrants-guatemala-arrival-digvid in 2.14 seconds
+2025-01-28 10:54:51,054-INFO-Fetched https://edition.cnn.com/2025/01/27/world/video/african-voices-changemakers-vivo-fashion-group-kenya-patheo-ivory-coast-spc in 2.09 seconds
+2025-01-28 10:54:53,403-INFO-Fetched https://www.foxnews.com/video/5614615980001 in 0.35 seconds
+2025-01-28 10:54:55,735-INFO-Fetched https://www.foxnews.com/world/hamas-releases-4-female-hostages-part-israel-ceasefire-deal in 0.33 seconds
+2025-01-28 10:54:58,002-INFO-Fetched https://www.foxnews.com/video/shows in 0.27 seconds
+2025-01-28 10:55:00,291-INFO-Fetched https://www.foxnews.com/video/topics/v-most-recent-episodes in 0.29 seconds
+2025-01-28 10:55:02,656-INFO-Fetched https://www.foxnews.com/video/topics/latest-news-video in 0.36 seconds
+2025-01-28 10:55:04,984-INFO-Fetched https://www.foxnews.com/story/foxnews-com-rss-feeds in 0.33 seconds
+2025-01-28 10:55:07,428-INFO-Fetched https://www.foxnews.com/world/airliners-final-4-minutes-recordings-missing-after-crash-killed-179-investigators in 0.44 seconds
+2025-01-28 10:55:10,008-INFO-Fetched https://www.foxnews.com/politics/colombian-leader-quickly-caves-after-trump-threats-offers-presidential-plane-deportation-flights in 0.58 seconds
+2025-01-28 10:55:12,778-INFO-Fetched https://www.foxnews.com/us/international-holocaust-remembrance-day-survivor-recounts-how-mother-saved-her-life-reveals-message-un in 0.77 seconds
+2025-01-28 10:55:15,810-INFO-Fetched https://www.foxnews.com/us/nyc-mayor-slams-despicable-act-antisemitism-after-israeli-restaurant-vandalized-messages-hate in 1.03 seconds
+2025-01-28 10:55:18,182-INFO-Fetched https://www.foxnews.com/world/palestinians-stream-back-northern-gaza-after-israel-lifts-closure in 0.37 seconds
+2025-01-28 10:55:20,614-INFO-Fetched https://www.foxnews.com/world/israel-hamas-reach-deal-release-hostages-allow-palestinians-return-gaza-strip in 0.43 seconds
+2025-01-28 10:55:23,343-INFO-Fetched https://www.foxnews.com/world/israeli-victims-terror-concerned-murderers-released-from-prison-relieved-7-hostages-back-home in 0.73 seconds
+2025-01-28 10:55:26,351-INFO-Fetched https://www.foxnews.com/world/ukrainian-human-rights-lawyer-nobel-prize-winner-urges-trump-show-strength-end-war in 1.01 seconds
+2025-01-28 10:55:28,742-INFO-Fetched https://www.foxnews.com/world/putin-reportedly-concerned-over-russias-economy-ahead-possible-trump-tariffs in 0.37 seconds
+2025-01-28 10:55:31,850-INFO-Fetched https://www.foxnews.com/world/putin-xi-vow-deepen-alliance-hours-after-trump-re-enters-white-house in 1.11 seconds
+2025-01-28 10:55:34,572-INFO-Fetched https://www.foxnews.com/world/russia-iran-seal-partnership-treaty-days-before-trump-takes-office in 0.72 seconds
+2025-01-28 10:55:37,268-INFO-Fetched https://www.foxnews.com/politics/fox-news-politics-newsletter-hegseth-helm in 0.69 seconds
+2025-01-28 10:55:39,707-INFO-Fetched https://www.foxnews.com/world/eu-military-chief-says-would-make-sense-put-european-troops-greenland-welt-reports in 0.44 seconds
+2025-01-28 10:55:42,559-INFO-Fetched https://www.foxnews.com/media/fox-nation-premiere-yellowstone-yosemite-kevin-costner in 0.85 seconds
+2025-01-28 10:55:45,301-INFO-Fetched https://www.foxnews.com/world/auschwitz-80-years-since-liberation-ryszard-horowitzs-story-survival-making-american-dream in 0.74 seconds
+2025-01-28 10:55:47,628-INFO-Fetched https://www.foxnews.com/world/belarus-president-lukashenko-extends-rule-after-election-rejected-opposition-eu in 0.33 seconds
+2025-01-28 10:55:50,331-INFO-Fetched https://www.foxnews.com/us/trump-reinstate-service-members-discharged-not-getting-covid-vaccine-more-top-headlines in 0.70 seconds
+2025-01-28 10:55:52,909-INFO-Fetched https://www.foxnews.com/lifestyle/striking-video-shows-moment-british-airways-plane-hit-lightning in 0.58 seconds
+2025-01-28 10:55:55,430-INFO-Fetched https://www.foxnews.com/world/13-un-peacekeepers-allied-soldiers-dead-congo-m23-rebels-make-gains-key-city in 0.52 seconds
+2025-01-28 10:55:58,164-INFO-Fetched https://www.foxnews.com/world/town-once-inhabited-nazis-reconciles-past in 0.73 seconds
+2025-01-28 10:56:00,835-INFO-Fetched https://www.foxnews.com/world/south-korean-prosecutors-indict-impeached-president-who-declared-martial-law in 0.67 seconds
+2025-01-28 10:56:03,590-INFO-Fetched https://www.foxnews.com/us/mugshots-week-jan-19-25-2025 in 0.75 seconds
+2025-01-28 10:56:05,997-INFO-Fetched https://www.foxnews.com/travel/airlines-dress-codes-these-clothes-kicked-off-flight in 0.41 seconds
+2025-01-28 10:56:08,672-INFO-Fetched https://www.foxnews.com/travel/disney-cruise-line-increases-recommended-gratuities in 0.67 seconds
+2025-01-28 10:56:11,465-INFO-Fetched https://www.foxnews.com/entertainment/fox-news-entertainment-newsletter-la-fires-burn-chris-pratts-sons-school-meghan-markles-secret-nickname in 0.79 seconds
+2025-01-28 10:56:14,307-INFO-Fetched https://www.foxnews.com/world/argentinas-milei-rails-against-wokeism-transgenderism-explosive-speech-davos in 0.84 seconds
+2025-01-28 10:56:16,682-INFO-Fetched https://www.foxnews.com/science/newly-discovered-asteroid-turns-tesla-roadster-launched-space in 0.37 seconds
+2025-01-28 10:56:19,121-INFO-Fetched https://www.foxnews.com/world/israel-tells-un-its-shutting-down-all-unrwa-operations-jerusalem-acute-security-risks in 0.44 seconds
+2025-01-28 10:56:21,862-INFO-Fetched https://www.foxnews.com/world/south-african-president-signs-controversial-land-seizure-bill-eroding-private-property-rights in 0.74 seconds
+2025-01-28 10:56:24,663-INFO-Fetched https://www.foxnews.com/politics/fox-news-politics-newsletter-atf-misfires-dei-order in 0.80 seconds
+2025-01-28 10:56:27,243-INFO-Fetched https://www.foxnews.com/world/colombia-president-decrees-emergency-powers-restore-order-coca-region-wracked-rebel-combat in 0.58 seconds
+2025-01-28 10:56:29,751-INFO-Fetched https://www.foxnews.com/world/hamas-releases-names-4-female-hostages-released-next-possibly-violates-deal in 0.51 seconds
+2025-01-28 10:56:32,444-INFO-Fetched https://www.foxnews.com/politics/energy-experts-weigh-canadian-premier-discuss-keystone-pipeline-2-0-trump in 0.69 seconds
+2025-01-28 10:56:35,202-INFO-Fetched https://www.foxnews.com/us/president-trump-visiting-storm-battered-towns-treated-badly-by-dems-more-top-headlines in 0.76 seconds
+2025-01-28 10:56:37,768-INFO-Fetched https://www.sky.com/shop/mobile/phones/samsung/samsung-galaxy-s25-ultra-5g-with-galaxy-ai?colour=Titanium-Silverblue&capacity=512GB&irct=newhome-mobile-buy in 0.57 seconds
+2025-01-28 10:56:41,719-INFO-Fetched https://news.sky.com/story/us-and-israel-would-be-crazy-to-attack-irans-nuclear-facilities-tehran-says-13297914 in 1.95 seconds
+2025-01-28 10:56:45,357-INFO-Fetched https://news.sky.com/story/doctors-look-for-clues-on-why-super-survivors-overcome-cancer-in-first-global-study-13297748 in 1.64 seconds
+2025-01-28 10:56:48,765-INFO-Fetched https://news.sky.com/story/donald-trump-warns-deepseek-should-be-wakeup-call-for-americas-ai-industry-13298001 in 1.41 seconds
+2025-01-28 10:56:52,533-INFO-Fetched https://news.sky.com/story/i-am-scared-inside-congolese-city-overrun-by-rebels-as-echoing-blasts-and-crack-of-bullets-force-families-to-hide-13297921 in 1.77 seconds
+2025-01-28 10:56:56,322-INFO-Fetched https://news.sky.com/story/gaza-ceasefire-israel-hamas-hostages-prisoners-north-latest-sky-news-live-12978800 in 1.79 seconds
+2025-01-28 10:56:59,691-INFO-Fetched https://news.sky.com/story/north-koreans-blow-themselves-up-with-grenades-rather-than-risk-capture-say-ukraine-soldiers-13297508 in 1.37 seconds
+2025-01-28 10:57:02,952-INFO-Fetched https://news.sky.com/story/major-recall-ordered-of-soft-drinks-made-at-coca-cola-factory-over-potential-health-risks-13297977 in 1.26 seconds
+2025-01-28 10:57:06,961-INFO-Fetched https://news.sky.com/story/money-blog-mortgage-personal-finance-dentist-consumer-inflation-pound-blog-live-sky-news-13040934 in 2.01 seconds
+2025-01-28 10:57:10,642-INFO-Fetched https://news.sky.com/story/displaced-civilians-in-democratic-republic-of-congo-face-frenzy-of-fear-and-uncertainty-13297307 in 1.68 seconds
+2025-01-28 10:57:14,209-INFO-Fetched https://news.sky.com/story/trump-announces-retaliatory-measures-after-colombia-refuses-to-accept-deported-migrant-flight-13297424 in 1.57 seconds
+2025-01-28 10:57:17,809-INFO-Fetched https://news.sky.com/story/donald-trumps-comments-on-gaza-trigger-tensions-with-his-arab-american-supporters-13297537 in 1.60 seconds
+2025-01-28 10:57:21,542-INFO-Fetched https://news.sky.com/story/day-8-trump-calls-starmer-13297525 in 1.73 seconds
+2025-01-28 10:57:25,328-INFO-Fetched https://news.sky.com/story/donald-trump-ally-lindsey-graham-says-pardoning-january-6-rioters-was-a-mistake-and-could-lead-to-more-violence-13297440 in 1.78 seconds
+2025-01-28 10:57:29,005-INFO-Fetched https://news.sky.com/video/iranian-foreign-minister-says-israel-would-be-crazy-to-attack-nuclear-facilities-13297943 in 1.68 seconds
+2025-01-28 10:57:32,703-INFO-Fetched https://news.sky.com/video/who-are-the-cancer-super-survivors-and-why-is-there-a-new-study-based-on-their-resistance-13297860 in 1.70 seconds
+2025-01-28 10:57:37,067-INFO-Fetched https://news.sky.com/video/sky-witnesses-rebels-taking-over-goma-in-drc-while-congolese-forces-surrender-their-uniforms-13297855 in 2.36 seconds
+2025-01-28 10:57:40,948-INFO-Fetched https://news.sky.com/video/holocaust-survivors-mark-80-years-since-auschwitz-liberation-13297899 in 1.88 seconds
+2025-01-28 10:57:44,310-INFO-Fetched https://news.sky.com/video/king-meets-holocaust-survivors-in-poland-as-he-warns-about-re-emergence-of-antisemitism-13297728 in 1.36 seconds
+2025-01-28 10:57:47,567-INFO-Fetched https://news.sky.com/video/why-were-hitlers-extermination-camps-all-in-poland-13297839 in 1.26 seconds
+2025-01-28 10:57:50,748-INFO-Fetched https://news.sky.com/video/inside-rudolf-hoss-house-next-door-to-the-auschwitz-concentration-camp-13297853 in 1.18 seconds
+2025-01-28 10:57:53,907-INFO-Fetched https://news.sky.com/video/survivors-gather-in-poland-for-auschwitz-ceremony-to-mark-80-years-since-liberation-13297623 in 1.16 seconds
+2025-01-28 10:57:57,079-INFO-Fetched https://news.sky.com/video/north-korean-troops-temporarily-pull-back-from-frontline-in-russia-13297553 in 1.17 seconds
+2025-01-28 10:58:00,277-INFO-Fetched https://news.sky.com/video/palestinian-man-finds-house-reduced-to-rubble-as-tens-of-thousands-return-to-northern-gaza-13297844 in 1.20 seconds
+2025-01-28 10:58:03,417-INFO-Fetched https://news.sky.com/story/ai-now-not-just-a-contest-between-californian-tech-bros-with-macho-budgets-but-between-superpowers-13297999 in 1.14 seconds
+2025-01-28 10:58:06,683-INFO-Fetched https://news.sky.com/story/gazas-rocky-truce-tested-by-delayed-release-of-civilian-hostage-arbel-yehoud-13296606 in 1.27 seconds
+2025-01-28 10:58:10,111-INFO-Fetched https://news.sky.com/story/trump-has-everyone-at-the-world-economic-forum-in-davos-guessing-13293703 in 1.43 seconds
+2025-01-28 10:58:13,662-INFO-Fetched https://news.sky.com/story/los-angeles-must-be-better-prepared-for-climate-crises-by-2028-olympics-says-ioc-member-johan-eliasch-13294648 in 1.55 seconds
+2025-01-28 10:58:16,448-INFO-Fetched https://news.sky.com/story/ukrainian-marines-on-war-with-russia-amid-concerns-over-donald-trumps-return-to-the-white-house-13291562 in 0.79 seconds
+2025-01-28 10:58:19,431-INFO-Fetched https://news.sky.com/story/the-release-of-prisoners-sparked-scenes-of-joy-in-the-west-bank-images-israel-wanted-to-avoid-13292815 in 0.98 seconds
+2025-01-28 10:58:22,418-INFO-Fetched https://news.sky.com/story/what-is-the-fighting-in-democratic-republic-of-congo-about-and-is-rwanda-invading-13297621 in 0.99 seconds
+2025-01-28 10:58:25,578-INFO-Fetched https://news.sky.com/story/king-delivers-speech-to-holocaust-survivors-on-80th-anniversary-of-auschwitz-liberation-13297726 in 1.16 seconds
+2025-01-28 10:58:28,667-INFO-Fetched https://news.sky.com/story/auschwitz-remembered-why-we-should-never-forget-13297724 in 1.09 seconds
+2025-01-28 10:58:31,926-INFO-Fetched https://news.sky.com/story/auschwitz-remembered-survivors-mark-liberation-from-former-nazi-concentration-camp-80-years-ago-13297515 in 1.26 seconds
+2025-01-28 10:58:35,071-INFO-Fetched https://news.sky.com/story/ex-police-chief-condemns-investigation-into-alleged-afghanistan-war-crimes-by-uk-special-forces-13297916 in 1.14 seconds
+2025-01-28 10:58:38,227-INFO-Fetched https://news.sky.com/story/at-least-13-foreign-peacekeepers-killed-in-democratic-republic-of-congo-in-clashes-with-rebels-13296971 in 1.15 seconds
+2025-01-28 10:58:40,953-INFO-Fetched https://news.sky.com/story/china-to-host-worlds-first-half-marathon-race-between-humans-and-robots-13297863 in 0.72 seconds
+2025-01-28 10:58:44,663-INFO-Fetched https://news.sky.com/story/if-you-lost-weight-you-were-sent-to-the-gas-chamber-the-auschwitz-ordeal-of-a-13-year-old-girl-separated-from-her-family-13294967 in 1.71 seconds
+2025-01-28 10:58:48,405-INFO-Fetched https://news.sky.com/story/south-korea-bird-strike-traces-found-in-engines-of-jeju-air-plane-that-crashed-killing-179-13297685 in 1.74 seconds
+2025-01-28 10:58:51,431-INFO-Fetched https://news.sky.com/story/joy-and-relief-as-tens-of-thousands-of-palestinians-head-home-to-northern-gaza-13297714 in 1.03 seconds
+2025-01-28 10:58:54,566-INFO-Fetched https://news.sky.com/story/revealed-the-hamas-backed-plan-for-gazas-future-13295020 in 1.13 seconds
+2025-01-28 10:58:57,305-INFO-Fetched https://news.sky.com/story/auschwitz-survivor-you-worked-until-you-could-work-no-more-then-you-went-to-the-chimney-13297175 in 0.74 seconds
+2025-01-28 10:59:00,918-INFO-Fetched https://news.sky.com/story/family-of-us-journalist-held-captive-in-syria-for-12-years-incredibly-hopeful-of-return-in-wake-of-assads-fall-13271145 in 1.61 seconds
+2025-01-28 10:59:04,022-INFO-Fetched https://news.sky.com/story/donald-trump-wants-gaza-ceasefire-deal-by-the-time-he-takes-power-says-qatari-pm-13266834 in 1.10 seconds
+2025-01-28 10:59:06,735-INFO-Fetched https://news.sky.com/story/russian-attacks-on-uk-cyberinfrastructure-will-be-feature-of-our-life-former-mi6-chief-warns-13266063 in 0.71 seconds
+2025-01-28 10:59:10,041-INFO-Fetched https://news.sky.com/story/hamas-ready-for-gaza-ceasefire-immediately-but-claims-israel-has-put-forward-no-serious-proposals-in-months-13254181 in 1.30 seconds
+2025-01-28 10:59:13,170-INFO-Fetched https://news.sky.com/story/tuesdays-national-newspaper-front-pages-12427754 in 1.13 seconds
+2025-01-28 10:59:16,138-INFO-Fetched https://news.sky.com/story/ronan-keating-on-boyband-fame-in-the-90s-our-duty-of-care-meant-nothing-13297732 in 0.97 seconds
+2025-01-28 10:59:18,915-INFO-Fetched https://news.sky.com/story/money-blog-top-credit-card-firms-face-lawsuit-which-could-be-worth-4bn-britains-oldest-brewer-warns-prices-to-rise-13040934 in 0.78 seconds
+2025-01-28 10:59:21,283-INFO-Fetched https://news.sky.com/story/luxury-yacht-builder-fairline-collapses-just-weeks-after-sale-13297747 in 0.37 seconds
+2025-01-28 10:59:24,384-INFO-Fetched https://news.sky.com/story/couple-save-hundreds-by-flying-to-spain-rather-than-take-train-from-cornwall-to-crewe-13297941 in 1.10 seconds
+2025-01-28 10:59:27,523-INFO-Fetched https://news.sky.com/story/fraud-suspect-61-used-wigs-and-disguises-to-take-citizenship-tests-for-others-home-office-says-13297978 in 1.14 seconds
+2025-01-28 10:59:30,270-INFO-Fetched https://news.sky.com/story/omagh-bombing-inquiry-to-begin-with-statements-from-victims-families-13298000 in 0.75 seconds
+2025-01-28 10:59:34,299-INFO-Fetched https://news.sky.com/video/trump-100-podcast-day-9-trump-and-gaza-13298006 in 2.03 seconds
+2025-01-28 10:59:37,429-INFO-Fetched https://news.sky.com/video/watch-father-found-guilty-of-daughters-murder-told-police-they-were-just-playing-around-13297988 in 1.13 seconds
+2025-01-28 10:59:40,275-INFO-Fetched https://news.sky.com/video/auschwitz-anniversary-david-baddiel-on-remembering-family-members-13297848 in 0.85 seconds
+2025-01-28 10:59:43,458-INFO-Fetched https://news.sky.com/video/holocaust-memorial-day-prince-william-and-princess-catherine-attend-memorial-event-13297892 in 1.18 seconds
+2025-01-28 10:59:46,151-INFO-Fetched https://news.sky.com/video/glasgow-sex-abuse-gang-jailed-13297746 in 0.69 seconds
+2025-01-28 10:59:48,909-INFO-Fetched https://news.sky.com/video/rob-rinder-countless-examples-of-antisemitism-in-2025-13297974 in 0.76 seconds
+2025-01-28 10:59:51,861-INFO-Fetched https://news.sky.com/video/london-landmarks-turn-purple-for-holocaust-memorial-day-13297945 in 0.95 seconds
+2025-01-28 10:59:54,947-INFO-Fetched https://news.sky.com/video/taylor-swift-cheers-on-travis-kelce-after-afc-championship-win-13297678 in 1.09 seconds
+2025-01-28 10:59:58,056-INFO-Fetched https://news.sky.com/video/ballerina-gracefully-dances-on-top-of-ship-s-bow-surrounded-by-antarctic-ice-13297927 in 1.11 seconds
+2025-01-28 11:00:00,940-INFO-Fetched https://news.sky.com/video/health-secretary-wes-streeting-challenged-on-cuts-to-social-care-13297477 in 0.88 seconds
+2025-01-28 11:00:04,428-INFO-Fetched https://news.sky.com/video/suspected-gang-members-arrested-in-colorado-as-part-of-trump-immigration-crackdown-13297584 in 1.49 seconds
+2025-01-28 11:00:07,518-INFO-Fetched https://news.sky.com/video/thousands-of-displaced-palestinians-return-to-northern-gaza-for-first-time-in-more-than-a-year-13297564 in 1.09 seconds
+2025-01-28 11:00:10,271-INFO-Fetched https://news.sky.com/video/social-care-cuts-leave-many-struggling-to-cope-13297282 in 0.75 seconds
+2025-01-28 11:00:13,536-INFO-Fetched https://news.sky.com/video/philadelphia-three-injured-after-car-drives-into-crowd-13297836 in 1.26 seconds
+2025-01-28 11:00:16,469-INFO-Fetched https://news.sky.com/video/horrors-of-auschwitz-remembered-80-years-since-it-was-liberated-13295575 in 0.93 seconds
+2025-01-28 11:00:19,805-INFO-Fetched https://news.sky.com/video/auschwitz-liberation-80-years-on-13294969 in 1.33 seconds
+2025-01-28 11:00:22,980-INFO-Fetched https://news.sky.com/video/baruch-borenstein-83-was-saved-from-being-sent-to-auschwitz-while-on-the-train-from-belgium-to-poland-13296966 in 1.17 seconds
+2025-01-28 11:00:26,128-INFO-Fetched https://news.sky.com/video/democratic-republic-of-congo-key-city-of-goma-falls-to-rwandan-backed-rebels-13297526 in 1.15 seconds
+2025-01-28 11:00:29,078-INFO-Fetched https://news.sky.com/video/99-year-old-albrecht-weinberg-survived-three-concentration-camps-including-auschwitz-birkenau-13297176 in 0.95 seconds
+2025-01-28 11:00:31,901-INFO-Fetched https://news.sky.com/video/moment-historic-red-brick-building-collapses-in-hale-after-storm-eowyn-13297300 in 0.82 seconds
+2025-01-28 11:00:35,518-INFO-Fetched https://news.sky.com/video/trumps-first-week-what-happened-13297281 in 1.62 seconds
+2025-01-28 11:00:38,600-INFO-Fetched https://news.sky.com/video/at-least-22-people-killed-by-israeli-forces-in-lebanon-say-authorities-13297433 in 1.08 seconds
+2025-01-28 11:00:42,163-INFO-Fetched https://news.sky.com/video/chancellor-rachel-reeves-says-no-stone-should-be-left-unturned-in-southport-inquiry-13296920 in 1.56 seconds
+2025-01-28 11:00:45,094-INFO-Fetched https://news.sky.com/video/lukashenko-tells-sky-news-reporter-uk-is-being-rules-by-its-subordinates-13297343 in 0.93 seconds
+2025-01-28 11:00:48,432-INFO-Fetched https://news.sky.com/video/conservative-party-leader-kemi-badenoch-talks-immigration-our-country-is-not-a-hotel-13296943 in 1.34 seconds
+2025-01-28 11:00:51,329-INFO-Fetched https://news.sky.com/video/hub-yousra-congo-live-v2-mp4-13297022 in 0.90 seconds
+2025-01-28 11:00:54,121-INFO-Fetched https://news.sky.com/video/thousands-wait-to-return-to-northern-gaza-after-israeli-military-delays-13297197 in 0.79 seconds
+2025-01-28 11:00:57,622-INFO-Fetched https://www.espn.in/football/story/_/id/43546101/january-transfers-news-rumors-osimhen-sesko-gyokeres-latest in 1.50 seconds
+2025-01-28 11:01:00,704-INFO-Fetched https://www.espn.in/football/story/_/id/43589808/fired-premier-league-ref-david-coote-apologises in 1.08 seconds
+2025-01-28 11:01:03,806-INFO-Fetched https://www.espn.in/football/story/_/id/43589297/al-hilal-neymar-terminate-contract-ahead-santos-move in 1.10 seconds
+2025-01-28 11:01:06,907-INFO-Fetched https://www.espn.in/football/story/_/id/43583401/tottenham-stick-ange-postecoglou-amid-sacking-calls-sources in 1.10 seconds
+2025-01-28 11:01:09,990-INFO-Fetched https://www.espn.in/football/story/_/id/43588830/chelsea-loan-renato-veiga-juventus-danilo-goodbye in 1.08 seconds
+2025-01-28 11:01:13,064-INFO-Fetched https://www.espn.in/football/story/_/id/43583719/ex-belgium-star-radja-nainggolan-arrested-cocaine-trafficking-probe in 1.07 seconds
+2025-01-28 11:01:16,132-INFO-Fetched https://www.espn.in/football/story/_/id/43582519/man-united-fan-group-urges-sir-jim-ratcliffe-rethink-price-hike in 1.07 seconds
+2025-01-28 11:01:19,228-INFO-Fetched https://www.espn.in/football/story/_/id/43575040/man-united-ruben-amorim-slams-marcus-rashford-again in 1.10 seconds
+2025-01-28 11:01:22,469-INFO-Fetched https://www.espn.in/espn/story/_/id/43581797/nigeria-striker-victor-osimhen-denies-punching-journalist-threatens-legal-action in 1.24 seconds
+2025-01-28 11:01:25,552-INFO-Fetched https://www.espn.in/football/story/_/id/43587514/afcon-draw-hosts-morocco-champs-ivory-coast-learn-groups in 1.08 seconds
+2025-01-28 11:01:28,627-INFO-Fetched https://www.espn.in/football/story/_/id/43585116/isl-score-2024-25-indian-super-league-football-results-matchweek-20 in 1.07 seconds
+2025-01-28 11:01:31,880-INFO-Fetched https://www.espn.in/espn/story/_/id/43582295/kylian-mbappe-statement-hat-trick-sign-things-real-madrid-moment-weekend in 1.25 seconds
+2025-01-28 11:01:35,042-INFO-Fetched https://www.espn.in/football/story/_/id/43579106/mbappe-first-real-madrid-hat-trick-salah-surpasses-henry-weekend-stats in 1.16 seconds
+2025-01-28 11:01:38,302-INFO-Fetched https://www.espn.in/football/story/_/id/43573260/european-soccer-weekend-review-premier-league-laliga-bundesliga-highlights-analysis in 1.26 seconds
+2025-01-28 11:01:40,302-INFO-Finished fetching articles.
+2025-01-28 11:01:40,347-INFO-articles saved to cached file:  cached_articles.json
+2025-01-28 11:01:42,424-INFO-inserted artcicle from cnn in category world:https://edition.cnn.com/business/media
+2025-01-28 11:01:42,526-INFO-inserted artcicle from cnn in category world:https://edition.cnn.com/travel/news
+2025-01-28 11:01:42,636-INFO-inserted artcicle from cnn in category world:https://edition.cnn.com/audio/podcasts/all-there-is-with-anderson-cooper
+2025-01-28 11:01:42,747-INFO-inserted artcicle from cnn in category world:https://edition.cnn.com/2025/01/27/asia/wfp-aid-cuts-afghanistan-intl-hnk/index.html
+2025-01-28 11:01:42,857-INFO-inserted artcicle from cnn in category world:https://edition.cnn.com/2025/01/27/americas/guatemalans-deported-trump-intl-latam/index.html
+2025-01-28 11:01:42,977-INFO-inserted artcicle from cnn in category world:https://edition.cnn.com/2025/01/27/middleeast/israel-hamas-eight-hostages-dead-intl/index.html
+2025-01-28 11:01:43,085-INFO-inserted artcicle from cnn in category world:https://edition.cnn.com/2025/01/27/europe/denmark-greenland-trump-defense-latam-intl/index.html
+2025-01-28 11:01:43,200-INFO-inserted artcicle from cnn in category world:https://edition.cnn.com/2025/01/27/europe/world-leaders-auschwitz-commemorations-holocaust-intl/index.html
+2025-01-28 11:01:43,338-INFO-inserted artcicle from cnn in category world:https://edition.cnn.com/2025/01/27/middleeast/palestinians-return-north-gaza-intl-hnk/index.html
+2025-01-28 11:01:43,447-INFO-inserted artcicle from cnn in category world:https://edition.cnn.com/2025/01/25/europe/elon-musk-germany-afd-protests-intl-latam/index.html
+2025-01-28 11:01:43,581-INFO-inserted artcicle from cnn in category politics:https://edition.cnn.com/2025/01/26/china/china-panda-diplomacy-intl-hnk/index.html
+2025-01-28 11:01:43,691-INFO-inserted artcicle from cnn in category politics:https://edition.cnn.com/2025/01/26/europe/latvia-baltic-undersea-cable-intl-latam/index.html
+2025-01-28 11:01:43,802-INFO-inserted artcicle from cnn in category politics:https://edition.cnn.com/2025/01/26/europe/belarus-lukashenko-presidential-election-intl/index.html
+2025-01-28 11:01:43,909-INFO-inserted artcicle from cnn in category politics:https://edition.cnn.com/2025/01/26/middleeast/lebanese-citizens-killed-lebanon-israel-intl/index.html
+2025-01-28 11:01:44,019-INFO-inserted artcicle from cnn in category politics:https://edition.cnn.com/2025/01/26/asia/south-koreas-president-charged-insurrection-intl/index.html
+2025-01-28 11:01:44,129-INFO-inserted artcicle from cnn in category politics:https://edition.cnn.com/2025/01/26/africa/sudan-hospital-north-darfur-airstrike-70-killed-intl/index.html
+2025-01-28 11:01:44,267-INFO-inserted artcicle from cnn in category politics:https://www.cnn.com/interactive/2024/01/middleeast/gaza-hospitals-destruction-investigation-intl-cmd/
+2025-01-28 11:01:44,370-INFO-inserted artcicle from cnn in category politics:https://www.cnn.com/interactive/2023/11/world/climate-gender-inequality-cnnphotos-as-equals-intl-cmd/
+2025-01-28 11:01:44,473-INFO-inserted artcicle from cnn in category politics:https://edition.cnn.com/2025/01/27/world/video/guatemala-deportations-land-david-culver-digvid-ebof
+2025-01-28 11:01:44,589-INFO-inserted artcicle from cnn in category politics:https://edition.cnn.com/2025/01/24/world/video/japan-aquarium-lonely-sunfish-digvid
+2025-01-28 11:01:44,695-INFO-inserted artcicle from cnn in category business:https://edition.cnn.com/2025/01/27/world/video/the-lead-holocaust-auschwitz-jewish-history-80-years-germany-poland-jake-tapper
+2025-01-28 11:01:44,797-INFO-inserted artcicle from cnn in category business:https://edition.cnn.com/2025/01/27/world/video/guatemala-migrant-deported-david-culver-digvid
+2025-01-28 11:01:44,916-INFO-inserted artcicle from cnn in category business:https://edition.cnn.com/2025/01/27/europe/israel-holocaust-memorial-chair-musk-criticism-intl/index.html
+2025-01-28 11:01:45,063-INFO-inserted artcicle from cnn in category business:https://edition.cnn.com/2025/01/27/europe/nato-defense-baltic-undersea-cables-intl-cmd/index.html
+2025-01-28 11:01:45,175-INFO-inserted artcicle from cnn in category business:https://edition.cnn.com/2025/01/27/europe/belarus-election-lukashenko-win-sham-intl/index.html
+2025-01-28 11:01:45,333-INFO-inserted artcicle from cnn in category business:https://edition.cnn.com/2025/01/26/europe/oswiecim-auschwitz-neighbor-antisemitism-intl/index.html
+2025-01-28 11:01:45,463-INFO-inserted artcicle from cnn in category business:https://edition.cnn.com/2025/01/26/europe/putin-russia-economy-trump-analysis-intl/index.html
+2025-01-28 11:01:45,581-INFO-inserted artcicle from cnn in category business:https://edition.cnn.com/2025/01/24/europe/trumps-policy-ukrainian-war-unexpected-priority-intl/index.html
+2025-01-28 11:01:45,714-INFO-inserted artcicle from cnn in category business:https://edition.cnn.com/2025/01/27/middleeast/trump-clean-out-gaza-middle-east-intl/index.html
+2025-01-28 11:01:45,829-INFO-inserted artcicle from cnn in category business:https://edition.cnn.com/2025/01/25/middleeast/israel-hamas-ceasefire-deal-fragile-hostage-release-gaza-intl-latam/index.html
+2025-01-28 11:01:45,949-INFO-inserted artcicle from cnn in category health:https://edition.cnn.com/2025/01/25/middleeast/four-female-hostages-released-gaza-intl/index.html
+2025-01-28 11:01:46,063-INFO-inserted artcicle from cnn in category health:https://edition.cnn.com/2025/01/24/middleeast/israel-lebanon-hezbollah-withdrawal-intl/index.html
+2025-01-28 11:01:46,174-INFO-inserted artcicle from cnn in category health:https://edition.cnn.com/2025/01/24/middleeast/jenin-israeli-military-operation-west-bank-intl-latam/index.html
+2025-01-28 11:01:46,293-INFO-inserted artcicle from cnn in category health:https://edition.cnn.com/2025/01/27/world/gallery/auschwitz-liberation-anniversary/index.html
+2025-01-28 11:01:46,398-INFO-inserted artcicle from cnn in category health:https://edition.cnn.com/2025/01/23/world/gallery/photos-this-week-january-16-january-23/index.html
+2025-01-28 11:01:46,502-INFO-inserted artcicle from cnn in category health:https://edition.cnn.com/2025/01/13/world/gallery/people-we-lost-2025/index.html
+2025-01-28 11:01:46,609-INFO-inserted artcicle from cnn in category health:https://edition.cnn.com/2025/01/16/world/gallery/photos-this-week-january-9-january-16/index.html
+2025-01-28 11:01:46,738-INFO-inserted artcicle from cnn in category health:https://edition.cnn.com/2025/01/26/africa/congo-severs-ties-rwanda-rebels-goma-intl/index.html
+2025-01-28 11:01:46,849-INFO-inserted artcicle from cnn in category health:https://edition.cnn.com/2025/01/25/africa/un-peacekeepers-drc-congo-m23-afr-intl-latam/index.html
+2025-01-28 11:01:46,974-INFO-inserted artcicle from cnn in category entertainment:https://edition.cnn.com/2025/01/23/middleeast/israel-turning-focus-on-west-bank-intl/index.html
+2025-01-28 11:01:47,081-INFO-inserted artcicle from cnn in category entertainment:https://edition.cnn.com/2025/01/23/africa/south-sudan-suspends-social-media-platforms-intl/index.html
+2025-01-28 11:01:47,192-INFO-inserted artcicle from cnn in category entertainment:https://edition.cnn.com/2025/01/27/americas/climate-change-latin-america-un-report-int-latam/index.html
+2025-01-28 11:01:47,307-INFO-inserted artcicle from cnn in category entertainment:https://edition.cnn.com/2025/01/21/americas/pope-dissolves-peruvian-catholic-group-intl-latam/index.html
+2025-01-28 11:01:47,418-INFO-inserted artcicle from cnn in category entertainment:https://edition.cnn.com/2025/01/22/americas/colombia-displaced-deadly-rebel-clashes-intl-latam/index.html
+2025-01-28 11:01:47,533-INFO-inserted artcicle from cnn in category entertainment:https://edition.cnn.com/2025/01/22/americas/juarez-migrants-mexico-us-border-cbp-app-intl-hnk/index.html
+2025-01-28 11:01:47,641-INFO-inserted artcicle from cnn in category entertainment:https://edition.cnn.com/2025/01/26/asia/south-korea-initial-findings-jeju-air-crash-intl-hnk/index.html
+2025-01-28 11:01:47,771-INFO-inserted artcicle from cnn in category entertainment:https://edition.cnn.com/2025/01/24/asia/taiwans-budget-freeze-defense-trump-intl-hnk/index.html
+2025-01-28 11:01:47,883-INFO-inserted artcicle from cnn in category entertainment:https://edition.cnn.com/2025/01/24/asia/china-death-sentence-stabbing-japanese-mother-child-intl-hnk/index.html
+2025-01-28 11:01:48,009-INFO-inserted artcicle from cnn in category sports:https://edition.cnn.com/2025/01/25/africa/sudan-civil-war-oil-refinery-fire-intl/index.html
+2025-01-28 11:01:48,169-INFO-inserted artcicle from cnn in category sports:https://edition.cnn.com/2025/01/23/asia/taiwan-cull-iguanas-agriculture-intl/index.html
+2025-01-28 11:01:48,311-INFO-inserted artcicle from cnn in category sports:https://edition.cnn.com/2025/01/27/travel/anne-frank-house-secret-annex-new-york/index.html
+2025-01-28 11:01:48,442-INFO-inserted artcicle from cnn in category sports:https://edition.cnn.com/travel/prosperity-toss-lunar-new-year-culinary-traditions/index.html
+2025-01-28 11:01:48,566-INFO-inserted artcicle from cnn in category sports:https://edition.cnn.com/2025/01/27/travel/japan-france-pastry-world-cup-intl-hnk/index.html
+2025-01-28 11:01:48,686-INFO-inserted artcicle from cnn in category sports:https://edition.cnn.com/travel/chinese-lunar-new-year-2025-guide-intl-hnk/index.html
+2025-01-28 11:01:48,814-INFO-inserted artcicle from cnn in category sports:https://edition.cnn.com/2025/01/27/style/netherlands-drents-museum-heist-helmet/index.html
+2025-01-28 11:01:48,928-INFO-inserted artcicle from cnn in category sports:https://edition.cnn.com/2025/01/26/style/louvre-museum-couture-exhibition/index.html
+2025-01-28 11:01:49,038-INFO-inserted artcicle from cnn in category sports:https://edition.cnn.com/2025/01/24/style/fka-twigs-rick-owens-pfw-lotw/index.html
+2025-01-28 11:01:49,149-INFO-inserted artcicle from cnn in category us:https://edition.cnn.com/2025/01/24/style/louvre-museum-dire-state-paris-intl-scli/index.html
+2025-01-28 11:01:49,279-INFO-inserted artcicle from cnn in category us:https://edition.cnn.com/2025/01/23/style/martha-stewart-rose/index.html
+2025-01-28 11:01:49,402-INFO-inserted artcicle from cnn in category us:https://edition.cnn.com/2025/01/22/weather/winter-storm-south-wednesday-hnk/index.html
+2025-01-28 11:01:49,533-INFO-inserted artcicle from cnn in category us:https://edition.cnn.com/2025/01/21/weather/winter-storm-south-tuesday-hnk/index.html
+2025-01-28 11:01:49,746-INFO-inserted artcicle from cnn in category us:https://edition.cnn.com/2025/01/20/weather/wind-chills-threaten-us-record-snowfall-hnk/index.html
+2025-01-28 11:01:49,862-INFO-inserted artcicle from cnn in category us:https://edition.cnn.com/2025/01/19/weather/weather-cold-winter-temperature-freezing/index.html
+2025-01-28 11:01:49,965-INFO-inserted artcicle from cnn in category us:https://edition.cnn.com/2025/01/27/world/video/afghanistan-taliban-womens-rights-zahra-joya-paula-newton
+2025-01-28 11:01:50,068-INFO-inserted artcicle from cnn in category us:https://edition.cnn.com/2025/01/27/world/video/deported-migrants-guatemala-arrival-digvid
+2025-01-28 11:01:50,181-INFO-inserted artcicle from cnn in category us:https://edition.cnn.com/2025/01/27/world/video/african-voices-changemakers-vivo-fashion-group-kenya-patheo-ivory-coast-spc
+2025-01-28 11:01:50,181-INFO-Articles from cnn inserted into database portal_news
+2025-01-28 11:01:50,348-INFO-inserted artcicle from fox news in category politics:https://www.foxnews.com/video/5614615980001
+2025-01-28 11:01:50,459-INFO-inserted artcicle from fox news in category politics:https://www.foxnews.com/world/hamas-releases-4-female-hostages-part-israel-ceasefire-deal
+2025-01-28 11:01:50,562-INFO-inserted artcicle from fox news in category politics:https://www.foxnews.com/video/shows
+2025-01-28 11:01:50,665-INFO-inserted artcicle from fox news in category politics:https://www.foxnews.com/video/topics/v-most-recent-episodes
+2025-01-28 11:01:50,769-INFO-inserted artcicle from fox news in category politics:https://www.foxnews.com/video/topics/latest-news-video
+2025-01-28 11:01:50,879-INFO-inserted artcicle from fox news in category politics:https://www.foxnews.com/story/foxnews-com-rss-feeds
+2025-01-28 11:01:50,984-INFO-inserted artcicle from fox news in category politics:https://www.foxnews.com/world/airliners-final-4-minutes-recordings-missing-after-crash-killed-179-investigators
+2025-01-28 11:01:51,094-INFO-inserted artcicle from fox news in category politics:https://www.foxnews.com/politics/colombian-leader-quickly-caves-after-trump-threats-offers-presidential-plane-deportation-flights
+2025-01-28 11:01:51,204-INFO-inserted artcicle from fox news in category politics:https://www.foxnews.com/us/international-holocaust-remembrance-day-survivor-recounts-how-mother-saved-her-life-reveals-message-un
+2025-01-28 11:01:51,340-INFO-inserted artcicle from fox news in category politics:https://www.foxnews.com/us/nyc-mayor-slams-despicable-act-antisemitism-after-israeli-restaurant-vandalized-messages-hate
+2025-01-28 11:01:51,463-INFO-inserted artcicle from fox news in category sports:https://www.foxnews.com/world/palestinians-stream-back-northern-gaza-after-israel-lifts-closure
+2025-01-28 11:01:51,594-INFO-inserted artcicle from fox news in category sports:https://www.foxnews.com/world/israel-hamas-reach-deal-release-hostages-allow-palestinians-return-gaza-strip
+2025-01-28 11:01:51,704-INFO-inserted artcicle from fox news in category sports:https://www.foxnews.com/world/israeli-victims-terror-concerned-murderers-released-from-prison-relieved-7-hostages-back-home
+2025-01-28 11:01:51,813-INFO-inserted artcicle from fox news in category sports:https://www.foxnews.com/world/ukrainian-human-rights-lawyer-nobel-prize-winner-urges-trump-show-strength-end-war
+2025-01-28 11:01:51,918-INFO-inserted artcicle from fox news in category sports:https://www.foxnews.com/world/putin-reportedly-concerned-over-russias-economy-ahead-possible-trump-tariffs
+2025-01-28 11:01:52,040-INFO-inserted artcicle from fox news in category sports:https://www.foxnews.com/world/putin-xi-vow-deepen-alliance-hours-after-trump-re-enters-white-house
+2025-01-28 11:01:52,147-INFO-inserted artcicle from fox news in category sports:https://www.foxnews.com/world/russia-iran-seal-partnership-treaty-days-before-trump-takes-office
+2025-01-28 11:01:52,254-INFO-inserted artcicle from fox news in category sports:https://www.foxnews.com/politics/fox-news-politics-newsletter-hegseth-helm
+2025-01-28 11:01:52,360-INFO-inserted artcicle from fox news in category sports:https://www.foxnews.com/world/eu-military-chief-says-would-make-sense-put-european-troops-greenland-welt-reports
+2025-01-28 11:01:52,464-INFO-inserted artcicle from fox news in category sports:https://www.foxnews.com/media/fox-nation-premiere-yellowstone-yosemite-kevin-costner
+2025-01-28 11:01:52,602-INFO-inserted artcicle from fox news in category entertainment:https://www.foxnews.com/world/auschwitz-80-years-since-liberation-ryszard-horowitzs-story-survival-making-american-dream
+2025-01-28 11:01:52,713-INFO-inserted artcicle from fox news in category entertainment:https://www.foxnews.com/world/belarus-president-lukashenko-extends-rule-after-election-rejected-opposition-eu
+2025-01-28 11:01:52,821-INFO-inserted artcicle from fox news in category entertainment:https://www.foxnews.com/us/trump-reinstate-service-members-discharged-not-getting-covid-vaccine-more-top-headlines
+2025-01-28 11:01:52,946-INFO-inserted artcicle from fox news in category entertainment:https://www.foxnews.com/lifestyle/striking-video-shows-moment-british-airways-plane-hit-lightning
+2025-01-28 11:01:53,061-INFO-inserted artcicle from fox news in category entertainment:https://www.foxnews.com/world/13-un-peacekeepers-allied-soldiers-dead-congo-m23-rebels-make-gains-key-city
+2025-01-28 11:01:53,201-INFO-inserted artcicle from fox news in category entertainment:https://www.foxnews.com/world/town-once-inhabited-nazis-reconciles-past
+2025-01-28 11:01:53,314-INFO-inserted artcicle from fox news in category entertainment:https://www.foxnews.com/world/south-korean-prosecutors-indict-impeached-president-who-declared-martial-law
+2025-01-28 11:01:53,417-INFO-inserted artcicle from fox news in category entertainment:https://www.foxnews.com/us/mugshots-week-jan-19-25-2025
+2025-01-28 11:01:53,530-INFO-inserted artcicle from fox news in category entertainment:https://www.foxnews.com/travel/airlines-dress-codes-these-clothes-kicked-off-flight
+2025-01-28 11:01:53,637-INFO-inserted artcicle from fox news in category entertainment:https://www.foxnews.com/travel/disney-cruise-line-increases-recommended-gratuities
+2025-01-28 11:01:53,747-INFO-inserted artcicle from fox news in category lifestyle:https://www.foxnews.com/entertainment/fox-news-entertainment-newsletter-la-fires-burn-chris-pratts-sons-school-meghan-markles-secret-nickname
+2025-01-28 11:01:53,861-INFO-inserted artcicle from fox news in category lifestyle:https://www.foxnews.com/world/argentinas-milei-rails-against-wokeism-transgenderism-explosive-speech-davos
+2025-01-28 11:01:53,965-INFO-inserted artcicle from fox news in category lifestyle:https://www.foxnews.com/science/newly-discovered-asteroid-turns-tesla-roadster-launched-space
+2025-01-28 11:01:54,075-INFO-inserted artcicle from fox news in category lifestyle:https://www.foxnews.com/world/israel-tells-un-its-shutting-down-all-unrwa-operations-jerusalem-acute-security-risks
+2025-01-28 11:01:54,241-INFO-inserted artcicle from fox news in category lifestyle:https://www.foxnews.com/world/south-african-president-signs-controversial-land-seizure-bill-eroding-private-property-rights
+2025-01-28 11:01:54,348-INFO-inserted artcicle from fox news in category lifestyle:https://www.foxnews.com/politics/fox-news-politics-newsletter-atf-misfires-dei-order
+2025-01-28 11:01:54,455-INFO-inserted artcicle from fox news in category lifestyle:https://www.foxnews.com/world/colombia-president-decrees-emergency-powers-restore-order-coca-region-wracked-rebel-combat
+2025-01-28 11:01:54,562-INFO-inserted artcicle from fox news in category lifestyle:https://www.foxnews.com/world/hamas-releases-names-4-female-hostages-released-next-possibly-violates-deal
+2025-01-28 11:01:54,670-INFO-inserted artcicle from fox news in category lifestyle:https://www.foxnews.com/politics/energy-experts-weigh-canadian-premier-discuss-keystone-pipeline-2-0-trump
+2025-01-28 11:01:54,779-INFO-inserted artcicle from fox news in category lifestyle:https://www.foxnews.com/us/president-trump-visiting-storm-battered-towns-treated-badly-by-dems-more-top-headlines
+2025-01-28 11:01:54,779-INFO-Articles from fox news inserted into database portal_news
+2025-01-28 11:01:54,881-INFO-inserted artcicle from Sky News in category uk:https://www.sky.com/shop/mobile/phones/samsung/samsung-galaxy-s25-ultra-5g-with-galaxy-ai?colour=Titanium-Silverblue&capacity=512GB&irct=newhome-mobile-buy
+2025-01-28 11:01:54,991-INFO-inserted artcicle from Sky News in category uk:https://news.sky.com/story/us-and-israel-would-be-crazy-to-attack-irans-nuclear-facilities-tehran-says-13297914
+2025-01-28 11:01:55,099-INFO-inserted artcicle from Sky News in category uk:https://news.sky.com/story/doctors-look-for-clues-on-why-super-survivors-overcome-cancer-in-first-global-study-13297748
+2025-01-28 11:01:55,209-INFO-inserted artcicle from Sky News in category uk:https://news.sky.com/story/donald-trump-warns-deepseek-should-be-wakeup-call-for-americas-ai-industry-13298001
+2025-01-28 11:01:55,316-INFO-inserted artcicle from Sky News in category uk:https://news.sky.com/story/i-am-scared-inside-congolese-city-overrun-by-rebels-as-echoing-blasts-and-crack-of-bullets-force-families-to-hide-13297921
+2025-01-28 11:01:55,421-INFO-inserted artcicle from Sky News in category uk:https://news.sky.com/story/gaza-ceasefire-israel-hamas-hostages-prisoners-north-latest-sky-news-live-12978800
+2025-01-28 11:01:55,540-INFO-inserted artcicle from Sky News in category uk:https://news.sky.com/story/north-koreans-blow-themselves-up-with-grenades-rather-than-risk-capture-say-ukraine-soldiers-13297508
+2025-01-28 11:01:55,647-INFO-inserted artcicle from Sky News in category uk:https://news.sky.com/story/major-recall-ordered-of-soft-drinks-made-at-coca-cola-factory-over-potential-health-risks-13297977
+2025-01-28 11:01:55,754-INFO-inserted artcicle from Sky News in category uk:https://news.sky.com/story/money-blog-mortgage-personal-finance-dentist-consumer-inflation-pound-blog-live-sky-news-13040934
+2025-01-28 11:01:55,869-INFO-inserted artcicle from Sky News in category uk:https://news.sky.com/story/displaced-civilians-in-democratic-republic-of-congo-face-frenzy-of-fear-and-uncertainty-13297307
+2025-01-28 11:01:55,977-INFO-inserted artcicle from Sky News in category politics:https://news.sky.com/story/trump-announces-retaliatory-measures-after-colombia-refuses-to-accept-deported-migrant-flight-13297424
+2025-01-28 11:01:56,086-INFO-inserted artcicle from Sky News in category politics:https://news.sky.com/story/donald-trumps-comments-on-gaza-trigger-tensions-with-his-arab-american-supporters-13297537
+2025-01-28 11:01:56,192-INFO-inserted artcicle from Sky News in category politics:https://news.sky.com/story/day-8-trump-calls-starmer-13297525
+2025-01-28 11:01:56,322-INFO-inserted artcicle from Sky News in category politics:https://news.sky.com/story/donald-trump-ally-lindsey-graham-says-pardoning-january-6-rioters-was-a-mistake-and-could-lead-to-more-violence-13297440
+2025-01-28 11:01:56,427-INFO-inserted artcicle from Sky News in category politics:https://news.sky.com/video/iranian-foreign-minister-says-israel-would-be-crazy-to-attack-nuclear-facilities-13297943
+2025-01-28 11:01:56,531-INFO-inserted artcicle from Sky News in category politics:https://news.sky.com/video/who-are-the-cancer-super-survivors-and-why-is-there-a-new-study-based-on-their-resistance-13297860
+2025-01-28 11:01:56,634-INFO-inserted artcicle from Sky News in category politics:https://news.sky.com/video/sky-witnesses-rebels-taking-over-goma-in-drc-while-congolese-forces-surrender-their-uniforms-13297855
+2025-01-28 11:01:56,736-INFO-inserted artcicle from Sky News in category politics:https://news.sky.com/video/holocaust-survivors-mark-80-years-since-auschwitz-liberation-13297899
+2025-01-28 11:01:56,842-INFO-inserted artcicle from Sky News in category politics:https://news.sky.com/video/king-meets-holocaust-survivors-in-poland-as-he-warns-about-re-emergence-of-antisemitism-13297728
+2025-01-28 11:01:56,946-INFO-inserted artcicle from Sky News in category politics:https://news.sky.com/video/why-were-hitlers-extermination-camps-all-in-poland-13297839
+2025-01-28 11:01:57,051-INFO-inserted artcicle from Sky News in category world:https://news.sky.com/video/inside-rudolf-hoss-house-next-door-to-the-auschwitz-concentration-camp-13297853
+2025-01-28 11:01:57,153-INFO-inserted artcicle from Sky News in category world:https://news.sky.com/video/survivors-gather-in-poland-for-auschwitz-ceremony-to-mark-80-years-since-liberation-13297623
+2025-01-28 11:01:57,256-INFO-inserted artcicle from Sky News in category world:https://news.sky.com/video/north-korean-troops-temporarily-pull-back-from-frontline-in-russia-13297553
+2025-01-28 11:01:57,358-INFO-inserted artcicle from Sky News in category world:https://news.sky.com/video/palestinian-man-finds-house-reduced-to-rubble-as-tens-of-thousands-return-to-northern-gaza-13297844
+2025-01-28 11:01:57,468-INFO-inserted artcicle from Sky News in category world:https://news.sky.com/story/ai-now-not-just-a-contest-between-californian-tech-bros-with-macho-budgets-but-between-superpowers-13297999
+2025-01-28 11:01:57,571-INFO-inserted artcicle from Sky News in category world:https://news.sky.com/story/gazas-rocky-truce-tested-by-delayed-release-of-civilian-hostage-arbel-yehoud-13296606
+2025-01-28 11:01:57,702-INFO-inserted artcicle from Sky News in category world:https://news.sky.com/story/trump-has-everyone-at-the-world-economic-forum-in-davos-guessing-13293703
+2025-01-28 11:01:57,811-INFO-inserted artcicle from Sky News in category world:https://news.sky.com/story/los-angeles-must-be-better-prepared-for-climate-crises-by-2028-olympics-says-ioc-member-johan-eliasch-13294648
+2025-01-28 11:01:57,922-INFO-inserted artcicle from Sky News in category world:https://news.sky.com/story/ukrainian-marines-on-war-with-russia-amid-concerns-over-donald-trumps-return-to-the-white-house-13291562
+2025-01-28 11:01:58,030-INFO-inserted artcicle from Sky News in category world:https://news.sky.com/story/the-release-of-prisoners-sparked-scenes-of-joy-in-the-west-bank-images-israel-wanted-to-avoid-13292815
+2025-01-28 11:01:58,138-INFO-inserted artcicle from Sky News in category us:https://news.sky.com/story/what-is-the-fighting-in-democratic-republic-of-congo-about-and-is-rwanda-invading-13297621
+2025-01-28 11:01:58,249-INFO-inserted artcicle from Sky News in category us:https://news.sky.com/story/king-delivers-speech-to-holocaust-survivors-on-80th-anniversary-of-auschwitz-liberation-13297726
+2025-01-28 11:01:58,355-INFO-inserted artcicle from Sky News in category us:https://news.sky.com/story/auschwitz-remembered-why-we-should-never-forget-13297724
+2025-01-28 11:01:58,464-INFO-inserted artcicle from Sky News in category us:https://news.sky.com/story/auschwitz-remembered-survivors-mark-liberation-from-former-nazi-concentration-camp-80-years-ago-13297515
+2025-01-28 11:01:58,573-INFO-inserted artcicle from Sky News in category us:https://news.sky.com/story/ex-police-chief-condemns-investigation-into-alleged-afghanistan-war-crimes-by-uk-special-forces-13297916
+2025-01-28 11:01:58,683-INFO-inserted artcicle from Sky News in category us:https://news.sky.com/story/at-least-13-foreign-peacekeepers-killed-in-democratic-republic-of-congo-in-clashes-with-rebels-13296971
+2025-01-28 11:01:58,788-INFO-inserted artcicle from Sky News in category us:https://news.sky.com/story/china-to-host-worlds-first-half-marathon-race-between-humans-and-robots-13297863
+2025-01-28 11:01:58,894-INFO-inserted artcicle from Sky News in category us:https://news.sky.com/story/if-you-lost-weight-you-were-sent-to-the-gas-chamber-the-auschwitz-ordeal-of-a-13-year-old-girl-separated-from-her-family-13294967
+2025-01-28 11:01:59,001-INFO-inserted artcicle from Sky News in category us:https://news.sky.com/story/south-korea-bird-strike-traces-found-in-engines-of-jeju-air-plane-that-crashed-killing-179-13297685
+2025-01-28 11:01:59,105-INFO-inserted artcicle from Sky News in category us:https://news.sky.com/story/joy-and-relief-as-tens-of-thousands-of-palestinians-head-home-to-northern-gaza-13297714
+2025-01-28 11:01:59,221-INFO-inserted artcicle from Sky News in category money:https://news.sky.com/story/revealed-the-hamas-backed-plan-for-gazas-future-13295020
+2025-01-28 11:01:59,333-INFO-inserted artcicle from Sky News in category money:https://news.sky.com/story/auschwitz-survivor-you-worked-until-you-could-work-no-more-then-you-went-to-the-chimney-13297175
+2025-01-28 11:01:59,445-INFO-inserted artcicle from Sky News in category money:https://news.sky.com/story/family-of-us-journalist-held-captive-in-syria-for-12-years-incredibly-hopeful-of-return-in-wake-of-assads-fall-13271145
+2025-01-28 11:01:59,556-INFO-inserted artcicle from Sky News in category money:https://news.sky.com/story/donald-trump-wants-gaza-ceasefire-deal-by-the-time-he-takes-power-says-qatari-pm-13266834
+2025-01-28 11:01:59,660-INFO-inserted artcicle from Sky News in category money:https://news.sky.com/story/russian-attacks-on-uk-cyberinfrastructure-will-be-feature-of-our-life-former-mi6-chief-warns-13266063
+2025-01-28 11:01:59,767-INFO-inserted artcicle from Sky News in category money:https://news.sky.com/story/hamas-ready-for-gaza-ceasefire-immediately-but-claims-israel-has-put-forward-no-serious-proposals-in-months-13254181
+2025-01-28 11:01:59,870-INFO-inserted artcicle from Sky News in category money:https://news.sky.com/story/tuesdays-national-newspaper-front-pages-12427754
+2025-01-28 11:01:59,979-INFO-inserted artcicle from Sky News in category money:https://news.sky.com/story/ronan-keating-on-boyband-fame-in-the-90s-our-duty-of-care-meant-nothing-13297732
+2025-01-28 11:02:00,090-INFO-inserted artcicle from Sky News in category money:https://news.sky.com/story/money-blog-top-credit-card-firms-face-lawsuit-which-could-be-worth-4bn-britains-oldest-brewer-warns-prices-to-rise-13040934
+2025-01-28 11:02:00,196-INFO-inserted artcicle from Sky News in category money:https://news.sky.com/story/luxury-yacht-builder-fairline-collapses-just-weeks-after-sale-13297747
+2025-01-28 11:02:00,301-INFO-inserted artcicle from Sky News in category science:https://news.sky.com/story/couple-save-hundreds-by-flying-to-spain-rather-than-take-train-from-cornwall-to-crewe-13297941
+2025-01-28 11:02:00,415-INFO-inserted artcicle from Sky News in category science:https://news.sky.com/story/fraud-suspect-61-used-wigs-and-disguises-to-take-citizenship-tests-for-others-home-office-says-13297978
+2025-01-28 11:02:00,523-INFO-inserted artcicle from Sky News in category science:https://news.sky.com/story/omagh-bombing-inquiry-to-begin-with-statements-from-victims-families-13298000
+2025-01-28 11:02:00,629-INFO-inserted artcicle from Sky News in category science:https://news.sky.com/video/trump-100-podcast-day-9-trump-and-gaza-13298006
+2025-01-28 11:02:00,732-INFO-inserted artcicle from Sky News in category science:https://news.sky.com/video/watch-father-found-guilty-of-daughters-murder-told-police-they-were-just-playing-around-13297988
+2025-01-28 11:02:00,835-INFO-inserted artcicle from Sky News in category science:https://news.sky.com/video/auschwitz-anniversary-david-baddiel-on-remembering-family-members-13297848
+2025-01-28 11:02:00,939-INFO-inserted artcicle from Sky News in category science:https://news.sky.com/video/holocaust-memorial-day-prince-william-and-princess-catherine-attend-memorial-event-13297892
+2025-01-28 11:02:01,042-INFO-inserted artcicle from Sky News in category science:https://news.sky.com/video/glasgow-sex-abuse-gang-jailed-13297746
+2025-01-28 11:02:01,147-INFO-inserted artcicle from Sky News in category science:https://news.sky.com/video/rob-rinder-countless-examples-of-antisemitism-in-2025-13297974
+2025-01-28 11:02:01,263-INFO-inserted artcicle from Sky News in category science:https://news.sky.com/video/london-landmarks-turn-purple-for-holocaust-memorial-day-13297945
+2025-01-28 11:02:01,379-INFO-inserted artcicle from Sky News in category climate and Tech:https://news.sky.com/video/taylor-swift-cheers-on-travis-kelce-after-afc-championship-win-13297678
+2025-01-28 11:02:01,485-INFO-inserted artcicle from Sky News in category climate and Tech:https://news.sky.com/video/ballerina-gracefully-dances-on-top-of-ship-s-bow-surrounded-by-antarctic-ice-13297927
+2025-01-28 11:02:01,588-INFO-inserted artcicle from Sky News in category climate and Tech:https://news.sky.com/video/health-secretary-wes-streeting-challenged-on-cuts-to-social-care-13297477
+2025-01-28 11:02:01,692-INFO-inserted artcicle from Sky News in category climate and Tech:https://news.sky.com/video/suspected-gang-members-arrested-in-colorado-as-part-of-trump-immigration-crackdown-13297584
+2025-01-28 11:02:01,794-INFO-inserted artcicle from Sky News in category climate and Tech:https://news.sky.com/video/thousands-of-displaced-palestinians-return-to-northern-gaza-for-first-time-in-more-than-a-year-13297564
+2025-01-28 11:02:01,897-INFO-inserted artcicle from Sky News in category climate and Tech:https://news.sky.com/video/social-care-cuts-leave-many-struggling-to-cope-13297282
+2025-01-28 11:02:02,001-INFO-inserted artcicle from Sky News in category climate and Tech:https://news.sky.com/video/philadelphia-three-injured-after-car-drives-into-crowd-13297836
+2025-01-28 11:02:02,106-INFO-inserted artcicle from Sky News in category climate and Tech:https://news.sky.com/video/horrors-of-auschwitz-remembered-80-years-since-it-was-liberated-13295575
+2025-01-28 11:02:02,209-INFO-inserted artcicle from Sky News in category climate and Tech:https://news.sky.com/video/auschwitz-liberation-80-years-on-13294969
+2025-01-28 11:02:02,313-INFO-inserted artcicle from Sky News in category climate and Tech:https://news.sky.com/video/baruch-borenstein-83-was-saved-from-being-sent-to-auschwitz-while-on-the-train-from-belgium-to-poland-13296966
+2025-01-28 11:02:02,415-INFO-inserted artcicle from Sky News in category Programmes:https://news.sky.com/video/democratic-republic-of-congo-key-city-of-goma-falls-to-rwandan-backed-rebels-13297526
+2025-01-28 11:02:02,519-INFO-inserted artcicle from Sky News in category Programmes:https://news.sky.com/video/99-year-old-albrecht-weinberg-survived-three-concentration-camps-including-auschwitz-birkenau-13297176
+2025-01-28 11:02:02,626-INFO-inserted artcicle from Sky News in category Programmes:https://news.sky.com/video/moment-historic-red-brick-building-collapses-in-hale-after-storm-eowyn-13297300
+2025-01-28 11:02:02,735-INFO-inserted artcicle from Sky News in category Programmes:https://news.sky.com/video/trumps-first-week-what-happened-13297281
+2025-01-28 11:02:02,838-INFO-inserted artcicle from Sky News in category Programmes:https://news.sky.com/video/at-least-22-people-killed-by-israeli-forces-in-lebanon-say-authorities-13297433
+2025-01-28 11:02:02,942-INFO-inserted artcicle from Sky News in category Programmes:https://news.sky.com/video/chancellor-rachel-reeves-says-no-stone-should-be-left-unturned-in-southport-inquiry-13296920
+2025-01-28 11:02:03,045-INFO-inserted artcicle from Sky News in category Programmes:https://news.sky.com/video/lukashenko-tells-sky-news-reporter-uk-is-being-rules-by-its-subordinates-13297343
+2025-01-28 11:02:03,147-INFO-inserted artcicle from Sky News in category Programmes:https://news.sky.com/video/conservative-party-leader-kemi-badenoch-talks-immigration-our-country-is-not-a-hotel-13296943
+2025-01-28 11:02:03,252-INFO-inserted artcicle from Sky News in category Programmes:https://news.sky.com/video/hub-yousra-congo-live-v2-mp4-13297022
+2025-01-28 11:02:03,356-INFO-inserted artcicle from Sky News in category Programmes:https://news.sky.com/video/thousands-wait-to-return-to-northern-gaza-after-israeli-military-delays-13297197
+2025-01-28 11:02:03,356-INFO-Articles from Sky News inserted into database portal_news
+2025-01-28 11:02:03,487-INFO-inserted artcicle from espn in category football:https://www.espn.in/football/story/_/id/43546101/january-transfers-news-rumors-osimhen-sesko-gyokeres-latest
+2025-01-28 11:02:03,594-INFO-inserted artcicle from espn in category football:https://www.espn.in/football/story/_/id/43589808/fired-premier-league-ref-david-coote-apologises
+2025-01-28 11:02:03,699-INFO-inserted artcicle from espn in category football:https://www.espn.in/football/story/_/id/43589297/al-hilal-neymar-terminate-contract-ahead-santos-move
+2025-01-28 11:02:03,807-INFO-inserted artcicle from espn in category football:https://www.espn.in/football/story/_/id/43583401/tottenham-stick-ange-postecoglou-amid-sacking-calls-sources
+2025-01-28 11:02:03,912-INFO-inserted artcicle from espn in category football:https://www.espn.in/football/story/_/id/43588830/chelsea-loan-renato-veiga-juventus-danilo-goodbye
+2025-01-28 11:02:04,019-INFO-inserted artcicle from espn in category football:https://www.espn.in/football/story/_/id/43583719/ex-belgium-star-radja-nainggolan-arrested-cocaine-trafficking-probe
+2025-01-28 11:02:04,126-INFO-inserted artcicle from espn in category football:https://www.espn.in/football/story/_/id/43582519/man-united-fan-group-urges-sir-jim-ratcliffe-rethink-price-hike
+2025-01-28 11:02:04,233-INFO-inserted artcicle from espn in category football:https://www.espn.in/football/story/_/id/43575040/man-united-ruben-amorim-slams-marcus-rashford-again
+2025-01-28 11:02:04,343-INFO-inserted artcicle from espn in category football:https://www.espn.in/espn/story/_/id/43581797/nigeria-striker-victor-osimhen-denies-punching-journalist-threatens-legal-action
+2025-01-28 11:02:04,447-INFO-inserted artcicle from espn in category football:https://www.espn.in/football/story/_/id/43587514/afcon-draw-hosts-morocco-champs-ivory-coast-learn-groups
+2025-01-28 11:02:04,555-INFO-inserted artcicle from espn in category cricket:https://www.espn.in/football/story/_/id/43585116/isl-score-2024-25-indian-super-league-football-results-matchweek-20
+2025-01-28 11:02:04,665-INFO-inserted artcicle from espn in category cricket:https://www.espn.in/espn/story/_/id/43582295/kylian-mbappe-statement-hat-trick-sign-things-real-madrid-moment-weekend
+2025-01-28 11:02:04,774-INFO-inserted artcicle from espn in category cricket:https://www.espn.in/football/story/_/id/43579106/mbappe-first-real-madrid-hat-trick-salah-surpasses-henry-weekend-stats
+2025-01-28 11:02:04,894-INFO-inserted artcicle from espn in category cricket:https://www.espn.in/football/story/_/id/43573260/european-soccer-weekend-review-premier-league-laliga-bundesliga-highlights-analysis
+2025-01-28 11:02:04,894-INFO-Articles from espn inserted into database portal_news
+2025-01-28 11:02:04,894-INFO-Article fetching and storage is completed .............

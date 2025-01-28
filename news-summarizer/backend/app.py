@@ -85,7 +85,7 @@ async def get_articles():
 
 class Summary(BaseModel):
     original_id: str  # Ensure this is spelled correctly
-    summary:str
+    # summary:str
     title:str
     url:str
     category:str
