@@ -41,20 +41,31 @@ def insert_data_to_mongodb(data):
         total_inserted = 0
         total_existing = 0
 
-        for source, categories in data.items():
-            for category, articles in categories.items():
-                for article in articles:
-                    if collection.find_one({"url": article['url']}) is None:
-                        article['source'] = source
-                        article['category'] = category
-                        collection.insert_one(article)
-                        logging.info(f"Inserted article from {source} in category {category}: {article['url']}")
-                        total_inserted += 1
-                    else:
-                        logging.warning(f"Article already exists in database: {article['url']}")
-                        total_existing += 1
+        # Log the structure of the data for debugging
+        logging.info(f"Data structure before processing: {data}")
 
-            logging.info(f"Articles from {source} inserted into database {COLLECTION_NAME}")
+        if not isinstance(data, dict):
+            logging.error("Data is not a dictionary. Please check the structure of fetched articles.")
+            return
+
+        for source, articles in data.items():
+            if not isinstance(articles, list):
+                logging.error(f"Articles for source '{source}' is not a list. Skipping this source.")
+                continue
+
+            for article in articles:
+                if not isinstance(article, dict):
+                    logging.error(f"Article is not a dictionary: {article}. Skipping this article.")
+                    continue
+
+                if collection.find_one({"url": article['url']}) is None:
+                    article['source'] = source
+                    collection.insert_one(article)
+                    logging.info(f"Inserted article from {source}: {article['url']}")
+                    total_inserted += 1
+                else:
+                    logging.warning(f"Article already exists in database: {article['url']}")
+                    total_existing += 1
 
         logging.info(f"Total articles inserted: {total_inserted}, Total existing articles: {total_existing}")
     except Exception as e:
@@ -64,6 +75,10 @@ if __name__ == "__main__":
     try:
         url_dict = fetch_articles()
         article_contents = download_articles(url_dict)
+
+        # Log the structure of article_contents for debugging
+        logging.info(f"Article contents structure: {article_contents}")
+
         save_articles_to_cache(article_contents)
         insert_data_to_mongodb(article_contents)
 

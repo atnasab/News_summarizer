@@ -9,13 +9,9 @@ from bs4 import BeautifulSoup
 
 paper_sources = {
     'cnn': 'https://edition.cnn.com/',
-    
     'fox news': 'https://www.foxnews.com/',
-    
     'Sky News': 'https://news.sky.com/',
-    
-    'espn':  'https://www.espn.in/'
-    
+    'espn': 'https://www.espn.in/'
 }
 
 user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
@@ -35,17 +31,8 @@ def fetch_categories(source_name, source_url):
         response = requests.get(source_url, headers={'User -Agent': user_agent})
         soup = BeautifulSoup(response.content, 'html.parser')
 
-        if source_name == 'cnn':
-            categories = [a['href'] for a in soup.select('nav a[href^="/"]') if a.text.strip()]
-        elif source_name == 'fox news':
-            categories = [a['href'] for a in soup.select('nav a[href^="/"]') if a.text.strip()]
-        elif source_name == 'Sky News':
-            categories = [a['href'] for a in soup.select('nav a[href^="/"]') if a.text.strip()]
-        elif source_name == 'espn':
-            categories = [a['href'] for a in soup.select('nav a[href^="/"]') if a.text.strip()]
-        else:
-            categories = []
-
+        # Fetch categories based on the source
+        categories = [a['href'] for a in soup.select('nav a[href^="/"]') if a.text.strip()]
         return categories
     except Exception as e:
         logging.error(f"Error fetching categories from {source_name}: {e}")
@@ -54,8 +41,7 @@ def fetch_categories(source_name, source_url):
 def fetch_articles():
     global url_dict  
     logging.info("Fetching articles from sources...")
-    for source_name, details in paper_sources.items():
-        source_url = details['url']
+    for source_name, source_url in paper_sources.items():
         categories = fetch_categories(source_name, source_url)
 
         for category_url in categories:
@@ -63,7 +49,7 @@ def fetch_articles():
             try:
                 paper = newspaper.build(full_category_url, user_agent=user_agent, memoize_articles=False)
                 if not paper.articles:
-                    print(f"No articles found for {source_name} in category {category_url}.")
+                    logging.warning(f"No articles found for {source_name} in category {category_url}.")
                 for article in paper.articles: 
                     if article.url not in url_dict[source_name]:
                         url_dict[source_name].append(article.url)
