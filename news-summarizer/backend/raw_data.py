@@ -31,7 +31,6 @@ def fetch_categories(source_name, source_url):
         response = requests.get(source_url, headers={'User -Agent': user_agent})
         soup = BeautifulSoup(response.content, 'html.parser')
 
-        # Fetch categories based on the source
         categories = [a['href'] for a in soup.select('nav a[href^="/"]') if a.text.strip()]
         return categories
     except Exception as e:

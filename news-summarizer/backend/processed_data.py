@@ -41,7 +41,6 @@ def insert_data_to_mongodb(data):
         total_inserted = 0
         total_existing = 0
 
-        # Log the structure of the data for debugging
         logging.info(f"Data structure before processing: {data}")
 
         if not isinstance(data, dict):
@@ -76,7 +75,6 @@ if __name__ == "__main__":
         url_dict = fetch_articles()
         article_contents = download_articles(url_dict)
 
-        # Log the structure of article_contents for debugging
         logging.info(f"Article contents structure: {article_contents}")
 
         save_articles_to_cache(article_contents)
