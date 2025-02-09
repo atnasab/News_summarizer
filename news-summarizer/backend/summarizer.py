@@ -3,7 +3,7 @@ from config.config import MONGO_URI, DB_NAME, COLLECTION_NAME, summarized_articl
 from transformers import pipeline
 import logging
 
-# Configure logging
+
 logging.basicConfig(
     filename="article_storage.log",
     level=logging.INFO,
@@ -18,12 +18,24 @@ except Exception as e:
     summarizer = None
 
 def summarize_article(text):
-    if not text:
+    if not text or len(text.strip())==0:
         return "No text available for summarization."
+    word_count=len(text.split())
+
+    if word_count<50:
+        return text
     
     try:
         summary = summarizer(text, max_length=200, min_length=15, do_sample=False)
         return summary[0]['summary_text']
+
+        if isinstance(summary,list)and len(summary)>0 and 'summary_text' in summary[0]:
+            return summary[0]['summary_text']
+        
+        else:
+            logging.warning("unexpected summarization output format, skipping")
+            return "summarization failed: No output generated"
+            
     except Exception as e:
         logging.error(f"Error during summarization: {e}")
         return "Error summarizing article."

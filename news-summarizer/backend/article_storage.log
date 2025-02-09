@@ -1,575 +1,289 @@
-2025-02-05 11:54:47,126 [INFO] Starting the summarization process...
-2025-02-05 11:54:48,726 [INFO] Fetched 200 articles from MongoDB.
-2025-02-05 11:54:51,687 [ERROR] Error summarizing article (https://edition.cnn.com/travel/news): File is not a zip file
-2025-02-05 11:54:51,688 [INFO] Summarized article: https://edition.cnn.com/travel/news
-2025-02-05 11:54:52,710 [ERROR] Error summarizing article (https://edition.cnn.com/audio/podcasts/all-there-is-with-anderson-cooper): File is not a zip file
-2025-02-05 11:54:52,711 [INFO] Summarized article: https://edition.cnn.com/audio/podcasts/all-there-is-with-anderson-cooper
-2025-02-05 11:54:54,620 [ERROR] Error summarizing article (https://edition.cnn.com/2025/02/04/us/marcus-jordan-arrested-florida/index.html): File is not a zip file
-2025-02-05 11:54:54,625 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/us/marcus-jordan-arrested-florida/index.html
-2025-02-05 11:54:56,294 [ERROR] Error summarizing article (https://edition.cnn.com/2025/02/04/us/ice-impersonators-on-the-rise-arrests-made-as-authorities-issue-national-warning/index.html): File is not a zip file
-2025-02-05 11:54:56,300 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/us/ice-impersonators-on-the-rise-arrests-made-as-authorities-issue-national-warning/index.html
-2025-02-05 11:54:58,359 [ERROR] Error summarizing article (https://edition.cnn.com/2025/02/02/us/philadelphia-medevac-plane-crash-five-hospitalized/index.html): File is not a zip file
-2025-02-05 11:54:58,368 [INFO] Summarized article: https://edition.cnn.com/2025/02/02/us/philadelphia-medevac-plane-crash-five-hospitalized/index.html
-2025-02-05 11:55:01,033 [ERROR] Error summarizing article (https://edition.cnn.com/2025/02/04/us/dc-plane-crash-recovery-tuesday-hnk/index.html): File is not a zip file
-2025-02-05 11:55:01,040 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/us/dc-plane-crash-recovery-tuesday-hnk/index.html
-2025-02-05 12:22:34,167 [INFO] Summarization model loaded successfully.
-2025-02-05 12:22:34,168 [INFO] Starting the summarization process...
-2025-02-05 12:22:35,948 [INFO] Fetched 200 articles from MongoDB.
-2025-02-05 12:22:40,633 [INFO] Summarized article: https://edition.cnn.com/travel/news
-2025-02-05 12:22:40,669 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:22:40,669 [INFO] Summarized article: https://edition.cnn.com/audio/podcasts/all-there-is-with-anderson-cooper
-2025-02-05 12:22:44,875 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/us/marcus-jordan-arrested-florida/index.html
-2025-02-05 12:22:44,884 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:22:44,884 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/us/ice-impersonators-on-the-rise-arrests-made-as-authorities-issue-national-warning/index.html
-2025-02-05 12:22:44,893 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:22:44,893 [INFO] Summarized article: https://edition.cnn.com/2025/02/02/us/philadelphia-medevac-plane-crash-five-hospitalized/index.html
-2025-02-05 12:22:44,901 [ERROR] Error 
-during summarization: index out of range in self
-2025-02-05 12:22:44,901 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/us/dc-plane-crash-recovery-tuesday-hnk/index.html
-2025-02-05 12:22:44,907 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:22:44,907 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/us/5-things-pm-february-4-trnd/index.html
-2025-02-05 12:22:44,913 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:22:44,913 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/us/neo-nazi-maryland-grid-attack/index.html
-2025-02-05 12:22:44,920 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:22:44,920 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/us/5-things-to-know-for-feb-4-trade-war-deportation-deal-us-israel-relations-wasted-water-tiktok-ban/index.html
-2025-02-05 12:22:50,406 [INFO] Summarized article: https://www.nbc26.com/appleton/appleton-record-label-using-music-to-give-back-to-those-in-need
-2025-02-05 12:22:50,414 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:22:50,414 [INFO] Summarized article: https://www.koco.com/article/oklahoma-former-dhs-employee-arrested-kidnapping-child-midwest-city/63665273
-2025-02-05 12:23:02,498 [INFO] Summarized article: https://www.kmbc.com/article/kansas-city-3-women-killed-4th-injured-dog-killed-suspect-charged/63653349
-2025-02-05 12:23:12,233 [INFO] Summarized article: https://abc7.com/post/santa-clarita-family-using-fireproof-icf-technology-rebuild-home-2019-tick-fire/15861235/
-2025-02-05 12:23:21,940 [INFO] Summarized article: https://www.cbsnews.com/colorado/news/colorado-victim-jason-kasperek-perpetrator-michael-clifton-friends-share-restorative-justice/
-2025-02-05 12:23:30,534 [INFO] Summarized article: https://www.cbsnews.com/losangeles/news/toxic-wildfire-debris-removal-causes-concerns-for-nearby-la-county-residents/
-2025-02-05 12:23:39,562 [INFO] Summarized article: https://www.eastidahonews.com/2025/02/local-teen-recovering-after-flying-through-window-and-breaking-her-neck-twice/
-2025-02-05 12:23:43,817 [INFO] Summarized article: https://www.kxly.com/news/local-organizations-help-people-know-their-rights-in-face-of-mass-deportations/article_fb4dba4a-e288-11ef-ab80-9fa81fbf1781.html
-2025-02-05 12:23:48,101 [INFO] Summarized article: https://www.applevalleynewsnow.com/news/yakima-county-jail-implements-new-programs-to-help-inmates-struggling-with-substance-abuse/article_54452ca2-e26e-11ef-ad76-f7c0a02383cc.html
-2025-02-05 12:23:52,054 [INFO] Summarized article: https://www.kiro7.com/news/local/three-people-arrested-accused-stealing-over-143000-merchandise-ulta-stores/PLWVJQ52LFGAXLORV5FK66WFTQ/
-2025-02-05 12:23:56,201 [INFO] Summarized article: https://edition.cnn.com/business/media
-2025-02-05 12:23:56,208 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:23:56,208 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/us/dei-companies-program-policy-list/index.html
-2025-02-05 12:24:02,954 [INFO] Summarized article: https://edition.cnn.com/2025/02/03/us/treasury-hunter-jail-tommy-thompson/index.html
-2025-02-05 12:24:02,996 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:24:02,999 [INFO] Summarized article: https://edition.cnn.com/2025/01/31/us/dc-plane-crash-victims/index.html
-2025-02-05 12:24:03,011 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:24:03,012 [INFO] Summarized article: https://edition.cnn.com/2025/02/03/us/ellen-greenberg-philadelphia-case-update-cec/index.html
-2025-02-05 12:24:03,020 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:24:03,020 [INFO] Summarized article: https://edition.cnn.com/2025/02/03/us/washington-dc-plane-crash-recovery/index.html
-2025-02-05 12:24:03,025 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:24:03,025 [INFO] Summarized article: https://edition.cnn.com/2025/02/03/us/5-things-pm-february-3-trnd/index.html
-2025-02-05 12:24:03,032 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:24:03,032 [INFO] Summarized article: https://edition.cnn.com/2025/02/02/us/california-wildfires-debris-recovery/index.html
-2025-02-05 12:24:03,049 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:24:03,050 [INFO] Summarized article: https://edition.cnn.com/2025/02/03/us/new-orleans-saints-catholic-priests-abuse/index.html
-2025-02-05 12:24:03,055 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:24:03,056 [INFO] Summarized article: https://edition.cnn.com/2025/02/03/us/lawsuit-alleges-first-deaths-from-2023-train-derailment-in-east-palestine-ohio/index.html
-2025-02-05 12:24:10,138 [INFO] Summarized article: https://kion546.com/news/2024/11/01/central-coast-counties-describe-financial-frustration-over-pending-fema-disaster-reimbursements/
-2025-02-05 12:24:18,669 [INFO] Summarized article: https://www.cnn.com/politics/live-news/trump-tariffs-netanyahu-rfk-gabbard-02-04-25/index.html
-2025-02-05 12:24:22,788 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/politics/video/trump-netanyahu-gaza-palestinians-relocate-king-lead-digvid
-2025-02-05 12:24:29,944 [INFO] Summarized article: https://edition.cnn.com/2025/02/03/climate/trump-california-water-dams-reservoirs/index.html
-2025-02-05 12:24:29,950 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:24:29,950 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/europe/orebro-sweden-school-shooting-intl/index.html
-2025-02-05 12:24:38,513 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/politics/education-department-trump-executive-order/index.html
-2025-02-05 12:24:38,519 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:24:38,519 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/politics/usaid-officials-administrative-leave/index.html
-2025-02-05 12:24:38,531 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:24:38,531 [INFO] Summarized article: https://edition.cnn.com/travel/candians-boycotting-travel-to-united-states/index.html
-2025-02-05 12:24:45,862 [INFO] Summarized article: https://edition.cnn.com/2025/02/05/asia/afghanistan-taliban-raid-radio-begum-intl-hnk/index.html
-2025-02-05 12:24:56,138 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/entertainment/goonies-cast-reunites-ke-huy-quan/index.html
-2025-02-05 12:24:56,147 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:24:56,147 [INFO] Summarized article: https://edition.cnn.com/2025/02/03/us/air-crash-victims/index.html
-2025-02-05 12:25:00,291 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/us/video/video-courtroom-brawl-new-mexico-digvid
-2025-02-05 12:25:04,399 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/us/video/the-lead-kevin-hassett-usa-tariffs-president-trump-china-jake-tapper
-2025-02-05 12:25:08,511 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/us/video/man-poses-as-fake-immigration-officer-digvid
-2025-02-05 12:25:12,582 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/us/video/hero-brother-philadelphia-plane-crash-debris-nn-digvid
-2025-02-05 12:25:12,593 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:25:12,594 [INFO] Summarized article: https://edition.cnn.com/2025/02/05/politics/trump-gaza-takeover-analysis/index.html
-2025-02-05 12:25:22,029 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/politics/cia-workforce-buyouts/index.html
-2025-02-05 12:25:22,041 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:25:22,041 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/politics/netanyahu-trump-white-house-meeting/index.html
-2025-02-05 12:25:22,047 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:25:22,048 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/politics/trump-administration-plans-layoffs-deferred-resignation-offer/index.html
-2025-02-05 12:25:22,053 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:25:22,054 [INFO] Summarized article: https://edition.cnn.com/2025/02/05/business/shein-temu-alibaba-china-tariffs-de-minimis/index.html
-2025-02-05 12:25:27,375 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/entertainment/benson-boone-apologizes-grammys/index.html
-2025-02-05 12:25:39,261 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/entertainment/blake-lively-next-movie-another-simple-favor/index.html
-2025-02-05 12:25:48,837 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/world/aga-khan-ismaili-muslim-obit-intl-latam/index.html
-2025-02-05 12:25:58,552 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/travel/south-korea-airport-kimchi-confiscation-intl-hnk/index.html
-2025-02-05 12:26:02,723 [INFO] Summarized article: https://edition.cnn.com/2025/02/03/travel/video/santorini-earthquakes-evacuations-greek-islands-digvid
-2025-02-05 12:26:02,732 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:26:02,733 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/sport/1984-super-bowl-commercial-spt-intl/index.html
-2025-02-05 12:26:10,082 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/entertainment/adrien-brody-adam-kim-kardashian/index.html
-2025-02-05 12:26:16,760 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/travel/santorini-greece-earthquake-evacuation-intl/index.html
-2025-02-05 12:26:25,797 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/sport/tiger-woods-mother-kultida-woods-dead-spt/index.html
-2025-02-05 12:26:25,803 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:26:25,803 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/style/latex-lace-kasia-kucarska-berlin-fashion-week/index.html
-2025-02-05 12:26:35,849 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/business/us-postal-service-suspends-parcels-china-intl-hnk/index.html
-2025-02-05 12:26:44,633 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/business/google-ai-weapons-surveillance/index.html
-2025-02-05 12:26:51,047 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/economy/tariff-increased-costs-china/index.html
-2025-02-05 12:26:51,055 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:26:51,055 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/business/china-us-trade-retaliation-hnk-intl/index.html
-2025-02-05 12:26:55,803 [INFO] Summarized article: https://edition.cnn.com/2025/01/30/us/gallery/jet-helicopter-collision/index.html
-2025-02-05 12:27:00,015 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/us/video/18-wheeler-rams-two-intersections-gwinnett-georgia-digvid
-2025-02-05 12:27:04,248 [INFO] Summarized article: https://edition.cnn.com/2025/02/03/us/video/andy-beyer-dc-crash-kaitlan-collins-src-digvid
-2025-02-05 12:27:08,433 [INFO] Summarized article: https://edition.cnn.com/2025/02/03/us/video/the-lead-kalle-strid-plane-crash-victims-ice-skating-coach-jake-tapper
-2025-02-05 12:27:12,608 [INFO] Summarized article: https://edition.cnn.com/2025/02/03/us/video/the-lead-captain-patrick-burkett-plane-crash-wreckage-coast-guard-recovery-potomac-jake-tapper
-2025-02-05 12:27:21,569 [INFO] Summarized article: https://edition.cnn.com/2025/02/02/us/dc-plane-helicopter-crash-victims/index.html
-2025-02-05 12:27:21,575 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:27:21,575 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/world/trump-ukraine-minerals-military-aid-intl/index.html
-2025-02-05 12:27:21,581 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:27:21,581 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/health/mental-health-morning-wellness/index.html
-2025-02-05 12:27:21,587 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:27:21,587 [INFO] Summarized article: https://edition.cnn.com/2025/02/03/health/brushing-flossing-order-wellness/index.html
-2025-02-05 12:27:21,592 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:27:21,592 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/health/parent-child-screen-time-wellness/index.html
-2025-02-05 12:27:25,802 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/world/video/mass-shooting-sweden-school-witness-digvid
-2025-02-05 12:27:25,810 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:27:25,810 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/science/bayeux-tapestry-king-harold-godwinson-house/index.html
-2025-02-05 12:27:25,825 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:27:25,825 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/politics/musk-washington-chaos/index.html
-2025-02-05 12:27:30,044 [INFO] Summarized article: https://edition.cnn.com/2025/02/01/us/video/volunteer-undocumented-migrant-families-chicago-ice-trump-deportation-fears-flores-pkg-digvid
-2025-02-05 12:27:34,233 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/business/video/jon-stewart-late-night-laugh-trump-tariff-trade-war-digvid
-2025-02-05 12:27:38,457 [INFO] Summarized article: https://edition.cnn.com/2025/01/31/us/video/garbage-truck-explosion-oxygen-tank-ohio-digvid
-2025-02-05 12:27:38,468 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:27:38,468 [INFO] Summarized article: https://edition.cnn.com/2025/02/02/us/recovery-effort-dc-plane-crash/index.html
-2025-02-05 12:27:38,477 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:27:38,477 [INFO] Summarized article: https://edition.cnn.com/2025/02/01/us/black-hawk-helicopter-training-plane-crash/index.html
-2025-02-05 12:27:43,417 [INFO] Summarized article: https://edition.cnn.com/2025/02/02/us/united-airlines-houston-evacuation/index.html
-2025-02-05 12:27:55,663 [INFO] Summarized article: https://edition.cnn.com/2025/02/02/us/nitrogen-gas-execution-alabama-demetrius-frazier/index.html
-2025-02-05 12:27:55,673 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:27:55,673 [INFO] Summarized article: https://edition.cnn.com/2025/01/31/us/philadelphia-jet-crash-fire/index.html
-2025-02-05 12:27:59,906 [INFO] Summarized article: https://edition.cnn.com/2025/02/02/us/video/will-reeve-anderson-question-for-parents-digvid
-2025-02-05 12:28:04,479 [INFO] Summarized article: https://www.wmur.com/article/campton-police-abandoned-ducks-new-home-farm/63658274
-2025-02-05 12:28:11,722 [INFO] Summarized article: https://www.wbaltv.com/article/frederick-hospital-ransomware-incident-expectant-mothers/63655973
-2025-02-05 12:28:19,861 [INFO] Summarized article: https://www.cbsnews.com/newyork/news/dc-plane-crash-victim-chris-collins-connecticut-dog-shelter/
-2025-02-05 12:28:26,266 [INFO] Summarized article: https://www.wesh.com/article/large-chunk-ice-crashes-palm-coast-home/63658303
-2025-02-05 12:28:34,815 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/business/australia-deepseek-ban-security-concerns-intl/index.html
-2025-02-05 12:28:46,969 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/science/china-moon-flying-robot-change-7-intl-hnk-scn/index.html
-2025-02-05 12:28:53,949 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/politics/pam-bondi-confirmed-attorney-general/index.html
-2025-02-05 12:29:05,426 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/africa/rebels-ceasefire-dr-congo-intl/index.html
-2025-02-05 12:29:05,431 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:29:05,432 [INFO] Summarized article: https://edition.cnn.com/2025/02/03/africa/rwanda-kigame-troops-dr-congo-intl/index.html
-2025-02-05 12:29:05,437 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:29:05,437 [INFO] Summarized article: https://edition.cnn.com/2025/02/03/europe/germany-friedrich-merz-immigration-intl-latam/index.html
-2025-02-05 12:29:13,453 [INFO] Summarized article: https://edition.cnn.com/2025/02/03/europe/armen-sarkisyan-bomb-death-moscow-intl-latam/index.html
-2025-02-05 12:29:13,459 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:29:13,460 [INFO] Summarized article: https://edition.cnn.com/2025/02/03/middleeast/israel-gaza-habiba-medical-evacuation-jordan-intl/index.html
-2025-02-05 12:29:17,709 [INFO] Summarized article: https://edition.cnn.com/2025/02/03/world/video/jenin-west-bank-idf-military-operations-diamond-digvid
-2025-02-05 12:29:17,720 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:29:17,721 [INFO] Summarized article: https://edition.cnn.com/travel/american-woman-relocates-to-spain-but-returns-home/index.html
-2025-02-05 12:29:26,231 [INFO] Summarized article: https://www.wcvb.com/article/norwell-dealership-carjacking-brockton-man-arrest/63654301
-2025-02-05 12:29:26,238 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:29:26,238 [INFO] Summarized article: https://www.cbsnews.com/baltimore/news/maryland-key-bridge-collapse-design-new-construction/
-2025-02-05 12:29:35,776 [INFO] Summarized article: https://www.wyff4.com/article/greenville-businesses-close-a-day-without-hispanics/63653622
-2025-02-05 12:29:44,628 [INFO] Summarized article: https://www.cbsnews.com/boston/news/mount-washington-rescue-kathryn-mckee/
-2025-02-05 12:29:54,117 [INFO] Summarized article: https://www.cbsnews.com/miami/news/florida-family-honors-13-year-old-daughter-who-saved-five-lives-through-organ-donation/
-2025-02-05 12:29:54,122 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:29:54,122 [INFO] Summarized article: https://www.mynbc5.com/article/farmers-maple-makers-others-react-to-the-potential-of-tariffs/63656645
-2025-02-05 12:29:54,127 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:29:54,127 [INFO] Summarized article: https://www.kcci.com/article/thieves-steal-tools-from-habitat-for-humanity-site-in-ames/63658046
-2025-02-05 12:29:59,369 [INFO] Summarized article: https://www.wdsu.com/article/new-orleans-nurse-terror-attack-super-bowl-demario-davis/63657496
-2025-02-05 12:29:59,374 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:29:59,374 [INFO] Summarized article: https://www.wisn.com/article/amber-alert-issued-for-pregnant-16-year-old-girl/63658216
-2025-02-05 12:30:03,876 [INFO] Summarized article: https://www.koamnewsnow.com/news/joplin-news-first/two-boys-8-and-9-had-fallen-through-ice-sheriff-updates-investigation/article_09f13ad0-e249-11ef-86aa-274a3334fdee.html
-2025-02-05 12:30:16,471 [INFO] Summarized article: https://edition.cnn.com/2025/02/02/travel/santorini-earthquake-greece-intl/index.html
-2025-02-05 12:30:16,478 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:30:16,478 [INFO] Summarized article: https://techcrunch.com/2025/02/04/two-space-startups-have-merged-to-create-the-next-generation-of-telescopes/
-2025-02-05 12:30:16,531 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:30:16,537 [INFO] Summarized article: https://techcrunch.com/2025/02/04/tech-layoffs-2024-list/
-2025-02-05 12:30:21,298 [INFO] Summarized article: https://techcrunch.com/2025/02/04/deel-unloads-300m-in-secondary-sale-brings-general-catalyst-on-as-an-investor/
-2025-02-05 12:30:21,306 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:30:21,306 [INFO] Summarized article: https://techcrunch.com/2025/02/04/logicstar-is-building-ai-agents-for-app-maintenance/
-2025-02-05 12:30:32,162 [INFO] Summarized article: https://techcrunch.com/2025/02/04/sotira-lands-2m-to-help-brands-offload-and-monetize-their-surplus-inventory/
-2025-02-05 12:30:39,766 [INFO] Summarized article: https://techcrunch.com/2025/02/04/archive-raises-30m-to-solve-fashions-pollution-problem-with-online-resales/
-2025-02-05 12:30:39,773 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:30:39,773 [INFO] Summarized article: https://techcrunch.com/2025/02/04/egypts-khazna-banks-16m-for-its-financial-super-app-and-expansion-into-saudi/
-2025-02-05 12:30:50,440 [INFO] Summarized article: https://techcrunch.com/2025/02/04/waabi-and-volvo-team-up-to-build-self-driving-trucks-at-scale/
-2025-02-05 12:30:59,806 [INFO] Summarized article: https://techcrunch.com/2025/02/03/neuralk-ai-is-developing-ai-models-specifically-designed-for-structured-data/
-2025-02-05 12:31:08,287 [INFO] Summarized article: https://techcrunch.com/2025/02/03/stripe-brings-aboard-new-head-of-startup-and-vc-partnerships/
-2025-02-05 12:31:17,698 [INFO] Summarized article: https://techcrunch.com/2025/02/03/techcrunch-disrupt-2025-secure-your-ticket-at-this-years-lowest-rates/
-2025-02-05 12:31:26,502 [INFO] Summarized article: https://techcrunch.com/2025/02/03/riot-raises-30-million-for-its-cybersecurity-product-suite-focused-on-employees/
-2025-02-05 12:31:26,508 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:31:26,508 [INFO] Summarized article: https://techcrunch.com/2025/02/02/openai-unveils-a-new-chatgpt-agent-for-deep-research/
-2025-02-05 12:31:38,217 [INFO] Summarized article: https://techcrunch.com/2025/02/02/google-x-spins-out-heritable-agriculture-a-startup-using-ai-to-improve-crop-yield/
-2025-02-05 12:31:38,223 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:31:38,223 [INFO] Summarized article: https://techcrunch.com/2025/02/01/here-are-all-the-ipos-reported-to-be-in-the-works-for-2025/
-2025-02-05 12:31:45,947 [INFO] Summarized article: https://techcrunch.com/2025/02/01/venture-debt-lenders-will-play-a-big-role-in-fire-sales-and-startup-shutdown-this-year-experts-say/
-2025-02-05 12:31:45,958 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:31:45,958 [INFO] Summarized article: https://techcrunch.com/2025/02/01/here-are-the-apps-battling-to-be-become-the-tiktok-for-bluesky/
-2025-02-05 12:31:45,968 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:31:45,968 [INFO] Summarized article: https://techcrunch.com/2025/02/01/ai-agents-could-birth-the-first-one-person-unicorn-but-at-what-societal-cost/
-2025-02-05 12:31:56,340 [INFO] Summarized article: https://techcrunch.com/2025/01/31/india-pledges-fresh-billion-for-startups/
-2025-02-05 12:31:56,347 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:31:56,347 [INFO] Summarized article: https://techcrunch.com/2025/01/31/custom-feed-builder-graze-is-building-a-business-on-bluesky-and-investors-are-paying-attention/
-2025-02-05 12:32:08,025 [INFO] Summarized article: https://techcrunch.com/2025/01/31/ai-startup-perplexity-sued-for-alleged-trademark-infringement/
-2025-02-05 12:32:16,161 [INFO] Summarized article: https://techcrunch.com/podcast/deepseek-lights-a-fire-under-silicon-valley/
-2025-02-05 12:32:27,225 [INFO] Summarized article: https://techcrunch.com/2025/01/31/backed-by-mayo-clinic-nutrixs-hardware-monitors-worker-stress/
-2025-02-05 12:32:38,326 [INFO] Summarized article: https://techcrunch.com/2025/01/31/techcrunch-disrupt-2025-24-hours-left-for-2-for-1-pass/
-2025-02-05 12:32:46,609 [INFO] Summarized article: https://techcrunch.com/2025/01/31/in-another-challenging-year-for-startups-higher-valuations-and-revenue-give-reason-for-hope/
-2025-02-05 12:32:55,844 [INFO] Summarized article: https://techcrunch.com/2025/01/30/openai-said-to-be-in-talks-to-raise-40b-at-a-340b-valuation/
-2025-02-05 12:32:55,851 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:32:55,851 [INFO] Summarized article: https://techcrunch.com/2025/01/30/controversial-genetics-testing-startup-nucleus-genomics-raises-14m-series-a/
-2025-02-05 12:33:05,165 [INFO] Summarized article: https://techcrunch.com/2025/01/30/fintech-startup-cushion-shuts-down-after-8-years-and-over-20-million-in-funding/
-2025-02-05 12:33:20,297 [INFO] Summarized article: https://techcrunch.com/2025/01/30/serial-founder-divine-launches-creator-app-with-hip-hop-legend-rakim/
-2025-02-05 12:33:25,606 [INFO] Summarized article: https://techcrunch.com/2025/02/04/a16z-hires-acquitted-former-marine-daniel-penny-as-an-investor/
-2025-02-05 12:33:37,325 [INFO] Summarized article: https://www.wired.com/story/meet-the-hired-guns-who-make-sure-school-cyberattacks-stay-hidden/
-2025-02-05 12:33:49,592 [INFO] Summarized article: https://www.wired.com/story/hackers-google-gemini-us-cyberattacks/
-2025-02-05 12:33:59,847 [INFO] Summarized article: https://www.wired.com/story/deepseeks-ai-jailbreak-prompt-injection-attacks/
-2025-02-05 12:34:08,453 [INFO] Summarized article: https://www.wired.com/story/exposed-deepseek-database-revealed-chat-prompts-and-internal-data/
-2025-02-05 12:34:21,044 [INFO] Summarized article: https://www.wired.com/story/section-702-fbi-searches-unconstitutional/
-2025-02-05 12:34:31,859 [INFO] Summarized article: https://www.wired.com/story/subaru-location-tracking-vulnerabilities/
-2025-02-05 12:34:42,893 [INFO] Summarized article: https://www.wired.com/story/big-interview-jen-easterly-cisa-cybersecurity/
-2025-02-05 12:34:53,962 [INFO] Summarized article: https://www.wired.com/story/deepseek-ai-china-privacy-data/
-2025-02-05 12:35:03,546 [INFO] Summarized article: https://www.wired.com/story/scammers-are-creating-fake-news-videos-to-blackmail-victims/
-2025-02-05 12:35:13,744 [INFO] Summarized article: https://www.wired.com/story/how-to-get-around-the-us-tiktok-ban/
-2025-02-05 12:35:26,190 [INFO] Summarized article: https://www.wired.com/story/inside-the-black-box-of-predictive-travel-surveillance/
-2025-02-05 12:35:26,195 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:35:26,196 [INFO] Summarized article: https://www.wired.com/story/best-vpn/
-2025-02-05 12:35:38,580 [INFO] Summarized article: https://www.wired.com/story/old-chat-history-delete/
-2025-02-05 12:35:45,649 [INFO] Summarized article: https://www.wired.com/story/how-to-find-airtags/
-2025-02-05 12:35:52,427 [INFO] Summarized article: https://www.wired.com/story/the-wired-guide-to-protecting-yourself-from-government-surveillance/
-2025-02-05 12:36:05,980 [INFO] Summarized article: https://www.wired.com/story/brandon-russell-baltimore-trial/
-2025-02-05 12:36:17,627 [INFO] Summarized article: https://www.wired.com/story/trump-frees-silk-road-creator-ross-ulbricht-after-11-years-in-prison/
-2025-02-05 12:36:17,633 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:36:17,633 [INFO] Summarized article: https://www.wired.com/story/us-names-one-of-the-hackers-allegedly-behind-massive-salt-typhoon-breaches/
-2025-02-05 12:36:26,824 [INFO] Summarized article: https://www.wired.com/story/the-fccs-jessica-rosenworcel-isnt-leaving-without-a-fight/
-2025-02-05 12:36:37,187 [INFO] Summarized article: https://www.wired.com/story/hackers-likely-stole-fbi-call-logs-from-att-that-could-compromise-informants/
-2025-02-05 12:36:46,872 [INFO] Summarized article: https://www.wired.com/story/nathaniel-fick-us-cyber-ambassador-exit-interview/
-2025-02-05 12:36:56,290 [INFO] Summarized article: https://www.wired.com/story/githubs-deepfake-porn-crackdown-still-isnt-working/
-2025-02-05 12:37:06,320 [INFO] Summarized article: https://www.wired.com/story/biden-executive-order-cybersecurity-ai-and-more/
-2025-02-05 12:37:15,936 [INFO] Summarized article: https://www.wired.com/story/the-largest-illicit-online-marketplace-ever-is-growing-at-an-alarming-rate/
-2025-02-05 12:37:26,395 [INFO] Summarized article: https://www.wired.com/story/2024-dnc-cell-site-simulator-phone-surveillance/
-2025-02-05 12:37:33,870 [INFO] Summarized article: https://www.wired.com/story/gravy-location-data-app-leak-rtb/
-2025-02-05 12:37:43,269 [INFO] Summarized article: https://www.wired.com/story/texas-social-media-investigation-children-privacy/
-2025-02-05 12:37:52,825 [INFO] Summarized article: https://www.wired.com/story/how-the-us-tiktok-ban-would-actually-work/
-2025-02-05 12:38:02,546 [INFO] Summarized article: https://www.wired.com/story/school-swatting-torswats-brad-dennis/
-2025-02-05 12:38:11,853 [INFO] Summarized article: https://www.wired.com/story/license-plate-reader-live-video-data-exposed/
-2025-02-05 12:38:11,853 [WARNING] Skipping invalid article: https://www.espn.com/espn/feature/story/_/id/42795252/cristiano-ronaldo-career-birthday
-2025-02-05 12:38:25,280 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43692019/mikel-arteta-hails-kai-havertz-arsenal-powerhouse
-2025-02-05 12:38:25,289 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:38:25,289 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43689769/premier-league-wants-semi-automated-var-offside-season
-2025-02-05 12:38:36,928 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43687789/man-united-plotting-major-summer-squad-rebuild-source
-2025-02-05 12:38:42,954 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43693460/man-city-report-racist-abuse-khadija-bunny-shaw-police
-2025-02-05 12:38:52,068 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43690311/arsenals-mikel-arteta-disappointed-lack-january-signings
-2025-02-05 12:38:59,391 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43516496/alphonso-davies-bayern-munich-star-signs-deal-amid-real-madrid-interest
-2025-02-05 12:39:08,988 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43691369/sam-kerr-trial-prosecutor-questions-officer-motives
-2025-02-05 12:39:16,802 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43690722/sporting-director-hugo-viana-leaves-club-ahead-man-city-move
-2025-02-05 12:39:25,932 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43687566/cristiano-ronaldo-lionel-messi-great-most-complete
-2025-02-05 12:39:25,941 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:39:25,941 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43688377/isl-musings-2024-25-indian-super-league-mohun-bagan-champions-elect-bengaluru-continue-implode
-2025-02-05 12:39:25,953 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:39:25,953 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43585116/isl-score-2024-25-indian-super-league-football-results-matchweek-20
-2025-02-05 12:39:26,003 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:39:26,009 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43600518/soccer-summer-transfers-arsenal-liverpool-man-united-man-city-barcelona-real-madrid-preview
-2025-02-05 12:39:26,019 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:39:26,019 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43679286/laliga-mbappe-foul-espanyol-romero-gavi-injury-barcelona-graham-hunter
-2025-02-05 12:39:26,034 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:39:26,034 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43677085/psg-villa-win-transfer-window-man-united-arsenal-biggest-losers
-2025-02-05 12:39:26,055 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:39:26,055 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43331935/january-transfer-window-grading-big-signings-women-soccer
-2025-02-05 12:39:26,081 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:39:26,088 [INFO] Summarized article: https://www.espn.in/football/insider/story/_/id/43331837/january-transfer-window-grading-big-signings-mens-soccer
-2025-02-05 12:39:38,124 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43695264/transfer-rumors-news-wolverhampton-wanderers-matheus-cunha-eyeing-summer-move
-2025-02-05 12:39:38,130 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:39:38,130 [INFO] Summarized article: https://www.espn.in/espn/story/_/id/43676298/myles-lewis-skelly-erling-haaland-arsenal-manchester-city-moment-weekend
-2025-02-05 12:39:38,137 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:39:38,137 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43672571/salah-300-goals-erling-haaland-faster-250-messi-ronaldo-weekend-stats
-2025-02-05 12:39:38,150 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:39:38,150 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43666715/european-soccer-weekend-review-premier-league-laliga-bundesliga-highlights-analysis
-2025-02-05 12:39:38,160 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:39:38,161 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43600524/transfer-deadline-day-trades-olivier-giroud-chelsea-fraizer-campbell-tottenham-barcelona
-2025-02-05 12:39:38,179 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:39:38,179 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43675235/man-city-arsenal-pep-guardiola-milan-derby-liverpool-premier-league-gab-marcotti
-2025-02-05 12:39:38,192 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:39:38,193 [INFO] Summarized article: https://www.espn.in/football/insider/story/_/id/43612296/the-var-review-cody-gakpo-penalty-liverpool-bournemouth
-2025-02-05 12:39:38,204 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:39:38,205 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43662583/barcelona-suffer-shock-loss-arsenal-win-man-city-thriller
-2025-02-05 12:39:38,282 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:39:38,290 [INFO] Summarized article: https://www.espn.in/football/blog-espn-fc-united/story/4239858/fc-100-liverpoolbayern-dominateusmnt-stars-break-into-our-annual-ranking-of-soccers-best-players
-2025-02-05 12:39:38,298 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:39:38,299 [INFO] Summarized article: https://www.espn.in/wrestling/story/_/id/41921480/sakshi-malik-book-indian-wrestling-protests-broken-promises-fixed-match-start
-2025-02-05 12:39:38,306 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:39:38,307 [INFO] Summarized article: https://www.espn.in/wrestling/story/_/id/41921021/sakshi-malik-autobiography-witness-strong-message-indian-women-athletes-independent
-2025-02-05 12:39:44,866 [INFO] Summarized article: https://www.espn.in/wrestling/story/_/id/41676448/vinesh-phogat-elected-mla-says-victory-every-struggle-every-truth
-2025-02-05 12:39:44,876 [ERROR] Error during summarization: index out of range in self
-2025-02-05 12:39:44,877 [INFO] Summarized article: https://www.espn.in/olympics/story/_/id/40937201/vinesh-phogat-cas-ruling-paris-olympics-change-uww-wrestling-rules
-2025-02-05 12:40:00,602 [INFO] Summaries saved to MongoDB successfully.
-2025-02-05 12:40:00,671 [INFO] Summarization process completed.
-2025-02-05 16:22:00,367 [INFO] Summarization model loaded successfully.
-2025-02-05 16:22:00,367 [INFO] Starting the summarization process...
-2025-02-05 16:22:02,276 [INFO] Fetched 200 articles from MongoDB.
-2025-02-05 16:22:06,905 [INFO] Summarized article: https://edition.cnn.com/travel/news
-2025-02-05 16:22:06,913 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:22:06,913 [INFO] Summarized article: https://edition.cnn.com/audio/podcasts/all-there-is-with-anderson-cooper
-2025-02-05 16:22:11,098 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/us/marcus-jordan-arrested-florida/index.html
-2025-02-05 16:22:11,113 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:22:11,113 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/us/ice-impersonators-on-the-rise-arrests-made-as-authorities-issue-national-warning/index.html
-2025-02-05 16:22:11,123 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:22:11,123 [INFO] Summarized article: https://edition.cnn.com/2025/02/02/us/philadelphia-medevac-plane-crash-five-hospitalized/index.html
-2025-02-05 16:22:11,131 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:22:11,131 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/us/dc-plane-crash-recovery-tuesday-hnk/index.html
-2025-02-05 16:22:11,137 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:22:11,137 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/us/5-things-pm-february-4-trnd/index.html
-2025-02-05 16:22:11,143 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:22:11,144 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/us/neo-nazi-maryland-grid-attack/index.html
-2025-02-05 16:22:11,151 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:22:11,151 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/us/5-things-to-know-for-feb-4-trade-war-deportation-deal-us-israel-relations-wasted-water-tiktok-ban/index.html
-2025-02-05 16:22:16,033 [INFO] Summarized article: https://www.nbc26.com/appleton/appleton-record-label-using-music-to-give-back-to-those-in-need
-2025-02-05 16:22:16,039 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:22:16,040 [INFO] Summarized article: https://www.koco.com/article/oklahoma-former-dhs-employee-arrested-kidnapping-child-midwest-city/63665273
-2025-02-05 16:22:24,262 [INFO] Summarized article: https://www.kmbc.com/article/kansas-city-3-women-killed-4th-injured-dog-killed-suspect-charged/63653349
-2025-02-05 16:22:34,041 [INFO] Summarized article: https://abc7.com/post/santa-clarita-family-using-fireproof-icf-technology-rebuild-home-2019-tick-fire/15861235/
-2025-02-05 16:22:43,916 [INFO] Summarized article: https://www.cbsnews.com/colorado/news/colorado-victim-jason-kasperek-perpetrator-michael-clifton-friends-share-restorative-justice/
-2025-02-05 16:22:52,705 [INFO] Summarized article: https://www.cbsnews.com/losangeles/news/toxic-wildfire-debris-removal-causes-concerns-for-nearby-la-county-residents/
-2025-02-05 16:23:01,996 [INFO] Summarized article: https://www.eastidahonews.com/2025/02/local-teen-recovering-after-flying-through-window-and-breaking-her-neck-twice/
-2025-02-05 16:23:06,484 [INFO] Summarized article: https://www.kxly.com/news/local-organizations-help-people-know-their-rights-in-face-of-mass-deportations/article_fb4dba4a-e288-11ef-ab80-9fa81fbf1781.html
-2025-02-05 16:23:10,930 [INFO] Summarized article: https://www.applevalleynewsnow.com/news/yakima-county-jail-implements-new-programs-to-help-inmates-struggling-with-substance-abuse/article_54452ca2-e26e-11ef-ad76-f7c0a02383cc.html
-2025-02-05 16:23:14,592 [INFO] Summarized article: https://www.kiro7.com/news/local/three-people-arrested-accused-stealing-over-143000-merchandise-ulta-stores/PLWVJQ52LFGAXLORV5FK66WFTQ/
-2025-02-05 16:23:18,749 [INFO] Summarized article: https://edition.cnn.com/business/media
-2025-02-05 16:23:18,758 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:23:18,758 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/us/dei-companies-program-policy-list/index.html
-2025-02-05 16:23:25,682 [INFO] Summarized article: https://edition.cnn.com/2025/02/03/us/treasury-hunter-jail-tommy-thompson/index.html
-2025-02-05 16:23:25,715 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:23:25,718 [INFO] Summarized article: https://edition.cnn.com/2025/01/31/us/dc-plane-crash-victims/index.html
-2025-02-05 16:23:25,729 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:23:25,730 [INFO] Summarized article: https://edition.cnn.com/2025/02/03/us/ellen-greenberg-philadelphia-case-update-cec/index.html
-2025-02-05 16:23:25,738 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:23:25,738 [INFO] Summarized article: https://edition.cnn.com/2025/02/03/us/washington-dc-plane-crash-recovery/index.html
-2025-02-05 16:23:25,744 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:23:25,744 [INFO] Summarized article: https://edition.cnn.com/2025/02/03/us/5-things-pm-february-3-trnd/index.html
-2025-02-05 16:23:25,751 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:23:25,751 [INFO] Summarized article: https://edition.cnn.com/2025/02/02/us/california-wildfires-debris-recovery/index.html
-2025-02-05 16:23:25,764 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:23:25,764 [INFO] Summarized article: https://edition.cnn.com/2025/02/03/us/new-orleans-saints-catholic-priests-abuse/index.html
-2025-02-05 16:23:25,771 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:23:25,772 [INFO] Summarized article: https://edition.cnn.com/2025/02/03/us/lawsuit-alleges-first-deaths-from-2023-train-derailment-in-east-palestine-ohio/index.html
-2025-02-05 16:23:31,561 [INFO] Summarized article: https://kion546.com/news/2024/11/01/central-coast-counties-describe-financial-frustration-over-pending-fema-disaster-reimbursements/
-2025-02-05 16:23:40,529 [INFO] Summarized article: https://www.cnn.com/politics/live-news/trump-tariffs-netanyahu-rfk-gabbard-02-04-25/index.html
-2025-02-05 16:23:44,893 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/politics/video/trump-netanyahu-gaza-palestinians-relocate-king-lead-digvid
-2025-02-05 16:23:52,351 [INFO] Summarized article: https://edition.cnn.com/2025/02/03/climate/trump-california-water-dams-reservoirs/index.html
-2025-02-05 16:23:52,358 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:23:52,358 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/europe/orebro-sweden-school-shooting-intl/index.html
-2025-02-05 16:24:01,284 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/politics/education-department-trump-executive-order/index.html
-2025-02-05 16:24:01,290 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:24:01,291 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/politics/usaid-officials-administrative-leave/index.html
-2025-02-05 16:24:01,302 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:24:01,303 [INFO] Summarized article: https://edition.cnn.com/travel/candians-boycotting-travel-to-united-states/index.html
-2025-02-05 16:24:08,984 [INFO] Summarized article: https://edition.cnn.com/2025/02/05/asia/afghanistan-taliban-raid-radio-begum-intl-hnk/index.html
-2025-02-05 16:24:18,832 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/entertainment/goonies-cast-reunites-ke-huy-quan/index.html
-2025-02-05 16:24:18,841 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:24:18,842 [INFO] Summarized article: https://edition.cnn.com/2025/02/03/us/air-crash-victims/index.html
-2025-02-05 16:24:23,179 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/us/video/video-courtroom-brawl-new-mexico-digvid
-2025-02-05 16:24:27,519 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/us/video/the-lead-kevin-hassett-usa-tariffs-president-trump-china-jake-tapper
-2025-02-05 16:24:31,763 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/us/video/man-poses-as-fake-immigration-officer-digvid
-2025-02-05 16:24:36,131 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/us/video/hero-brother-philadelphia-plane-crash-debris-nn-digvid
-2025-02-05 16:24:36,142 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:24:36,143 [INFO] Summarized article: https://edition.cnn.com/2025/02/05/politics/trump-gaza-takeover-analysis/index.html
-2025-02-05 16:24:45,959 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/politics/cia-workforce-buyouts/index.html
-2025-02-05 16:24:45,971 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:24:45,971 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/politics/netanyahu-trump-white-house-meeting/index.html
-2025-02-05 16:24:45,978 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:24:45,978 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/politics/trump-administration-plans-layoffs-deferred-resignation-offer/index.html
-2025-02-05 16:24:45,984 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:24:45,985 [INFO] Summarized article: https://edition.cnn.com/2025/02/05/business/shein-temu-alibaba-china-tariffs-de-minimis/index.html
-2025-02-05 16:24:51,455 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/entertainment/benson-boone-apologizes-grammys/index.html
-2025-02-05 16:25:02,010 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/entertainment/blake-lively-next-movie-another-simple-favor/index.html
-2025-02-05 16:25:11,775 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/world/aga-khan-ismaili-muslim-obit-intl-latam/index.html
-2025-02-05 16:25:19,726 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/travel/south-korea-airport-kimchi-confiscation-intl-hnk/index.html
-2025-02-05 16:25:24,111 [INFO] Summarized article: https://edition.cnn.com/2025/02/03/travel/video/santorini-earthquakes-evacuations-greek-islands-digvid
-2025-02-05 16:25:24,120 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:25:24,120 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/sport/1984-super-bowl-commercial-spt-intl/index.html
-2025-02-05 16:25:31,869 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/entertainment/adrien-brody-adam-kim-kardashian/index.html
-2025-02-05 16:25:38,906 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/travel/santorini-greece-earthquake-evacuation-intl/index.html
-2025-02-05 16:25:44,724 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/sport/tiger-woods-mother-kultida-woods-dead-spt/index.html
-2025-02-05 16:25:44,731 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:25:44,732 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/style/latex-lace-kasia-kucarska-berlin-fashion-week/index.html
-2025-02-05 16:25:55,099 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/business/us-postal-service-suspends-parcels-china-intl-hnk/index.html
-2025-02-05 16:26:02,478 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/business/google-ai-weapons-surveillance/index.html
-2025-02-05 16:26:20,027 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/economy/tariff-increased-costs-china/index.html
-2025-02-05 16:26:20,035 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:26:20,035 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/business/china-us-trade-retaliation-hnk-intl/index.html
-2025-02-05 16:26:24,916 [INFO] Summarized article: https://edition.cnn.com/2025/01/30/us/gallery/jet-helicopter-collision/index.html
-2025-02-05 16:26:29,303 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/us/video/18-wheeler-rams-two-intersections-gwinnett-georgia-digvid
-2025-02-05 16:26:33,629 [INFO] Summarized article: https://edition.cnn.com/2025/02/03/us/video/andy-beyer-dc-crash-kaitlan-collins-src-digvid
-2025-02-05 16:26:37,879 [INFO] Summarized article: https://edition.cnn.com/2025/02/03/us/video/the-lead-kalle-strid-plane-crash-victims-ice-skating-coach-jake-tapper
-2025-02-05 16:26:42,215 [INFO] Summarized article: https://edition.cnn.com/2025/02/03/us/video/the-lead-captain-patrick-burkett-plane-crash-wreckage-coast-guard-recovery-potomac-jake-tapper
-2025-02-05 16:26:50,128 [INFO] Summarized article: https://edition.cnn.com/2025/02/02/us/dc-plane-helicopter-crash-victims/index.html
-2025-02-05 16:26:50,135 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:26:50,135 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/world/trump-ukraine-minerals-military-aid-intl/index.html
-2025-02-05 16:26:50,140 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:26:50,141 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/health/mental-health-morning-wellness/index.html
-2025-02-05 16:26:50,147 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:26:50,147 [INFO] Summarized article: https://edition.cnn.com/2025/02/03/health/brushing-flossing-order-wellness/index.html
-2025-02-05 16:26:50,153 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:26:50,153 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/health/parent-child-screen-time-wellness/index.html
-2025-02-05 16:26:54,487 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/world/video/mass-shooting-sweden-school-witness-digvid
-2025-02-05 16:26:54,495 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:26:54,496 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/science/bayeux-tapestry-king-harold-godwinson-house/index.html
-2025-02-05 16:26:54,509 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:26:54,510 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/politics/musk-washington-chaos/index.html
-2025-02-05 16:26:58,801 [INFO] Summarized article: https://edition.cnn.com/2025/02/01/us/video/volunteer-undocumented-migrant-families-chicago-ice-trump-deportation-fears-flores-pkg-digvid
-2025-02-05 16:27:03,096 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/business/video/jon-stewart-late-night-laugh-trump-tariff-trade-war-digvid
-2025-02-05 16:27:07,401 [INFO] Summarized article: https://edition.cnn.com/2025/01/31/us/video/garbage-truck-explosion-oxygen-tank-ohio-digvid
-2025-02-05 16:27:07,413 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:27:07,413 [INFO] Summarized article: https://edition.cnn.com/2025/02/02/us/recovery-effort-dc-plane-crash/index.html
-2025-02-05 16:27:07,422 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:27:07,423 [INFO] Summarized article: https://edition.cnn.com/2025/02/01/us/black-hawk-helicopter-training-plane-crash/index.html
-2025-02-05 16:27:11,457 [INFO] Summarized article: https://edition.cnn.com/2025/02/02/us/united-airlines-houston-evacuation/index.html
-2025-02-05 16:27:21,328 [INFO] Summarized article: https://edition.cnn.com/2025/02/02/us/nitrogen-gas-execution-alabama-demetrius-frazier/index.html
-2025-02-05 16:27:21,337 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:27:21,337 [INFO] Summarized article: https://edition.cnn.com/2025/01/31/us/philadelphia-jet-crash-fire/index.html
-2025-02-05 16:27:25,665 [INFO] Summarized article: https://edition.cnn.com/2025/02/02/us/video/will-reeve-anderson-question-for-parents-digvid
-2025-02-05 16:27:30,383 [INFO] Summarized article: https://www.wmur.com/article/campton-police-abandoned-ducks-new-home-farm/63658274
-2025-02-05 16:27:37,253 [INFO] Summarized article: https://www.wbaltv.com/article/frederick-hospital-ransomware-incident-expectant-mothers/63655973
-2025-02-05 16:27:45,696 [INFO] Summarized article: https://www.cbsnews.com/newyork/news/dc-plane-crash-victim-chris-collins-connecticut-dog-shelter/
-2025-02-05 16:27:52,055 [INFO] Summarized article: https://www.wesh.com/article/large-chunk-ice-crashes-palm-coast-home/63658303
-2025-02-05 16:27:58,006 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/business/australia-deepseek-ban-security-concerns-intl/index.html
-2025-02-05 16:28:10,489 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/science/china-moon-flying-robot-change-7-intl-hnk-scn/index.html
-2025-02-05 16:28:15,499 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/politics/pam-bondi-confirmed-attorney-general/index.html
-2025-02-05 16:28:27,256 [INFO] Summarized article: https://edition.cnn.com/2025/02/04/africa/rebels-ceasefire-dr-congo-intl/index.html
-2025-02-05 16:28:27,262 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:28:27,264 [INFO] Summarized article: https://edition.cnn.com/2025/02/03/africa/rwanda-kigame-troops-dr-congo-intl/index.html
-2025-02-05 16:28:27,271 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:28:27,271 [INFO] Summarized article: https://edition.cnn.com/2025/02/03/europe/germany-friedrich-merz-immigration-intl-latam/index.html
-2025-02-05 16:28:35,417 [INFO] Summarized article: https://edition.cnn.com/2025/02/03/europe/armen-sarkisyan-bomb-death-moscow-intl-latam/index.html
-2025-02-05 16:28:35,425 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:28:35,425 [INFO] Summarized article: https://edition.cnn.com/2025/02/03/middleeast/israel-gaza-habiba-medical-evacuation-jordan-intl/index.html
-2025-02-05 16:28:39,774 [INFO] Summarized article: https://edition.cnn.com/2025/02/03/world/video/jenin-west-bank-idf-military-operations-diamond-digvid
-2025-02-05 16:28:39,786 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:28:39,786 [INFO] Summarized article: https://edition.cnn.com/travel/american-woman-relocates-to-spain-but-returns-home/index.html
-2025-02-05 16:28:48,620 [INFO] Summarized article: https://www.wcvb.com/article/norwell-dealership-carjacking-brockton-man-arrest/63654301
-2025-02-05 16:28:48,627 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:28:48,627 [INFO] Summarized article: https://www.cbsnews.com/baltimore/news/maryland-key-bridge-collapse-design-new-construction/
-2025-02-05 16:28:56,719 [INFO] Summarized article: https://www.wyff4.com/article/greenville-businesses-close-a-day-without-hispanics/63653622
-2025-02-05 16:29:05,199 [INFO] Summarized article: https://www.cbsnews.com/boston/news/mount-washington-rescue-kathryn-mckee/
-2025-02-05 16:29:14,347 [INFO] Summarized article: https://www.cbsnews.com/miami/news/florida-family-honors-13-year-old-daughter-who-saved-five-lives-through-organ-donation/
-2025-02-05 16:29:14,353 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:29:14,353 [INFO] Summarized article: https://www.mynbc5.com/article/farmers-maple-makers-others-react-to-the-potential-of-tariffs/63656645
-2025-02-05 16:29:14,359 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:29:14,359 [INFO] Summarized article: https://www.kcci.com/article/thieves-steal-tools-from-habitat-for-humanity-site-in-ames/63658046
-2025-02-05 16:29:19,726 [INFO] Summarized article: https://www.wdsu.com/article/new-orleans-nurse-terror-attack-super-bowl-demario-davis/63657496
-2025-02-05 16:29:19,733 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:29:19,733 [INFO] Summarized article: https://www.wisn.com/article/amber-alert-issued-for-pregnant-16-year-old-girl/63658216
-2025-02-05 16:29:24,378 [INFO] Summarized article: https://www.koamnewsnow.com/news/joplin-news-first/two-boys-8-and-9-had-fallen-through-ice-sheriff-updates-investigation/article_09f13ad0-e249-11ef-86aa-274a3334fdee.html
-2025-02-05 16:29:34,840 [INFO] Summarized article: https://edition.cnn.com/2025/02/02/travel/santorini-earthquake-greece-intl/index.html
-2025-02-05 16:29:34,848 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:29:34,849 [INFO] Summarized article: https://techcrunch.com/2025/02/04/two-space-startups-have-merged-to-create-the-next-generation-of-telescopes/
-2025-02-05 16:29:34,905 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:29:34,911 [INFO] Summarized article: https://techcrunch.com/2025/02/04/tech-layoffs-2024-list/
-2025-02-05 16:29:40,423 [INFO] Summarized article: https://techcrunch.com/2025/02/04/deel-unloads-300m-in-secondary-sale-brings-general-catalyst-on-as-an-investor/
-2025-02-05 16:29:40,432 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:29:40,432 [INFO] Summarized article: https://techcrunch.com/2025/02/04/logicstar-is-building-ai-agents-for-app-maintenance/
-2025-02-05 16:29:52,380 [INFO] Summarized article: https://techcrunch.com/2025/02/04/sotira-lands-2m-to-help-brands-offload-and-monetize-their-surplus-inventory/
-2025-02-05 16:30:00,695 [INFO] Summarized article: https://techcrunch.com/2025/02/04/archive-raises-30m-to-solve-fashions-pollution-problem-with-online-resales/
-2025-02-05 16:30:00,703 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:30:00,703 [INFO] Summarized article: https://techcrunch.com/2025/02/04/egypts-khazna-banks-16m-for-its-financial-super-app-and-expansion-into-saudi/
-2025-02-05 16:30:11,618 [INFO] Summarized article: https://techcrunch.com/2025/02/04/waabi-and-volvo-team-up-to-build-self-driving-trucks-at-scale/
-2025-02-05 16:30:21,732 [INFO] Summarized article: https://techcrunch.com/2025/02/03/neuralk-ai-is-developing-ai-models-specifically-designed-for-structured-data/
-2025-02-05 16:30:30,958 [INFO] Summarized article: https://techcrunch.com/2025/02/03/stripe-brings-aboard-new-head-of-startup-and-vc-partnerships/
-2025-02-05 16:30:42,259 [INFO] Summarized article: https://techcrunch.com/2025/02/03/techcrunch-disrupt-2025-secure-your-ticket-at-this-years-lowest-rates/
-2025-02-05 16:30:51,798 [INFO] Summarized article: https://techcrunch.com/2025/02/03/riot-raises-30-million-for-its-cybersecurity-product-suite-focused-on-employees/
-2025-02-05 16:30:51,804 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:30:51,805 [INFO] Summarized article: https://techcrunch.com/2025/02/02/openai-unveils-a-new-chatgpt-agent-for-deep-research/
-2025-02-05 16:31:01,428 [INFO] Summarized article: https://techcrunch.com/2025/02/02/google-x-spins-out-heritable-agriculture-a-startup-using-ai-to-improve-crop-yield/
-2025-02-05 16:31:01,434 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:31:01,434 [INFO] Summarized article: https://techcrunch.com/2025/02/01/here-are-all-the-ipos-reported-to-be-in-the-works-for-2025/
-2025-02-05 16:31:10,225 [INFO] Summarized article: https://techcrunch.com/2025/02/01/venture-debt-lenders-will-play-a-big-role-in-fire-sales-and-startup-shutdown-this-year-experts-say/
-2025-02-05 16:31:10,235 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:31:10,236 [INFO] Summarized article: https://techcrunch.com/2025/02/01/here-are-the-apps-battling-to-be-become-the-tiktok-for-bluesky/
-2025-02-05 16:31:10,246 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:31:10,246 [INFO] Summarized article: https://techcrunch.com/2025/02/01/ai-agents-could-birth-the-first-one-person-unicorn-but-at-what-societal-cost/
-2025-02-05 16:31:19,742 [INFO] Summarized article: https://techcrunch.com/2025/01/31/india-pledges-fresh-billion-for-startups/
-2025-02-05 16:31:19,750 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:31:19,751 [INFO] Summarized article: https://techcrunch.com/2025/01/31/custom-feed-builder-graze-is-building-a-business-on-bluesky-and-investors-are-paying-attention/
-2025-02-05 16:31:33,074 [INFO] Summarized article: https://techcrunch.com/2025/01/31/ai-startup-perplexity-sued-for-alleged-trademark-infringement/
-2025-02-05 16:31:40,478 [INFO] Summarized article: https://techcrunch.com/podcast/deepseek-lights-a-fire-under-silicon-valley/
-2025-02-05 16:31:52,562 [INFO] Summarized article: https://techcrunch.com/2025/01/31/backed-by-mayo-clinic-nutrixs-hardware-monitors-worker-stress/
-2025-02-05 16:32:04,641 [INFO] Summarized article: https://techcrunch.com/2025/01/31/techcrunch-disrupt-2025-24-hours-left-for-2-for-1-pass/
-2025-02-05 16:32:13,580 [INFO] Summarized article: https://techcrunch.com/2025/01/31/in-another-challenging-year-for-startups-higher-valuations-and-revenue-give-reason-for-hope/
-2025-02-05 16:32:21,005 [INFO] Summarized article: https://techcrunch.com/2025/01/30/openai-said-to-be-in-talks-to-raise-40b-at-a-340b-valuation/
-2025-02-05 16:32:21,012 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:32:21,012 [INFO] Summarized article: https://techcrunch.com/2025/01/30/controversial-genetics-testing-startup-nucleus-genomics-raises-14m-series-a/
-2025-02-05 16:32:30,774 [INFO] Summarized article: https://techcrunch.com/2025/01/30/fintech-startup-cushion-shuts-down-after-8-years-and-over-20-million-in-funding/
-2025-02-05 16:32:45,283 [INFO] Summarized article: https://techcrunch.com/2025/01/30/serial-founder-divine-launches-creator-app-with-hip-hop-legend-rakim/
-2025-02-05 16:32:51,234 [INFO] Summarized article: https://techcrunch.com/2025/02/04/a16z-hires-acquitted-former-marine-daniel-penny-as-an-investor/
-2025-02-05 16:33:00,428 [INFO] Summarized article: https://www.wired.com/story/meet-the-hired-guns-who-make-sure-school-cyberattacks-stay-hidden/
-2025-02-05 16:33:10,600 [INFO] Summarized article: https://www.wired.com/story/hackers-google-gemini-us-cyberattacks/
-2025-02-05 16:33:21,368 [INFO] Summarized article: https://www.wired.com/story/deepseeks-ai-jailbreak-prompt-injection-attacks/
-2025-02-05 16:33:31,162 [INFO] Summarized article: https://www.wired.com/story/exposed-deepseek-database-revealed-chat-prompts-and-internal-data/
-2025-02-05 16:33:44,183 [INFO] Summarized article: https://www.wired.com/story/section-702-fbi-searches-unconstitutional/
-2025-02-05 16:33:53,631 [INFO] Summarized article: https://www.wired.com/story/subaru-location-tracking-vulnerabilities/
-2025-02-05 16:34:04,970 [INFO] Summarized article: https://www.wired.com/story/big-interview-jen-easterly-cisa-cybersecurity/
-2025-02-05 16:34:14,891 [INFO] Summarized article: https://www.wired.com/story/deepseek-ai-china-privacy-data/
-2025-02-05 16:34:23,568 [INFO] Summarized article: https://www.wired.com/story/scammers-are-creating-fake-news-videos-to-blackmail-victims/
-2025-02-05 16:34:34,175 [INFO] Summarized article: https://www.wired.com/story/how-to-get-around-the-us-tiktok-ban/
-2025-02-05 16:34:44,415 [INFO] Summarized article: https://www.wired.com/story/inside-the-black-box-of-predictive-travel-surveillance/
-2025-02-05 16:34:44,421 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:34:44,422 [INFO] Summarized article: https://www.wired.com/story/best-vpn/
-2025-02-05 16:34:56,006 [INFO] Summarized article: https://www.wired.com/story/old-chat-history-delete/
-2025-02-05 16:35:03,177 [INFO] Summarized article: https://www.wired.com/story/how-to-find-airtags/
-2025-02-05 16:35:10,188 [INFO] Summarized article: https://www.wired.com/story/the-wired-guide-to-protecting-yourself-from-government-surveillance/
-2025-02-05 16:35:23,636 [INFO] Summarized article: https://www.wired.com/story/brandon-russell-baltimore-trial/
-2025-02-05 16:35:36,039 [INFO] Summarized article: https://www.wired.com/story/trump-frees-silk-road-creator-ross-ulbricht-after-11-years-in-prison/
-2025-02-05 16:35:36,045 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:35:36,045 [INFO] Summarized article: https://www.wired.com/story/us-names-one-of-the-hackers-allegedly-behind-massive-salt-typhoon-breaches/
-2025-02-05 16:35:45,977 [INFO] Summarized article: https://www.wired.com/story/the-fccs-jessica-rosenworcel-isnt-leaving-without-a-fight/
-2025-02-05 16:35:57,412 [INFO] Summarized article: https://www.wired.com/story/hackers-likely-stole-fbi-call-logs-from-att-that-could-compromise-informants/
-2025-02-05 16:36:08,525 [INFO] Summarized article: https://www.wired.com/story/nathaniel-fick-us-cyber-ambassador-exit-interview/
-2025-02-05 16:36:19,097 [INFO] Summarized article: https://www.wired.com/story/githubs-deepfake-porn-crackdown-still-isnt-working/
-2025-02-05 16:36:30,601 [INFO] Summarized article: https://www.wired.com/story/biden-executive-order-cybersecurity-ai-and-more/
-2025-02-05 16:36:41,436 [INFO] Summarized article: https://www.wired.com/story/the-largest-illicit-online-marketplace-ever-is-growing-at-an-alarming-rate/
-2025-02-05 16:36:53,037 [INFO] Summarized article: https://www.wired.com/story/2024-dnc-cell-site-simulator-phone-surveillance/
-2025-02-05 16:37:01,455 [INFO] Summarized article: https://www.wired.com/story/gravy-location-data-app-leak-rtb/
-2025-02-05 16:37:11,727 [INFO] Summarized article: https://www.wired.com/story/texas-social-media-investigation-children-privacy/
-2025-02-05 16:37:22,624 [INFO] Summarized article: https://www.wired.com/story/how-the-us-tiktok-ban-would-actually-work/
-2025-02-05 16:37:33,510 [INFO] Summarized article: https://www.wired.com/story/school-swatting-torswats-brad-dennis/
-2025-02-05 16:37:44,105 [INFO] Summarized article: https://www.wired.com/story/license-plate-reader-live-video-data-exposed/
-2025-02-05 16:37:44,105 [WARNING] Skipping invalid article: https://www.espn.com/espn/feature/story/_/id/42795252/cristiano-ronaldo-career-birthday
-2025-02-05 16:37:58,636 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43692019/mikel-arteta-hails-kai-havertz-arsenal-powerhouse
-2025-02-05 16:37:58,645 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:37:58,645 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43689769/premier-league-wants-semi-automated-var-offside-season
-2025-02-05 16:38:11,238 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43687789/man-united-plotting-major-summer-squad-rebuild-source
-2025-02-05 16:38:18,158 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43693460/man-city-report-racist-abuse-khadija-bunny-shaw-police
-2025-02-05 16:38:27,946 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43690311/arsenals-mikel-arteta-disappointed-lack-january-signings
-2025-02-05 16:38:35,886 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43516496/alphonso-davies-bayern-munich-star-signs-deal-amid-real-madrid-interest
-2025-02-05 16:38:46,345 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43691369/sam-kerr-trial-prosecutor-questions-officer-motives
-2025-02-05 16:38:54,896 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43690722/sporting-director-hugo-viana-leaves-club-ahead-man-city-move
-2025-02-05 16:39:04,628 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43687566/cristiano-ronaldo-lionel-messi-great-most-complete
-2025-02-05 16:39:04,639 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:39:04,640 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43688377/isl-musings-2024-25-indian-super-league-mohun-bagan-champions-elect-bengaluru-continue-implode
-2025-02-05 16:39:04,651 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:39:04,652 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43585116/isl-score-2024-25-indian-super-league-football-results-matchweek-20
-2025-02-05 16:39:04,698 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:39:04,703 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43600518/soccer-summer-transfers-arsenal-liverpool-man-united-man-city-barcelona-real-madrid-preview
-2025-02-05 16:39:04,711 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:39:04,712 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43679286/laliga-mbappe-foul-espanyol-romero-gavi-injury-barcelona-graham-hunter
-2025-02-05 16:39:04,723 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:39:04,724 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43677085/psg-villa-win-transfer-window-man-united-arsenal-biggest-losers
-2025-02-05 16:39:04,743 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:39:04,743 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43331935/january-transfer-window-grading-big-signings-women-soccer
-2025-02-05 16:39:04,771 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:39:04,778 [INFO] Summarized article: https://www.espn.in/football/insider/story/_/id/43331837/january-transfer-window-grading-big-signings-mens-soccer
-2025-02-05 16:39:17,727 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43695264/transfer-rumors-news-wolverhampton-wanderers-matheus-cunha-eyeing-summer-move
-2025-02-05 16:39:17,733 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:39:17,734 [INFO] Summarized article: https://www.espn.in/espn/story/_/id/43676298/myles-lewis-skelly-erling-haaland-arsenal-manchester-city-moment-weekend
-2025-02-05 16:39:17,741 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:39:17,742 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43672571/salah-300-goals-erling-haaland-faster-250-messi-ronaldo-weekend-stats
-2025-02-05 16:39:17,756 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:39:17,756 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43666715/european-soccer-weekend-review-premier-league-laliga-bundesliga-highlights-analysis
-2025-02-05 16:39:17,769 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:39:17,769 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43600524/transfer-deadline-day-trades-olivier-giroud-chelsea-fraizer-campbell-tottenham-barcelona
-2025-02-05 16:39:17,795 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:39:17,795 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43675235/man-city-arsenal-pep-guardiola-milan-derby-liverpool-premier-league-gab-marcotti
-2025-02-05 16:39:17,815 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:39:17,816 [INFO] Summarized article: https://www.espn.in/football/insider/story/_/id/43612296/the-var-review-cody-gakpo-penalty-liverpool-bournemouth
-2025-02-05 16:39:17,832 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:39:17,833 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43662583/barcelona-suffer-shock-loss-arsenal-win-man-city-thriller
-2025-02-05 16:39:17,918 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:39:17,927 [INFO] Summarized article: https://www.espn.in/football/blog-espn-fc-united/story/4239858/fc-100-liverpoolbayern-dominateusmnt-stars-break-into-our-annual-ranking-of-soccers-best-players
-2025-02-05 16:39:17,936 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:39:17,936 [INFO] Summarized article: https://www.espn.in/wrestling/story/_/id/41921480/sakshi-malik-book-indian-wrestling-protests-broken-promises-fixed-match-start
-2025-02-05 16:39:17,946 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:39:17,946 [INFO] Summarized article: https://www.espn.in/wrestling/story/_/id/41921021/sakshi-malik-autobiography-witness-strong-message-indian-women-athletes-independent
-2025-02-05 16:39:24,985 [INFO] Summarized article: https://www.espn.in/wrestling/story/_/id/41676448/vinesh-phogat-elected-mla-says-victory-every-struggle-every-truth
-2025-02-05 16:39:24,996 [ERROR] Error during summarization: index out of range in self
-2025-02-05 16:39:24,996 [INFO] Summarized article: https://www.espn.in/olympics/story/_/id/40937201/vinesh-phogat-cas-ruling-paris-olympics-change-uww-wrestling-rules
-2025-02-05 16:40:08,930 [INFO] Summaries saved to MongoDB successfully.
-2025-02-05 16:40:08,990 [INFO] Summarization process completed.
+2025-02-09 12:06:21,597 [INFO] Summarization model loaded successfully.
+2025-02-09 12:06:21,597 [INFO] Starting the summarization process...
+2025-02-09 12:06:23,696 [INFO] Fetched 200 articles from MongoDB.
+2025-02-09 12:06:23,765 [INFO] Summarized article: https://edition.cnn.com/business/media
+2025-02-09 12:06:23,766 [INFO] Summarized article: https://edition.cnn.com/travel/news
+2025-02-09 12:06:23,811 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:06:23,811 [INFO] Summarized article: https://edition.cnn.com/audio/podcasts/all-there-is-with-anderson-cooper
+2025-02-09 12:06:23,825 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:06:23,825 [INFO] Summarized article: https://edition.cnn.com/2025/02/08/us/cincinnati-ohio-nazi-flags/index.html
+2025-02-09 12:06:23,834 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:06:23,835 [INFO] Summarized article: https://edition.cnn.com/2025/02/08/us/alaska-crash-investigation-recovery-hnk/index.html
+2025-02-09 12:06:33,914 [INFO] Summarized article: https://edition.cnn.com/2025/02/08/us/new-york-long-island-cold-case-arrest/index.html
+2025-02-09 12:06:33,925 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:06:33,925 [INFO] Summarized article: https://edition.cnn.com/2025/02/08/us/altadena-california-residents-neighborhood-fire/index.html
+2025-02-09 12:06:43,004 [INFO] Summarized article: https://edition.cnn.com/2025/02/08/us/dc-plane-crash-wreckage-search-saturday-hnk/index.html
+2025-02-09 12:06:43,010 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:06:43,010 [INFO] Summarized article: https://edition.cnn.com/2025/02/08/us/firefighters-federal-hiring-freeze/index.html
+2025-02-09 12:06:52,038 [INFO] Summarized article: https://edition.cnn.com/2025/02/08/us/springfield-ohio-haitians-lawsuit-neo-nazis/index.html
+2025-02-09 12:07:03,176 [INFO] Summarized article: https://www.katc.com/st-landry-parish/meville-woman-accused-of-beating-man-with-bat
+2025-02-09 12:07:13,907 [INFO] Summarized article: https://www.cbsnews.com/texas/news/mavericks-fans-channel-anger-over-luka-doncic-trade-into-sell-the-team-beer/
+2025-02-09 12:07:20,875 [INFO] Summarized article: https://www.cbsnews.com/chicago/news/fire-results-700k-damages-naperville-home/
+2025-02-09 12:07:28,404 [INFO] Summarized article: https://www.cbsnews.com/minnesota/news/apple-valley-gas-station-worker-scratch-off-lottery-theft/
+2025-02-09 12:07:37,061 [INFO] Summarized article: https://www.cbsnews.com/detroit/news/oakland-county-officials-discuss-home-invasions-targeting-young-women/
+2025-02-09 12:07:47,100 [INFO] Summarized article: https://www.cbsnews.com/colorado/news/tesla-dealership-cybertrucks-spray-painted-loveland-colorado-police-investigate-vandalism/
+2025-02-09 12:07:54,621 [INFO] Summarized article: https://www.cbsnews.com/losangeles/news/first-altadena-property-with-home-destroyed-by-eaton-fire-hits-market-sells-within-days/
+2025-02-09 12:07:59,648 [INFO] Summarized article: https://www.turnto23.com/news/in-your-neighborhood/bakersfield/woman-arrested-after-raising-mexico-flag-in-place-of-american-flag-at-hart-park
+2025-02-09 12:08:11,988 [INFO] Summarized article: https://www.kcci.com/article/dog-wedding-des-moines-dogs-get-married-kcci-archives-todd-magel/63704874
+2025-02-09 12:08:11,994 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:08:11,994 [INFO] Summarized article: https://www.ksbw.com/article/monterey-county-shine-prom-special-needs-feb-8/63713421
+2025-02-09 12:08:24,066 [INFO] Summarized article: https://edition.cnn.com/2025/02/08/us/california-law-immigrants-trump-newsom/index.html
+2025-02-09 12:08:24,075 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:08:24,076 [INFO] Summarized article: https://edition.cnn.com/2025/02/07/us/teachers-ice-immigration-sweeps-schools/index.html
+2025-02-09 12:08:24,085 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:08:24,086 [INFO] Summarized article: https://edition.cnn.com/2025/02/08/us/dei-programs-diversity-list/index.html
+2025-02-09 12:08:24,093 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:08:24,094 [INFO] Summarized article: https://edition.cnn.com/2025/02/07/us/alaska-cessna-bering-air-hnk/index.html
+2025-02-09 12:08:24,099 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:08:24,100 [INFO] Summarized article: https://edition.cnn.com/2025/02/07/us/two-killed-in-possible-tornado-in-small-east-tennessee-community/index.html
+2025-02-09 12:08:24,115 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:08:24,116 [INFO] Summarized article: https://edition.cnn.com/2025/02/07/us/new-orleans-terror-attack-super-bowl/index.html
+2025-02-09 12:08:24,122 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:08:24,122 [INFO] Summarized article: https://edition.cnn.com/2025/02/07/us/alabama-execution-demetrius-frazier/index.html
+2025-02-09 12:08:24,132 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:08:24,132 [INFO] Summarized article: https://edition.cnn.com/2025/02/06/us/dc-midair-collision-investigation-thursday-hnk/index.html
+2025-02-09 12:08:34,142 [INFO] Summarized article: https://edition.cnn.com/2025/02/06/us/southern-california-edison-hudson-hurst-fire/index.html
+2025-02-09 12:08:34,150 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:08:34,151 [INFO] Summarized article: https://edition.cnn.com/2025/02/06/us/5-things-pm-february-6-trnd/index.html
+2025-02-09 12:08:34,161 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:08:34,162 [INFO] Summarized article: https://www.king5.com/article/news/investigations/investigators/hundreds-washington-police-officers-be-in-danger-of-being-shot-by-own-guns-investigation/281-2768d2b9-a2a1-44d6-8b2c-06e6ef0dc3ac
+2025-02-09 12:08:39,381 [INFO] Summarized article: https://www.kitv.com/news/toxic-gas-leak-cleared-up-at-pearl-harbor-naval-shipyard/article_28fc0f62-e5d8-11ef-8616-2b7bf8c8a6c5.html
+2025-02-09 12:08:45,736 [INFO] Summarized article: https://www.cbsnews.com/colorado/news/colorado-hospitals-comply-trump-transgender-order-families-scramble/
+2025-02-09 12:08:53,119 [INFO] Summarized article: https://www.kivitv.com/caldwell/caldwell-mayor-backs-police-chief-amid-harassment-and-discrimination-allegations
+2025-02-09 12:08:53,124 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:08:53,125 [INFO] Summarized article: https://www.kcra.com/article/walnut-grove-car-crash-race-track-walnut-grove-thornton-road/63702251
+2025-02-09 12:09:00,823 [INFO] Summarized article: https://www.10news.com/news/local-news/woman-dies-of-flu-complications-family-and-county-urge-people-to-get-vaccinated
+2025-02-09 12:09:00,823 [INFO] Summarized article: https://edition.cnn.com/2025/02/08/us/video/alaska-plane-crash-recovery-weather-victims-digvid
+2025-02-09 12:09:00,823 [INFO] Summarized article: https://edition.cnn.com/2025/02/08/us/video/super-bowl-security-new-orleans-digvid
+2025-02-09 12:09:00,823 [INFO] Summarized article: https://edition.cnn.com/2025/02/07/us/video/trump-usaid-politics-matthew-bartlett-amanpour
+2025-02-09 12:09:00,823 [INFO] Summarized article: https://edition.cnn.com/2025/02/07/us/video/police-on-horseback-chase-jacksonville-florida-digvid
+2025-02-09 12:09:10,292 [INFO] Summarized article: https://edition.cnn.com/2025/02/08/politics/trump-putin-speak-interview-saturday/index.html
+2025-02-09 12:09:23,425 [INFO] Summarized article: https://edition.cnn.com/2025/02/08/politics/secret-service-super-bowl-ad/index.html
+2025-02-09 12:09:31,581 [INFO] Summarized article: https://edition.cnn.com/2025/02/08/politics/elon-musk-doge-treasury-payment-system/index.html
+2025-02-09 12:09:31,594 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:09:31,594 [INFO] Summarized article: https://edition.cnn.com/2025/02/08/politics/donald-trump-spoils-system-what-matters/index.html
+2025-02-09 12:09:38,260 [INFO] Summarized article: https://edition.cnn.com/2025/02/08/business/playstation-global-outage/index.html
+2025-02-09 12:09:48,639 [INFO] Summarized article: https://edition.cnn.com/2025/02/08/business/elon-musk-tiktok-buyers/index.html
+2025-02-09 12:09:55,670 [INFO] Summarized article: https://edition.cnn.com/2025/02/08/business/cfpb-doge-vought-x/index.html
+2025-02-09 12:09:55,676 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:09:55,677 [INFO] Summarized article: https://edition.cnn.com/2025/02/08/tech/sonos-app-update-redemption-2025/index.html
+2025-02-09 12:10:02,537 [INFO] Summarized article: https://edition.cnn.com/2025/02/08/business/tracking-us-food-prices-eggs-dg/index.html
+2025-02-09 12:10:02,537 [INFO] Summarized article: https://edition.cnn.com/2025/02/07/us/video/alaska-cessna-bering-air-miles-obrien-digvid
+2025-02-09 12:10:02,537 [INFO] Summarized article: https://edition.cnn.com/2025/02/07/us/video/proud-boys-metropolitan-ame-church-judgment-lcl-digvid
+2025-02-09 12:10:02,544 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:10:02,545 [INFO] Summarized article: https://edition.cnn.com/2025/02/06/us/ncaa-upenn-lawsuit-lia-thomas/index.html
+2025-02-09 12:10:10,904 [INFO] Summarized article: https://edition.cnn.com/2025/02/06/us/ohio-warehouse-shooting/index.html
+2025-02-09 12:10:22,938 [INFO] Summarized article: https://edition.cnn.com/2025/02/06/us/robert-brooks-ny-homicide/index.html
+2025-02-09 12:10:34,254 [INFO] Summarized article: https://edition.cnn.com/2025/02/06/us/philadelphia-jet-crash-steven-dreuitt/index.html
+2025-02-09 12:10:34,254 [INFO] Summarized article: https://edition.cnn.com/2025/02/07/us/video/indian-migrants-shackles-deportation-us-ldn-digvid
+2025-02-09 12:10:41,413 [INFO] Summarized article: https://edition.cnn.com/us/winter-weather-warnings-advisories-tracker-us-dg/index.html
+2025-02-09 12:10:41,413 [INFO] Summarized article: https://edition.cnn.com/2025/02/05/us/video/florida-farms-legal-migrants-culver-digvid-ac
+2025-02-09 12:10:41,423 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:10:41,423 [INFO] Summarized article: https://edition.cnn.com/2025/02/06/us/new-orleans-super-bowl-safety/index.html
+2025-02-09 12:10:41,428 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:10:41,429 [INFO] Summarized article: https://edition.cnn.com/2025/02/05/us/dc-plane-helicopter-collision-investigation/index.html
+2025-02-09 12:10:51,783 [INFO] Summarized article: https://edition.cnn.com/2025/02/06/us/birthright-citizenship-trump-order-maps-charts/index.html
+2025-02-09 12:10:57,336 [INFO] Summarized article: https://www.cbsnews.com/miami/news/jimmy-butler-removed-from-iconic-wynwood-mural-after-heat-exit/
+2025-02-09 12:11:05,891 [INFO] Summarized article: https://www.wmar2news.com/bridgingthegap/baltimore-artist-creates-sculptures-to-help-black-community-feel-seen#google_vignette
+2025-02-09 12:11:05,898 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:11:05,898 [INFO] Summarized article: https://www.gulfcoastnewsnow.com/article/parents-disarm-teen-gun-cape-coral-park/63694645
+2025-02-09 12:11:15,480 [INFO] Summarized article: https://www.wapt.com/article/rankin-county-deputies-find-62-pounds-of-drugs-hidden-in-bmw/63697515
+2025-02-09 12:11:23,174 [INFO] Summarized article: https://www.cbsnews.com/miami/news/fort-lauderdale-beach-advisory-prompted-after-unknown-oily-substance-found/
+2025-02-09 12:11:34,606 [INFO] Summarized article: https://www.wlky.com/article/baby-killed-3-year-old-injured-crash-avon-indiana/63696717
+2025-02-09 12:11:43,481 [INFO] Summarized article: https://www.wptv.com/news/treasure-coast/region-st-lucie-county/port-st-lucie/port-st-lucie-residents-petition-to-allow-backyard-chickens-due-to-egg-shortages-rising-egg-prices
+2025-02-09 12:11:54,549 [INFO] Summarized article: https://www.wyff4.com/article/bomb-found-ingles-parking-lot-traffic-stop-toccoa-ga/63717246
+2025-02-09 12:11:54,554 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:11:54,555 [INFO] Summarized article: https://www.gulfcoastnewsnow.com/article/ice-deportation-florida-cape-coral-groping-arrest/63712187
+2025-02-09 12:11:54,561 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:11:54,562 [INFO] Summarized article: https://www.cbsnews.com/newyork/news/poultry-markets-shut-down-in-nyc-area-due-to-bird-flu-concerns/
+2025-02-09 12:11:54,567 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:11:54,567 [INFO] Summarized article: https://www.fox17online.com/news/local-news/msu-holds-roundtable-on-gun-violence-nearly-two-years-after-shooting
+2025-02-09 12:11:54,572 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:11:54,573 [INFO] Summarized article: https://www.wcpo.com/news/state/state-ohio/it-is-a-statement-ohio-legislators-introduce-conception-begins-at-erection-bill
+2025-02-09 12:12:00,869 [INFO] Summarized article: https://www.wdsu.com/article/trailer-carrying-nitrous-oxide-explodes-on-i-10-causing-damage-to-nearby-houses-in-metairie/63717214
+2025-02-09 12:12:00,869 [INFO] Summarized article: https://www.ktbs.com/news/crime/former-head-of-southfield-school-arrested-for-dealing-in-child-pornography/article_14bffe58-e3be-11ef-aea8-b71abef0a582.html
+2025-02-09 12:12:10,565 [INFO] Summarized article: https://techcrunch.com/video/how-investors-can-help-startups-compete-for-lucrative-government-and-defense-contracts-tc-disrupt-24/
+2025-02-09 12:12:10,565 [INFO] Summarized article: https://techcrunch.com/video/watch-this-1-horsepower-outdoor-exoskeleton-in-action/
+2025-02-09 12:12:14,585 [INFO] Summarized article: https://techcrunch.com/video/2025-could-be-the-year-of-samsungs-ballie/
+2025-02-09 12:12:20,158 [INFO] Summarized article: https://techcrunch.com/video/watch-xpeng-aero-hts-flying-car-in-action/
+2025-02-09 12:12:25,961 [INFO] Summarized article: https://techcrunch.com/video/check-out-hallidays-take-on-smart-glasses/
+2025-02-09 12:12:30,034 [INFO] Summarized article: https://techcrunch.com/video/check-out-the-futuristic-honda-0-suv/
+2025-02-09 12:12:35,755 [INFO] Summarized article: https://techcrunch.com/video/come-along-for-a-ride-in-a-zoox-robotaxi/
+2025-02-09 12:12:43,063 [INFO] Summarized article: https://techcrunch.com/video/watch-mi-mo-a-pixar-lamp-like-table-robot-wave/
+2025-02-09 12:12:50,643 [INFO] Summarized article: https://techcrunch.com/video/meet-mirumi-an-adorable-robot-that-sits-on-your-purse-from-ces-2025/
+2025-02-09 12:12:56,483 [INFO] Summarized article: https://techcrunch.com/video/watch-this-robot-vacuum-pick-up-your-dirty-socks-at-ces-2025/
+2025-02-09 12:13:05,241 [INFO] Summarized article: https://techcrunch.com/podcast/are-companies-falling-out-of-love-with-openai/
+2025-02-09 12:13:05,251 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:13:05,251 [INFO] Summarized article: https://techcrunch.com/2025/02/07/promptlayer-is-building-tools-to-put-non-techies-in-the-drivers-seat-of-ai-app-development/
+2025-02-09 12:13:14,885 [INFO] Summarized article: https://techcrunch.com/2025/02/07/hiveclass-a-platform-for-virtual-pe-classes-for-kids-raises-1-5m/
+2025-02-09 12:13:22,170 [INFO] Summarized article: https://techcrunch.com/2025/02/06/fintech-ramp-lands-eagles-saquon-barkley-as-investor-and-super-bowl-commercial-star/
+2025-02-09 12:13:22,176 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:13:22,176 [INFO] Summarized article: https://techcrunch.com/2025/02/06/intel-capital-fuels-truefoundrys-19m-funding-to-help-boost-ai-deployments-at-scale/
+2025-02-09 12:13:33,502 [INFO] Summarized article: https://techcrunch.com/2025/02/06/fizz-brings-on-tiktok-alum-to-help-build-out-its-marketplace-and-recommendation-engine/
+2025-02-09 12:13:44,130 [INFO] Summarized article: https://techcrunch.com/2025/02/06/pendulums-ai-driven-platform-helps-enterprises-better-predict-supply-and-demand/
+2025-02-09 12:13:50,333 [INFO] Summarized article: https://techcrunch.com/2025/02/06/first-lab-grown-meat-treats-go-on-sale-in-the-uk-for-dogs/
+2025-02-09 12:14:01,162 [INFO] Summarized article: https://techcrunch.com/2025/02/06/comstruct-a-platform-to-digitize-the-construction-industry-raises-135-million/
+2025-02-09 12:14:01,214 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:14:01,215 [INFO] Summarized article: https://techcrunch.com/2025/02/05/tech-layoffs-2024-list/
+2025-02-09 12:14:08,479 [INFO] Summarized article: https://techcrunch.com/video/nvidia-reveals-project-digits-to-power-personal-ai-supercomputers-at-ces-2025/
+2025-02-09 12:14:08,479 [WARNING] Skipping invalid article: https://techcrunch.com/video/page/2/
+2025-02-09 12:14:20,347 [INFO] Summarized article: https://techcrunch.com/2025/02/07/anthropic-ceo-says-deepseek-was-the-worst-on-a-critical-bioweapons-data-safety-test/
+2025-02-09 12:14:20,354 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:14:20,354 [INFO] Summarized article: https://techcrunch.com/2025/02/07/one-of-elon-musks-young-doge-engineers-explains-how-he-won-the-700k-vesuvius-challenge/
+2025-02-09 12:14:40,832 [INFO] Summarized article: https://techcrunch.com/2025/02/07/andrew-ng-is-very-glad-google-dropped-its-ai-weapons-pledge/
+2025-02-09 12:14:40,839 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:14:40,839 [INFO] Summarized article: https://techcrunch.com/2025/02/07/deepmind-claims-its-ai-performs-better-than-international-mathematical-olympiad-gold-medalists/
+2025-02-09 12:14:50,937 [INFO] Summarized article: https://techcrunch.com/2025/02/06/government-agency-removes-spoon-emoji-from-work-platform-amid-protests/
+2025-02-09 12:15:04,508 [INFO] Summarized article: https://techcrunch.com/2025/02/06/github-copilot-brings-mockups-to-life-by-generating-code-from-images/
+2025-02-09 12:15:12,606 [INFO] Summarized article: https://techcrunch.com/2025/02/05/bench-burned-through-135-million-before-shutting-down/
+2025-02-09 12:15:21,394 [INFO] Summarized article: https://techcrunch.com/2025/02/05/musk-moves-to-dismiss-suit-over-teslas-alleged-use-of-ai-generated-blade-runner-imagery/
+2025-02-09 12:15:30,345 [INFO] Summarized article: https://techcrunch.com/2025/02/05/as-glp1s-boom-dietician-startups-berry-street-fay-each-nab-50m-rounds/
+2025-02-09 12:15:36,840 [INFO] Summarized article: https://techcrunch.com/2025/02/05/tickets-on-sale-techcrunch-all-stage-2025-formerly-known-as-early-stage/
+2025-02-09 12:15:44,848 [INFO] Summarized article: https://techcrunch.com/2025/02/05/ais-biggest-stage-awaits-techcrunch-sessions-ai-tickets-available/
+2025-02-09 12:15:52,035 [INFO] Summarized article: https://techcrunch.com/podcast/from-fintech-to-space-tech-robinhood-co-founder-baiju-bhatt-is-betting-on-space-solar/
+2025-02-09 12:16:00,844 [INFO] Summarized article: https://techcrunch.com/2025/02/04/european-ai-startups-raised-8-billion-in-2024/
+2025-02-09 12:16:00,851 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:16:00,851 [INFO] Summarized article: https://techcrunch.com/2025/02/04/two-space-startups-have-merged-to-create-the-next-generation-of-telescopes/
+2025-02-09 12:16:05,476 [INFO] Summarized article: https://techcrunch.com/2025/02/04/deel-unloads-300m-in-secondary-sale-brings-general-catalyst-on-as-an-investor/
+2025-02-09 12:16:05,482 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:16:05,483 [INFO] Summarized article: https://techcrunch.com/2025/02/04/logicstar-is-building-ai-agents-for-app-maintenance/
+2025-02-09 12:16:15,414 [INFO] Summarized article: https://techcrunch.com/2025/02/04/sotira-lands-2m-to-help-brands-offload-and-monetize-their-surplus-inventory/
+2025-02-09 12:16:22,803 [INFO] Summarized article: https://techcrunch.com/2025/02/04/archive-raises-30m-to-solve-fashions-pollution-problem-with-online-resales/
+2025-02-09 12:16:22,810 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:16:22,811 [INFO] Summarized article: https://techcrunch.com/2025/02/05/shein-hit-with-consumer-protection-action-in-eu-as-bloc-unboxes-strategy-to-tackle-low-cost-ecommerce-risks/
+2025-02-09 12:16:22,816 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:16:22,817 [INFO] Summarized article: https://techcrunch.com/2025/02/03/deepseek-the-countries-and-agencies-that-have-banned-the-ai-companys-tech/
+2025-02-09 12:16:34,019 [INFO] Summarized article: https://techcrunch.com/2025/02/05/codesignal-wants-you-to-practice-soft-skills-with-its-ai-powered-guide/
+2025-02-09 12:16:42,248 [INFO] Summarized article: https://techcrunch.com/2025/02/05/waymo-just-popped-up-on-the-uber-app-in-austin-ahead-of-robotaxi-launch/
+2025-02-09 12:16:42,288 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:16:42,289 [INFO] Summarized article: https://techcrunch.com/2025/02/04/tech-layoffs-2024-list/
+2025-02-09 12:16:42,347 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:16:42,348 [INFO] Summarized article: https://techcrunch.com/2025/01/28/chatgpt-everything-to-know-about-the-ai-chatbot/
+2025-02-09 12:16:48,196 [INFO] Summarized article: https://techcrunch.com/2025/02/07/anduril-in-talks-to-raise-up-to-2-5b-at-28b-valuation/
+2025-02-09 12:16:48,201 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:16:48,202 [INFO] Summarized article: https://techcrunch.com/2025/02/07/startups-face-the-recurring-dilemma-of-partnering-or-not/
+2025-02-09 12:16:56,675 [INFO] Summarized article: https://techcrunch.com/2025/02/07/self-inspection-raises-3m-for-its-ai-powered-vehicle-inspections/
+2025-02-09 12:17:01,827 [INFO] Summarized article: https://techcrunch.com/2025/02/07/report-ilya-sutskevers-startup-in-talks-to-fundraise-at-roughly-20b-valuation/
+2025-02-09 12:17:01,833 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:17:01,833 [INFO] Summarized article: https://techcrunch.com/2025/02/04/egypts-khazna-banks-16m-for-its-financial-super-app-and-expansion-into-saudi/
+2025-02-09 12:17:12,771 [INFO] Summarized article: https://techcrunch.com/2025/02/04/waabi-and-volvo-team-up-to-build-self-driving-trucks-at-scale/
+2025-02-09 12:17:21,955 [INFO] Summarized article: https://techcrunch.com/2025/02/03/neuralk-ai-is-developing-ai-models-specifically-designed-for-structured-data/
+2025-02-09 12:17:30,362 [INFO] Summarized article: https://techcrunch.com/2025/02/03/stripe-brings-aboard-new-head-of-startup-and-vc-partnerships/
+2025-02-09 12:17:39,533 [INFO] Summarized article: https://techcrunch.com/2025/02/03/techcrunch-disrupt-2025-secure-your-ticket-at-this-years-lowest-rates/
+2025-02-09 12:17:49,269 [INFO] Summarized article: https://techcrunch.com/2025/02/08/trump-ends-legal-battle-over-twitter-ban/
+2025-02-09 12:17:57,685 [INFO] Summarized article: https://techcrunch.com/2025/02/08/apples-new-research-robot-takes-a-page-from-pixars-playbook/
+2025-02-09 12:18:05,202 [INFO] Summarized article: https://techcrunch.com/2025/02/08/elon-musk-said-hes-not-interested-in-acquiring-tiktok/
+2025-02-09 12:18:05,220 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:18:05,220 [INFO] Summarized article: https://www.wired.com/video/watch/bill-gates-on-his-early-years-and-the-inspiration-behind-source-code-my-beginnings
+2025-02-09 12:18:05,243 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:18:05,244 [INFO] Summarized article: https://www.wired.com/video/watch/tech-support-paleontologist-answers-extinction-questions
+2025-02-09 12:18:05,265 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:18:05,266 [INFO] Summarized article: https://www.wired.com/video/watch/social-media-reboot-a-conversation-with-jay-graber
+2025-02-09 12:18:05,289 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:18:05,290 [INFO] Summarized article: https://www.wired.com/video/watch/the-fight-against-surveillance-capitalism-a-conversation-with-meredith-whittaker
+2025-02-09 12:18:05,319 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:18:05,320 [INFO] Summarized article: https://www.wired.com/video/watch/the-evolution-of-airbnb-a-conversation-with-brian-chesky
+2025-02-09 12:18:05,342 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:18:05,343 [INFO] Summarized article: https://www.wired.com/video/watch/designing-the-future-a-conversation-with-dylan-field
+2025-02-09 12:18:05,375 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:18:05,376 [INFO] Summarized article: https://www.wired.com/video/watch/the-big-interview-jen-easterly
+2025-02-09 12:18:05,386 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:18:05,387 [INFO] Summarized article: https://www.wired.com/video/watch/big-interview-tim-cook
+2025-02-09 12:18:05,421 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:18:05,422 [INFO] Summarized article: https://www.wired.com/video/watch/battling-big-pharma-a-conversation-with-mark-cuban
+2025-02-09 12:18:05,446 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:18:05,447 [INFO] Summarized article: https://www.wired.com/video/watch/carrying-the-torch-a-conversation-with-phil-wizard
+2025-02-09 12:18:13,736 [INFO] Summarized article: https://www.wired.com/video/watch/wired-s-50-most-searched-questions-squid-game-cast-answer-the-most-googled-squid-game-questions
+2025-02-09 12:18:13,747 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:18:13,747 [INFO] Summarized article: https://www.wired.com/video/watch/we-tracked-the-secret-police-microphones-hidden-everywhere
+2025-02-09 12:18:13,763 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:18:13,764 [INFO] Summarized article: https://www.wired.com/video/watch/wired-desired-testing-a-250000-dollars-jet-ski-supercar
+2025-02-09 12:18:13,781 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:18:13,782 [INFO] Summarized article: https://www.wired.com/video/watch/new-beginnings-a-conversation-with-mira-murati
+2025-02-09 12:18:13,804 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:18:13,805 [INFO] Summarized article: https://www.wired.com/video/watch/nvidias-global-takeover-a-conversation-with-jensen-huang
+2025-02-09 12:18:13,827 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:18:13,828 [INFO] Summarized article: https://www.wired.com/video/watch/when-tech-and-entertainment-collide-a-conversation-with-zack-snyder
+2025-02-09 12:18:13,840 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:18:13,840 [INFO] Summarized article: https://www.wired.com/video/watch/we-tracked-every-visitor-to-epstein-island
+2025-02-09 12:18:13,863 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:18:13,864 [INFO] Summarized article: https://www.wired.com/video/watch/tech-support-pregnancy-doctor-answers-pregnancy-question
+2025-02-09 12:18:13,896 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:18:13,896 [INFO] Summarized article: https://www.wired.com/video/watch/tech-support-presidential-historian-answers-presidency-questions
+2025-02-09 12:18:13,929 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:18:13,930 [INFO] Summarized article: https://www.wired.com/video/watch/biomedical-scientist-answers-new-pseudoscience-questions
+2025-02-09 12:18:13,961 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:18:13,961 [INFO] Summarized article: https://www.wired.com/video/watch/tech-support-arctic-explorer-answers-polar-expedition-questions
+2025-02-09 12:18:13,984 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:18:13,985 [INFO] Summarized article: https://www.wired.com/video/watch/tech-support-air-crash-investigator-answers-aviation-accident-questions
+2025-02-09 12:18:14,014 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:18:14,015 [INFO] Summarized article: https://www.wired.com/video/watch/tech-support-demographic-expert-answers-population-questions
+2025-02-09 12:18:19,649 [INFO] Summarized article: https://www.wired.com/video/watch/tech-support-historian-answers-samurai-questions
+2025-02-09 12:18:19,675 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:18:19,675 [INFO] Summarized article: https://www.wired.com/video/watch/tech-support-cult-deprogrammer-answers-cult-questions
+2025-02-09 12:18:19,695 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:18:19,695 [INFO] Summarized article: https://www.wired.com/video/watch/tech-support-historian-answers-pirate-questions
+2025-02-09 12:18:19,716 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:18:19,717 [INFO] Summarized article: https://www.wired.com/video/watch/tech-support-urban-designer-answers-more-city-planning-questions
+2025-02-09 12:18:19,727 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:18:19,728 [INFO] Summarized article: https://www.wired.com/video/watch/google-autocomplete-inverviews-nick-digiovanni-answers-the-webs-most-searched-questions
+2025-02-09 12:18:19,745 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:18:19,746 [INFO] Summarized article: https://www.wired.com/video/watch/google-autocomplete-inverviews-jimmy-o-yang-answers-the-webs-most-searched-questions
+2025-02-09 12:18:19,764 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:18:19,765 [INFO] Summarized article: https://www.wired.com/video/watch/google-autocomplete-inverviews-selena-gomez-and-zoe-saldana-answer-the-webs-most-searched-questions
+2025-02-09 12:18:19,778 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:18:19,778 [INFO] Summarized article: https://www.wired.com/video/watch/google-autocomplete-inverviews-wi-autocomplete-megan-thee-stallion
+2025-02-09 12:18:19,787 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:18:19,788 [INFO] Summarized article: https://www.wired.com/video/watch/google-autocomplete-inverviews-txt-answer-the-webs-most-searched-questions
+2025-02-09 12:18:19,801 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:18:19,801 [INFO] Summarized article: https://www.wired.com/video/watch/google-autocomplete-inverviews-offset-answers-the-webs-most-searched-questions
+2025-02-09 12:18:19,812 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:18:19,813 [INFO] Summarized article: https://www.wired.com/video/watch/google-autocomplete-inverviews-charlie-puth-answers-the-webs-most-searched-questions
+2025-02-09 12:18:19,821 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:18:19,821 [INFO] Summarized article: https://www.wired.com/video/watch/google-autocomplete-inverviews-jennie-kim-answers-the-webs-most-searched-questions
+2025-02-09 12:18:19,832 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:18:19,833 [INFO] Summarized article: https://www.wired.com/video/watch/google-autocomplete-inverviews-andrew-garfield-and-florence-pugh-answer-the-webs-most-searched-questions
+2025-02-09 12:18:19,849 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:18:19,850 [INFO] Summarized article: https://www.wired.com/video/watch/google-autocomplete-inverviews-rhett-and-link-answer-the-webs-new-most-searched-questions
+2025-02-09 12:18:19,857 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:18:19,858 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43747811/real-madrid-champions-league-man-city-struggling-beat-leyton-orient
+2025-02-09 12:18:27,931 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43753063/man-city-nico-gonzalez-injured-22-minutes-debut
+2025-02-09 12:18:37,603 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43753769/real-madrid-carlo-ancelotti-irked-var-call-atletico-draw
+2025-02-09 12:18:46,473 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43750323/fa-cup-shame-leyton-orient-wonder-strike-vs-man-city-was-own-goal
+2025-02-09 12:18:55,791 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43747353/man-united-loanee-antony-scores-first-real-betis-goal
+2025-02-09 12:19:06,410 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43738517/pep-guardiola-denies-man-city-spending-due-embargo-fears
+2025-02-09 12:19:14,593 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43739374/ruben-amorim-man-united-fa-cup-win-not-due-fergie
+2025-02-09 12:19:14,599 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:19:14,600 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43704237/isl-score-2024-25-indian-super-league-football-results-matchweek-20
+2025-02-09 12:19:14,608 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:19:14,609 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43688377/isl-musings-2024-25-indian-super-league-mohun-bagan-champions-elect-bengaluru-continue-implode
+2025-02-09 12:19:14,615 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:19:14,615 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43702730/why-vishal-kaith-india-no-1-goalkeeper-gurpreet-amrinder-isl-decline
+2025-02-09 12:19:14,622 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:19:14,622 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43751514/real-madrid-atletico-madrid-penalty-drama-controversy-laliga-title-barcelona
+2025-02-09 12:19:14,628 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:19:14,628 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43738332/luck-saves-man-united-fa-cup-leicester-poor-performances-amorim
+2025-02-09 12:19:14,641 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:19:14,641 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43721611/manchester-united-ruben-amorim-transfers-analysis-europa-league-marcotti-ogden
+2025-02-09 12:19:26,284 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43752738/chelsea-keen-prospect-dario-essugo
+2025-02-09 12:19:26,302 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:19:26,302 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43705265/from-man-city-arsenal-loved-hated-premier-league-january-transfer-window
+2025-02-09 12:19:37,624 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43731678/ronaldo-messi-wrexham-soccers-odd-super-bowl-history
+2025-02-09 12:19:37,630 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:19:37,630 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43724387/liverpools-mentality-key-their-desire-silverware
+2025-02-09 12:19:46,148 [INFO] Summarized article: https://www.espn.in/football/story/_/id/43719643/ange-postecoglou-dismisses-tottenham-criticism-irrelevant
+2025-02-09 12:19:46,204 [ERROR] Error during summarization: index out of range in self
+2025-02-09 12:19:46,205 [INFO] Summarized article: https://www.espn.in/football/blog-espn-fc-united/story/4239858/fc-100-liverpoolbayern-dominateusmnt-stars-break-into-our-annual-ranking-of-soccers-best-players
+2025-02-09 12:19:53,070 [INFO] Summarized article: https://www.espn.in/olympics/story/_/id/43755521/grant-fisher-yared-nuguse-set-records-millrose-games
+2025-02-09 12:19:58,024 [INFO] Summarized article: https://www.espn.in/olympics/story/_/id/43694621/met-gala-2025-committee-simone-biles-lebron-james-lewis-hamilton
+2025-02-09 12:20:06,481 [INFO] Summarized article: https://www.espn.in/olympics/trackandfield/story/_/id/43681260/grand-slam-track-signs-deal-peacock-cw-show-races
+2025-02-09 12:20:13,699 [INFO] Summarized article: https://www.espn.in/olympics/story/_/id/43670630/noah-lyles-tyreek-hill-troll-new-balance-indoor-grand-prix-60m-win
+2025-02-09 12:20:21,474 [INFO] Summarized article: https://www.espn.in/olympics/trackandfield/story/_/id/43601975/man-killed-hammer-throw-was-dedicated-father-family-says
+2025-02-09 12:20:27,974 [INFO] Summarized article: https://www.espn.in/olympics/story/_/id/43586419/errant-hammer-throw-youth-track-meet-kills-spectator
+2025-02-09 12:20:32,431 [INFO] Summarized article: https://www.espn.in/olympics/story/_/id/43335395/hellen-obiri-sisay-lemma-defend-boston-marathon-titles
+2025-02-09 12:20:39,026 [INFO] Summarized article: https://www.espn.in/olympics/story/_/id/43275604/fred-kerley-facing-multiple-charges-arrest-miami
+2025-02-09 12:20:46,934 [INFO] Summarized article: https://www.espn.in/olympics/story/_/id/43237773/kenyan-runner-beatrice-chebet-smashes-own-5k-world-record
+2025-02-09 12:20:55,033 [INFO] Summarized article: https://www.espn.in/olympics/story/_/id/43074007/mohamed-katir-spanish-athlete-handed-four-year-ban-tampering
+2025-02-09 12:21:04,483 [INFO] Summarized article: https://www.espn.in/olympics/story/_/id/43004580/athletics-sees-funding-cut-uk-sports-record-olympics-grant
+2025-02-09 12:21:21,381 [INFO] Summaries saved to MongoDB successfully.
+2025-02-09 12:21:21,448 [INFO] Summarization process completed.
