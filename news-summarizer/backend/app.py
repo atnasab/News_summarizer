@@ -6,15 +6,17 @@ from pydantic import BaseModel
 from datetime import datetime
 from bson import ObjectId
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import FileResponse
 
 app = FastAPI()
+
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],  
     allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_methods=["GET", "POST"],  # Restricting to needed methods
+    allow_headers=["Content-Type", "Authorization"],
 )
 
 client = MongoClient(MONGO_URI)
@@ -65,19 +67,18 @@ class Summary(BaseModel):
 async def get_summarized_news():
     try:
         summaries = list(summary_news.find())
-        # print(summaries)  #used for debuging
-    
 
+        if not summaries:
+            print("No data found in the summarized news collection...!!!!")
 
         summarized_list = []
-        # print(summarized_list)
-
 
         for summary in summaries:
-            print(f"Retrieved summary: {summary}")  
-            if "original_id" in summary and "summary" in summary:
+            print(f"Retrieved summary: {summary}")  # Debugging
+
+            if "_id" in summary and "summary" in summary:
                 summarized_list.append({
-                    "original_id": str(summary["_id", ""]),  
+                    "original_id": str(summary["_id"]),  # FIXED HERE
                     "summary": summary.get("summary", ""), 
                     "title": summary.get("title", ""),
                     "url": summary.get("url", ""),
