@@ -1,8 +1,8 @@
 from pymongo import MongoClient
 from config.config import MONGO_URI, DB_NAME, COLLECTION_NAME, summarized_article
+from newspaper import Article
 from transformers import pipeline
 import logging
-
 
 logging.basicConfig(
     filename="article_storage.log",
@@ -17,41 +17,42 @@ except Exception as e:
     logging.error(f"Error loading summarization model: {e}")
     summarizer = None
 
-def summarize_article(text):
-    if not text or len(text.strip())==0:
-        return "No text available for summarization."
-    word_count=len(text.split())
+def extract_article_text(url):
+    try:
+        article = Article(url)
+        article.download()
+        article.parse()
+        return article.text
+    except Exception as e:
+        logging.error(f"Error extracting article from {url}: {e}")
+        return None
 
-    if word_count<50:
+def summarize_article(text):
+    if not text or len(text.strip()) == 0:
+        return "No text available for summarization."
+
+    word_count = len(text.split())
+    if word_count < 50:
         return text
     
     try:
         summary = summarizer(text, max_length=200, min_length=15, do_sample=False)
         return summary[0]['summary_text']
-
-        if isinstance(summary,list)and len(summary)>0 and 'summary_text' in summary[0]:
-            return summary[0]['summary_text']
-        
-        else:
-            logging.warning("unexpected summarization output format, skipping")
-            return "summarization failed: No output generated"
-            
     except Exception as e:
         logging.error(f"Error during summarization: {e}")
         return "Error summarizing article."
 
-def fetch_articles_from_mongodb():
+def fetch_urls_from_mongodb():
     try:
         client = MongoClient(MONGO_URI)
         db = client[DB_NAME]
         collection = db[COLLECTION_NAME]
 
-        articles = list(collection.find({"text": {"$exists": True}}))
-
-        logging.info(f"Fetched {len(articles)} articles from MongoDB.")
-        return articles
+        urls = [article['url'] for article in collection.find({"url": {"$exists": True}})]
+        logging.info(f"Fetched {len(urls)} article URLs from MongoDB.")
+        return urls
     except Exception as e:
-        logging.error(f"Error fetching articles from DB: {e}")
+        logging.error(f"Error fetching article URLs from DB: {e}")
         return []
     finally:
         client.close()
@@ -78,26 +79,24 @@ def save_summaries_to_mongodb(summaries):
 def main():
     logging.info("Starting the summarization process...")
 
-    articles = fetch_articles_from_mongodb()
-    if not articles:
-        logging.info("No articles found for summarization.")
+    urls = fetch_urls_from_mongodb()
+    if not urls:
+        logging.info("No URLs found for summarization.")
         return
 
     summaries = []
 
-    for article in articles:
-        if 'text' in article and isinstance(article['text'], str) and len(article['text']) > 50:
+    for url in urls:
+        text = extract_article_text(url)
+        if text:
             try:
-                summary = summarize_article(article['text'])
-                summaries.append({
-                    'url': article['url'],
-                    'summary': summary
-                })
-                logging.info(f"Summarized article: {article['url']}")
+                summary = summarize_article(text)
+                summaries.append({'url': url, 'summary': summary})
+                logging.info(f"Summarized article: {url}")
             except Exception as e:
-                logging.error(f"Error summarizing article {article['url']}: {e}")
+                logging.error(f"Error summarizing article {url}: {e}")
         else:
-            logging.warning(f"Skipping invalid article: {article.get('url', 'Unknown URL')}")
+            logging.warning(f"Skipping invalid article: {url}")
 
     if summaries:
         save_summaries_to_mongodb(summaries)
